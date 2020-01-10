@@ -91,7 +91,7 @@ with open("banner.pickle","rb") as f:
 想了半天发现每一个都是字符加数字的组合  
 再想了半天发现每一行的数字加起来都一样  
 猜到了就是这样的。。。  
-![](http://ww1.sinaimg.cn/large/a243ad6cjw1ex25vm2dmhj20lh0kyn27.jpg) 
+![](//ww1.sinaimg.cn/large/a243ad6cjw1ex25vm2dmhj20lh0kyn27.jpg) 
 ***
 # [第六关](http://www.pythonchallenge.com/pc/def/channel.html)zipfile
 进去那个` paypal`跟题没有关系  
@@ -138,12 +138,12 @@ README.txt
         Uncompressed:   75 bytes
 ```
 然后结合最开始的顺序读出来:  
-![](http://ww1.sinaimg.cn/large/a243ad6cjw1ex281m1f0sj20st06wwj4.jpg)
+![](//ww1.sinaimg.cn/large/a243ad6cjw1ex281m1f0sj20st06wwj4.jpg)
 这一关略麻烦呢。。。
 ***
 # [第七关](http://www.pythonchallenge.com/pc/def/oxygen.html)图片操作
 **从这一关开始后面都是用`python2`写的**
-![](http://ww1.sinaimg.cn/large/a243ad6cjw1ex286h3ncnj20hh02n0tj.jpg)   
+![](//ww1.sinaimg.cn/large/a243ad6cjw1ex286h3ncnj20hh02n0tj.jpg)   
 应该是灰度处理中间的一行灰色  
 然后读取出这个灰度值组成的数据  
 不出意料应该是包含了信息的。
@@ -160,7 +160,7 @@ for i in range(0,87):
         L.append(im.getpixel(((1+7*i),1))[0])
 print L
 ```
-![](http://ww1.sinaimg.cn/large/a243ad6cjw1ex336js6a2j21h401xdht.jpg)
+![](//ww1.sinaimg.cn/large/a243ad6cjw1ex336js6a2j21h401xdht.jpg)
 这个是` aksii`哟~  
 ```
 for i in L:
@@ -168,7 +168,7 @@ for i in L:
 print k
 ```
 果然是这样的:  
-![](http://ww3.sinaimg.cn/large/a243ad6cjw1ex339xjakhj20jo01074m.jpg)
+![](//ww3.sinaimg.cn/large/a243ad6cjw1ex339xjakhj20jo01074m.jpg)
 ***
 # [第八关](http://www.pythonchallenge.com/pc/def/integrity.html)bz2
 **这一关没办法不是自己做的** 

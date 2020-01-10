@@ -37,7 +37,7 @@ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/i
 之后你的`~/.zshrc`文件里面就有东西了  
 比如[主题](https://github.com/robbyrussell/oh-my-zsh/wiki/themes)自选  
 >我使用的是一款叫做`bullet-train`的主题，效果如图  
-![image](http://ww1.sinaimg.cn/large/a243ad6cjw1ewjavx0wzfg20mi0gk4bw.gif)  
+![image](//ww1.sinaimg.cn/large/a243ad6cjw1ewjavx0wzfg20mi0gk4bw.gif)  
 有个蓝色的箭头很是花哨啊。。。然后可以显示这个目录下的git状态  
   
   
@@ -76,12 +76,12 @@ alias hdg='hexo d -g'
 ***
 # 安装iTerm2 
 看图
-![terminal](http://ww1.sinaimg.cn/large/a243ad6cjw1ewjbfumlbyj20iy0elq3p.jpg)  
+![terminal](//ww1.sinaimg.cn/large/a243ad6cjw1ewjbfumlbyj20iy0elq3p.jpg)  
 **👆terminal  **
   
 
   
-![iTerm2](http://ww1.sinaimg.cn/large/a243ad6cjw1ewjbfm6iupj20iy0fn750.jpg)
+![iTerm2](//ww1.sinaimg.cn/large/a243ad6cjw1ewjbfm6iupj20iy0fn750.jpg)
 **👆iterm2  **注意看颜色  
 下载地址看这里👉[iTerm官网](http://www.iterm2.com)
 然后看这篇文章👉[你应该知道的 iTerm2 使用方法--MAC终端工具](http://wulfric.me/2015/08/iterm2/)👈这个博客写的很好的说  

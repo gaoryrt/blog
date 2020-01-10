@@ -15,12 +15,12 @@ categories: Geek Talks · 奇客怪谈
 Mac下载`iNodeClient`这个客户端app  
 随便搜索一下，关键字就是`iNodeClient for Mac`  
 我下载的是7.0的版本  
-![](http://ww2.sinaimg.cn/large/a15b4afegw1f1g295ybb7j20e807xmxz)  
+![](//ww2.sinaimg.cn/large/a15b4afegw1f1g295ybb7j20e807xmxz)  
 
 # 安装与配置
 安装就是双击然后点击同意一直下一步。  
 配置的话，参考下面这张图。  
-![](http://ww2.sinaimg.cn/large/a15b4afegw1f1g2fht41gj20du0g1gnd)
+![](//ww2.sinaimg.cn/large/a15b4afegw1f1g2fht41gj20du0g1gnd)
 完蛋的学号也暴露了。    
 
 # 点击联网  

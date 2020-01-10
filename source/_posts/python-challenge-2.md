@@ -18,7 +18,7 @@ categories: 硬悟学蛇
 然后就简单了  
 题目是奇数偶数，然后图片叫做` cave`，意思就是空了里面有东西  
 下载下来放大看是这样的:  
-![](http://ww1.sinaimg.cn/large/a243ad6cjw1ex3eauvv3oj20lr0ca7c1.jpg)
+![](//ww1.sinaimg.cn/large/a243ad6cjw1ex3eauvv3oj20lr0ca7c1.jpg)
 想了一会儿还以为有另外一个图片拿给我放一起拼起来。。。  
 放大看其实里面不全是黑色的，话说 mac 的数码测色计真是好用啊  
 就是把有颜色的都去掉:
@@ -33,14 +33,14 @@ for i in range(640):
             im.putpixel((i,j),(0,0,0))
 im.show()
 ```
-![](http://ww1.sinaimg.cn/large/a243ad6cjw1ex3easqgtcj20hy0awwg5.jpg)
+![](//ww1.sinaimg.cn/large/a243ad6cjw1ex3easqgtcj20hy0awwg5.jpg)
 看不清的话请调亮一点，算了还是我来:
-![](http://ww1.sinaimg.cn/large/a243ad6cjw1ex3eaodiqvj20hy0brtg6.jpg)
+![](//ww1.sinaimg.cn/large/a243ad6cjw1ex3eaodiqvj20hy0brtg6.jpg)
 ***
 # [第十二关](http://www.pythonchallenge.com/pc/return/evil.html) gfx 拆分
 题目是`dealing evil`  
 只有一个图，`evil1.jpg`:
-![evil1](http://ww2.sinaimg.cn/large/a243ad6cjw1ex4dcijs2dj20hs0dcgno.jpg)  
+![evil1](//ww2.sinaimg.cn/large/a243ad6cjw1ex4dcijs2dj20hs0dcgno.jpg)  
 然后就什么提示都没有了  
 想了半天想出来是应该有` evilx.jpg`的  
 当我看到`evil0.jpg`是404的时候确实挺失望的  
@@ -54,11 +54,11 @@ im.show()
 **这里开始不是自己做的**  
 第一幅图里面是有个人在发牌，发了五张  
 正确的解题是下载` evil2.gfx`然后步进分成五个图片
-![](http://ww1.sinaimg.cn/large/a243ad6cjw1ex4dghq992j20k404ojrw.jpg)  
+![](//ww1.sinaimg.cn/large/a243ad6cjw1ex4dghq992j20k404ojrw.jpg)  
 ***
 # [第十三关](http://www.pythonchallenge.com/pc/return/disproportional.html) rpc 协议
 是一个电话的图片  
-![](http://ww4.sinaimg.cn/large/a243ad6cjw1ex5r5ontkhj20hs0dcgm7.jpg)  
+![](//ww4.sinaimg.cn/large/a243ad6cjw1ex5r5ontkhj20hs0dcgm7.jpg)  
 查看源文件，跟前面哪个连线一样的，点击某个区域，跳转到[这个连接](http://www.pythonchallenge.com/pc/phonebook.php)   
 **完全不会做**  
 下面是找到的方法:  
@@ -104,9 +104,9 @@ for i in range(50):
 mi.show()
 ```
 出来是一只小猫。。。  
-![](http://ww3.sinaimg.cn/large/a243ad6cjw1ex6gli5dslj208808874t.jpg)
+![](//ww3.sinaimg.cn/large/a243ad6cjw1ex6gli5dslj208808874t.jpg)
 我就进入`cat.html`，但是貌似这个不是第十五关，毕竟左上角没有`15`  
-![](http://ww4.sinaimg.cn/large/a243ad6cjw1ex6glgh7fcj20k70eyq5h.jpg)  
+![](//ww4.sinaimg.cn/large/a243ad6cjw1ex6glgh7fcj20k70eyq5h.jpg)  
 `cat.html`网页源码如下:  
   
 ```
@@ -137,7 +137,7 @@ for i in range(100):
         mi.putpixel((i,j),L.pop())
 mi.show()
 ```
-![](http://ww1.sinaimg.cn/large/a243ad6cjw1ex6gw76pfsj205l05l0t2.jpg)  
+![](//ww1.sinaimg.cn/large/a243ad6cjw1ex6gw76pfsj205l05l0t2.jpg)  
 是` bit`？  
 **不！可！能！这！么！简！单**  
 果然，猫的名字是` uzi`，正确的页面应该是 uzi 才对
@@ -162,7 +162,7 @@ for i in range (1006,1997):
 ***
 # [第十六关](http://www.pythonchallenge.com/pc/return/mozart.html) list 操作
 一张图`let me get this straight`:  
-![](http://ww1.sinaimg.cn/large/a243ad6cjw1ex6lrv67j9g20hs0dc0zc.gif)  
+![](//ww1.sinaimg.cn/large/a243ad6cjw1ex6lrv67j9g20hs0dc0zc.gif)  
 放大看每一行都有且只有一个`白紫紫紫紫紫白`，每一行都看做循环的，用这个标志对齐  
 ```
 from PIL import Image
@@ -185,11 +185,11 @@ im.show()
 其中的`195`是我先输出第一行之后找的，本来想找`249`这个白色的，但是从第二行开始就没有`249`的白色了，其实可以` try、except`的，太麻烦了。。。 就找后面的紫色`195`了  
 `reverse()`函数把` L`给反过来再`pop()`，输出就不是镜像的  
 看图  
-![](http://ww1.sinaimg.cn/large/a243ad6cjw1ex6u9sowwwj20kw0hztnl.jpg)
+![](//ww1.sinaimg.cn/large/a243ad6cjw1ex6u9sowwwj20kw0hztnl.jpg)
 ***
 # [第十七关](http://www.pythonchallenge.com/pc/return/romance.html)这道题能自己做出来的都是大神
 看到` cookie`现在都果断看不到趣多多了  
-![](http://ww4.sinaimg.cn/large/a243ad6cjw1ex6ue2hds4j20t3024q3u.jpg)
+![](//ww4.sinaimg.cn/large/a243ad6cjw1ex6ue2hds4j20t3024q3u.jpg)
 貌似要改 `cookie`但是不知道从哪里改呢。。。又要开始查答案了，没意思
 **左下角是你做过的一道题，我反正记不得了** [木头人推磨](http://www.pythonchallenge.com/pc/def/linkedlist.php)  
 果然是这样的,就是在[busynothing](http://www.pythonchallenge.com/pc/def/linkedlist.php?busynothing=12345)这个` php`页面上进行不断获取` cookie`的事情，然后还要一遍获取` cookie`:  
@@ -247,7 +247,7 @@ print xml_rpc.phone('Leopold')
 他爸爸就在这里，你要告诉他花在路上了  
 怎么告诉他?在 `cookie`里面,幸好我的 `chrome`还有` edit this cookie`插件  
 在[这个页面](http://www.pythonchallenge.com/pc/stuff/violin.php)新建一个` cookie`，名字叫` info`，值为`the+flowers+are+on+their+way`,然后刷新  
-![](http://ww1.sinaimg.cn/large/a243ad6cjw1ex6yq8ivokj209p08kdge.jpg)  
+![](//ww1.sinaimg.cn/large/a243ad6cjw1ex6yq8ivokj209p08kdge.jpg)  
 ***
 # [第十八关](http://www.pythonchallenge.com/pc/return/balloons.html)  
 `difference` is `brigtness`  
@@ -290,7 +290,7 @@ for n, data in enumerate((filecommon, fileright, fileleft)):
     h.writelines(temp)  
     h.close() 
 ```
-![](http://ww2.sinaimg.cn/large/a243ad6cjw1ex8qkb44y3j20ro0a3my0.jpg)  
+![](//ww2.sinaimg.cn/large/a243ad6cjw1ex8qkb44y3j20ro0a3my0.jpg)  
 ***
 # [19 (butter+fly)](http://www.pythonchallenge.com/pc/hex/bin.html)
 > Content-type: audio/x-wav; name="indian.wav"  

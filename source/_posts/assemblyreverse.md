@@ -155,12 +155,12 @@ ASCII 里面大写在前面，小写在后面，中间差32，我就记反了。
 ***
 # 各种操作
 字写得丑，见谅  
-![](http://ww1.sinaimg.cn/large/a243ad6cjw1eyfs763xu0j21j42ao7w5.jpg)
-![](http://ww1.sinaimg.cn/large/a243ad6cjw1eyfs7csv78j21kw1j7kdy.jpg)
-![](http://ww2.sinaimg.cn/large/a243ad6cjw1eyfs7n0tzaj21kw2cghdt.jpg)
-![](http://ww3.sinaimg.cn/large/a243ad6cjw1eyfs7wzg5fj21kw23l7wh.jpg)
-![](http://ww1.sinaimg.cn/large/a243ad6cjw1eyfs876it4j21kw295e81.jpg)
-![](http://ww1.sinaimg.cn/large/a243ad6cjw1eyfs8e7w17j21kw1awtv5.jpg)
-![](http://ww2.sinaimg.cn/large/a243ad6cjw1eyfs8lxi0bj21kw1w3quf.jpg)
+![](//ww1.sinaimg.cn/large/a243ad6cjw1eyfs763xu0j21j42ao7w5.jpg)
+![](//ww1.sinaimg.cn/large/a243ad6cjw1eyfs7csv78j21kw1j7kdy.jpg)
+![](//ww2.sinaimg.cn/large/a243ad6cjw1eyfs7n0tzaj21kw2cghdt.jpg)
+![](//ww3.sinaimg.cn/large/a243ad6cjw1eyfs7wzg5fj21kw23l7wh.jpg)
+![](//ww1.sinaimg.cn/large/a243ad6cjw1eyfs876it4j21kw295e81.jpg)
+![](//ww1.sinaimg.cn/large/a243ad6cjw1eyfs8e7w17j21kw1awtv5.jpg)
+![](//ww2.sinaimg.cn/large/a243ad6cjw1eyfs8lxi0bj21kw1w3quf.jpg)
 ***
 以上

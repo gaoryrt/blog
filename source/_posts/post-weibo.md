@@ -44,7 +44,7 @@ print(response.read())
 ```
 ***
 # 效果
-![](http://ww1.sinaimg.cn/large/a243ad6cjw1eww0ouwkvrj207k0dm3zb.jpg)
+![](//ww1.sinaimg.cn/large/a243ad6cjw1eww0ouwkvrj207k0dm3zb.jpg)
 
 可惜不会吧所有的都发出来  
 但是已经晓得通过`m.weibo.com`可以通过发送`post`包的方式发微博  

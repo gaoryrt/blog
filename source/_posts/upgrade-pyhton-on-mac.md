@@ -40,13 +40,13 @@ brew install python //brew安装Python
 太方便了好么！！！
 ***
 # 看图
-![image](http://ww2.sinaimg.cn/large/a243ad6cjw1ewktr4gy20j20jd0fswfv.jpg)  
+![image](//ww2.sinaimg.cn/large/a243ad6cjw1ewktr4gy20j20jd0fswfv.jpg)  
 **👆没有改的时候，原版Python👆**  
-![image](http://ww1.sinaimg.cn/large/a243ad6cjw1ewktr2tvj3j20jd0fs41a.jpg)  
+![image](//ww1.sinaimg.cn/large/a243ad6cjw1ewktr2tvj3j20jd0fs41a.jpg)  
 **👆使用pythonbrew转换之后👆**  
-![image](http://ww4.sinaimg.cn/large/a243ad6cjw1ewktr0wym7j20jd0fs411.jpg)  
+![image](//ww4.sinaimg.cn/large/a243ad6cjw1ewktr0wym7j20jd0fs411.jpg)  
 **👆可用的版本，我只下载了两个👆**  
-![image](http://ww4.sinaimg.cn/large/a243ad6cjw1ewktqy8cjjj20jd0fs401.jpg)  
+![image](//ww4.sinaimg.cn/large/a243ad6cjw1ewktqy8cjjj20jd0fs401.jpg)  
 **👆换回来之后👆**  
 ***
 以上

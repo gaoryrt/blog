@@ -37,13 +37,13 @@ urllib2.Request()变成了urllib.request.Request()
 参考了这两个网页[Python3 urllib GET方式获取数据](http://blog.csdn.net/mr_tank_/article/details/14104103)和[python3.3 抓取网页数据](http://wenku.baidu.com/link?url=d9Sxcd98Io4X8IYxx12J_YLBk7DPS2CFAlq-oUwzh8SByj90HMv3fTDCi4wgYpXjTR_luZDu7VzwbdHQ6k7aDHvl9bv2UyVmmqn9t2TX8R_)  
 
 代码如下  
-![image](http://ww1.sinaimg.cn/large/a243ad6cjw1ewn711zq9lj20cg0crgo5.jpg)
+![image](//ww1.sinaimg.cn/large/a243ad6cjw1ewn711zq9lj20cg0crgo5.jpg)
 我直接查询了一下我的微博的主页  
 本来写的是百度的，东西太多了看不过来。。。。。
 网页的html数据就被储存在z_data当中，re库能够通过html的语法进行查询  
 第一个查询标题，第二个循环了查询链接  
 回显如下  
-![image](http://ww3.sinaimg.cn/large/a243ad6cjw1ewn7109tpqj20qj06qdik.jpg)
+![image](//ww3.sinaimg.cn/large/a243ad6cjw1ewn7109tpqj20qj06qdik.jpg)
 ***  
 # 更新2015-10-04 23:06:34
 ## 目的
@@ -101,7 +101,7 @@ print(dic)
 所以有了第二段 url 用于约束，也就是定位到 sidebar 当中  
 ## 结果  
 看图  
-![image](http://ww1.sinaimg.cn/large/a243ad6cjw1ewpily64i4j20zk0m8b29.jpg)
+![image](//ww1.sinaimg.cn/large/a243ad6cjw1ewpily64i4j20zk0m8b29.jpg)
 👆成功了哟👆  
 接下来的就是把`/wiki/`开头的相对路径添加成为含有网址的绝对路径  
 ~~然后存为 txt  拿给其他的脚本使用了~~  
@@ -173,13 +173,13 @@ method()
   
 ## 效果
 看图：  
-![image](http://ww2.sinaimg.cn/large/a243ad6cjw1ewrpfh0mbsj20ff0lnjy0.jpg)
+![image](//ww2.sinaimg.cn/large/a243ad6cjw1ewrpfh0mbsj20ff0lnjy0.jpg)
 看着文件一个一个生成还是蛮开心的  
 最后的错误是因为文件名中带有`/`这个特殊的符号  
 我们可以通过替换`names`字符串中的`/`来解决  
 或者是用`try` `except`来忽略它  
 看看 finder：  
-![image](http://ww1.sinaimg.cn/large/a243ad6cjw1ewrpk4u85lj211i0opdp5.jpg) 
+![image](//ww1.sinaimg.cn/large/a243ad6cjw1ewrpk4u85lj211i0opdp5.jpg) 
 ***
 至此就完成了查找目录-下载目录-下载网站的过程
 

@@ -16,7 +16,7 @@ categories: 硬悟学蛇
 编者肯定很花了点心思来写  
 本来他的主页上有下载 pdf 和 html 的链接，只可惜都是404  
 那么就用昨天的脚本来试试看  
-![](http://ww4.sinaimg.cn/large/a243ad6cjw1ewsmq37cnzj20h80jwq62.jpg)
+![](//ww4.sinaimg.cn/large/a243ad6cjw1ewsmq37cnzj20h80jwq62.jpg)
 ***  
 # 修改源程序
 利用的 `python`脚本文件就是上一篇的
@@ -76,15 +76,15 @@ storethepage.store_the_page(dic)
 3. names 中包含`/`的都写入不了
   
 解决方法：  
-1. 浏览器的检查器看到的 url 格式和程序当中看的不一样，检查器中的 url 带引号略坑爹  ![](http://ww2.sinaimg.cn/large/a243ad6cjw1ewsmq10s47j20uw0l60ym.jpg)
+1. 浏览器的检查器看到的 url 格式和程序当中看的不一样，检查器中的 url 带引号略坑爹  ![](//ww2.sinaimg.cn/large/a243ad6cjw1ewsmq10s47j20uw0l60ym.jpg)
 2. 在最后把这两条不想要的直接删除了
 3. 一共四条内容包含`/`，直接截取第一个字，恰好还可以供后面的用
   
 ***
 # 效果
 看图  
-![](http://ww1.sinaimg.cn/large/a243ad6cjw1ewskgw65knj209u0ahtay.jpg)  
-![](http://ww1.sinaimg.cn/large/a243ad6cjw1ewskgyhjf9j207p0bpgn4.jpg)
+![](//ww1.sinaimg.cn/large/a243ad6cjw1ewskgw65knj209u0ahtay.jpg)  
+![](//ww1.sinaimg.cn/large/a243ad6cjw1ewskgyhjf9j207p0bpgn4.jpg)
 
 ***
 以上

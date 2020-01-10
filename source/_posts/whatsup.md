@@ -41,7 +41,7 @@ ipn 的好几个都特别有意义，坐公交的时候都不听歌了
 # NexT 主题更新
 简单的预想：  
 
-![](http://ww1.sinaimg.cn/large/a243ad6cjw1ewvaglhr5sj20j60chmz7.jpg)
+![](//ww1.sinaimg.cn/large/a243ad6cjw1ewvaglhr5sj20j60chmz7.jpg)
 
 要做的事情还很多  
 这个简单看了一下👉[Hexo主题Rebiture](http://zodiacg.net/2015/05/hexo-theme-rebiture/)  
@@ -51,16 +51,16 @@ ipn 的好几个都特别有意义，坐公交的时候都不听歌了
 主要是还想着无限发微博这一件事  
 暂时不晓得到底发一个 post 包到底要放哪些东西  
 就抓包看了一下  
-![](http://ww4.sinaimg.cn/large/a243ad6cjw1ewvauk3ec3j20ja09ujsz.jpg)
+![](//ww4.sinaimg.cn/large/a243ad6cjw1ewvauk3ec3j20ja09ujsz.jpg)
 👆这个抓包用，好用是好用，但是要付费  
-![](http://ww2.sinaimg.cn/large/a243ad6cjw1ewvd57mlykj20m908ewfg.jpg)
+![](//ww2.sinaimg.cn/large/a243ad6cjw1ewvd57mlykj20m908ewfg.jpg)
 👆信息很详细了，注意包括了 cookie  
 **这个相当恶心，我百度的姿势不对，还没有找到urllib 里面自己构造 cookie 怎么使用**
-![](http://ww1.sinaimg.cn/large/a243ad6cjw1ewvauio5twj20p70cudhi.jpg)
+![](//ww1.sinaimg.cn/large/a243ad6cjw1ewvauio5twj20p70cudhi.jpg)
 👆软件自带了构造的功能，把 `test` 改成 `TEST`  
-![](http://ww2.sinaimg.cn/large/a243ad6cjw1ewvaugoysmj208i0a074u.jpg)
+![](//ww2.sinaimg.cn/large/a243ad6cjw1ewvaugoysmj208i0a074u.jpg)
 👆效果如图
-![](http://ww3.sinaimg.cn/large/a243ad6cjw1ewvb0cekgdj20hb0nb40h.jpg)
+![](//ww3.sinaimg.cn/large/a243ad6cjw1ewvb0cekgdj20hb0nb40h.jpg)
 
 手动最快就这个效果了  
 就是一直改数据，一直点击 `execute`  

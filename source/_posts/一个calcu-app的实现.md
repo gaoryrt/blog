@@ -7,7 +7,7 @@ categories: [麦客爱苹果]
 我果手机的科学计算器并没有这个功能，在我专业某些时候使用还是挺无力的，不如自己写一个，也花不了几天  
 [calcu的github](https://github.com/gaoryrt/calcu)  
 <!--more-->  
-主界面差不多就这样：![主界面](http://ww4.sinaimg.cn/large/a243ad6cjw1ewahgtk8v5j20g3099aaa.jpg)
+主界面差不多就这样：![主界面](//ww4.sinaimg.cn/large/a243ad6cjw1ewahgtk8v5j20g3099aaa.jpg)
 
 # 界面
 功能看图，写得很明白了  
