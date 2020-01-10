@@ -1,0 +1,13 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+	ignorecase = true
+	precomposeunicode = true
+[branch "master"]
+	remote = https://github.com/gaoryrt/gaoryrt.github.io.git
+	merge = refs/heads/master
+[remote "origin"]
+	url = https://github.com/gaoryrt/markdownbackup.git
+	fetch = +refs/heads/*:refs/remotes/origin/*

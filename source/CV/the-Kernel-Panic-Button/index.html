@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <title>the Kernel Panic Button</title>
+    <style type="text/css" media="screen">
+        html {
+            height: 100%;
+        }
+        body {
+            height: 98%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            font-size: 1em;
+            background: #fff;
+        }
+        #antiman, #wayra, #winona, #tamaya {
+            margin: 20px;
+        }
+
+/*-------- antiman --------*/
+        #antiman {
+            display: inline-block;
+            background-color: #eee;
+            height: 64px;
+            width: 144px;
+            border-radius: 12px;
+            border: 0;
+            font-size: 1em;
+            -webkit-transition: background-color 0.3s, color 0.3s;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        #antiman:hover {
+            background-color: #fff;
+            color: #333;
+        }
+        #antiman::before {
+            content: '';
+            position: absolute;
+            margin: -24px -28px;
+            height: 60px;
+            width: 140px;
+            border-radius: 12px;
+            -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+            transition: transform 0.3s, opacity 0.3s;
+            opacity: 0;
+            border: 3px solid #333;
+            -webkit-transform: scale3d(1.2, 1.35, 1);
+            transform: scale3d(1.2, 1.35, 1);
+        }
+        #antiman:hover::before {
+            opacity: 1;
+            -webkit-transform: scale3d(1, 1, 1);
+            transform: scale3d(1, 1, 1);
+        }
+        #antiman:focus, #winona:focus {
+            outline: 0;
+        }
+
+/*-------- winona --------*/
+        #winona {
+            display: inline-block;
+            background-color: transparent;
+            height: 64px;
+            width: 144px;
+            border-radius: 32px;
+            border: 3px solid #000;
+            font-size: 1.2em;
+            font-weight: 600;
+            color: #000;
+            -webkit-transition: border-color .3s;
+            -o-transition: border-color .3s;
+            transition: border-color .3s;
+        }
+        #winona:hover {
+            border-color: #3f51b5;
+        }
+        #winona::after {
+            content: 'winona';
+            position: absolute;
+            margin-left: -32px;
+            color: #3f51b5;
+            opacity: 0;
+            transform: translate3d(0, 0, 0);
+            -webkit-transform: translate3d(0, 0, 0);
+            -webkit-transition: transform .3s, opacity .3s;
+            -o-transition: transform .3s, opacity .3s;
+            transition: transform .3s, opacity .3s;
+        }
+        #winona:hover::after {
+            opacity: 1;
+            -webkit-transform: translate3d(0, -100%, 0);
+            transform: translate3d(0, -100%, 0);
+        }
+        #winona > span {
+            display: block;
+            -webkit-transition: transform .3s, opacity .3s;
+            -o-transition: transform .3s, opacity .3s;
+            transition: transform .3s, opacity .3s;
+        }
+        #winona:hover > span {
+            opacity: 0;
+            -webkit-transform: translate3d(0, -100%, 0);
+            transform: translate3d(0, -100%, 0);
+        }
+
+/*-------- wayra --------*/
+        #wayra {
+            position: relative;
+            display: inline-block;
+            overflow: hidden;
+            background: transparent;
+            height: 50px;
+            width: 245px;
+            border: 3px solid #3f51b5;
+            color: #3f51b5;
+            font-size: 1.2em;
+            z-index: 1;
+            font-weight: 600;
+            -webkit-transition: border-color .5s, color .5s;
+            -o-transition: border-color .5s, color .5s;
+            transition: border-color .5s, color .5s;
+        }
+        #wayra:hover {
+            border-color: #37474F;
+            color: #fff;
+        }
+        #wayra::before {
+            margin: -14px 0 0 -100px;
+            content: '';
+            position: absolute;
+            height: 50px;
+            width: 400px;
+            z-index: -1;
+            background-color: #3f51b5;
+            -webkit-transform-origin: 50px 245px;
+            transform-origin: 50px 245px;
+            transform: rotate3d(0, 0, 1, -45deg) translate3d(0, -8em, 0);
+            -webkit-transform: rotate3d(0, 0, 1, -45deg) translate3d(0, -8em, 0);
+            -webkit-transition: transform .4s, opacity .4s, background-color .4s;
+            -o-transition: transform .4s, opacity .4s, background-color .3s;
+            transition: transform .4s, opacity .4s, background-color .4s;
+        }
+        #wayra:hover::before {
+            opacity: 1;
+            z-index: -1;
+            background-color: #37474F;
+            transform: rotate3d(0, 0, 0, 0deg) translate3d(0, 0, 0);
+            -webkit-transform: rotate3d(0, 0, 0, 0deg) translate3d(0, 0, 0);
+        }
+
+/*-------- tamaya --------*/
+        #tamaya {
+            position: relative;
+            overflow: hidden;
+            height: 60px;
+            width: 140px;
+            background-color: transparent;
+            border: 3px solid #37474F;
+            font-size: 1.2em;
+            z-index: 1;
+        }
+        #tamaya::before, #tamaya::after {
+            display: block;
+            position: absolute;
+            overflow: hidden;
+            content: 'tamaya';
+            background-color: #7986cb;
+            color: #fff;
+            width: 140px;
+            z-index: -1;
+            -webkit-transition: transform .3s;
+            -o-transition: transform .3s;
+            transition: transform .3s;
+        }
+        #tamaya::before {
+            margin: -19px -9px;
+            padding-top: 1em;
+            height: 13px;
+        }
+        #tamaya::after {
+            height: 30px;
+            line-height: 0;
+            margin: -11px -9px;
+        }
+        #tamaya span {
+            display: block;
+            z-index: -2;
+            opacity: 0;
+            -webkit-transform: scale3d(.8, .8, .8);
+            transform: scale3d(.8, .8, .8);
+            -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+            transition: transform 0.3s, opacity 0.3s;
+        }
+        #tamaya:hover::before {
+            -webkit-transform: translate3d(0, -100%, 0);
+            transform: translate3d(0, -100%, 0);
+        }
+        #tamaya:hover::after {
+            -webkit-transform: translate3d(0, 100%, 0);
+            transform: translate3d(0, 100%, 0);
+        }
+        #tamaya:hover span {
+            opacity: 1;
+            -webkit-transform: scale3d(1, 1, 1);
+            transform: scale3d(1, 1, 1);
+        }
+
+
+
+
+
+        a {
+            color: #aaa;
+        }
+        p, a {
+            line-height: 1.4em;
+        }
+        a, a:Visited {
+            text-decoration: none;
+        }
+         [v-cloak] { display: none }
+    </style>
+</head>
+<body>
+    <div id="app">
+        <button id="winona"><span>winona</span></button>
+        <button id="antiman" v-on:click="panicToday">今天恐慌吗?</button>
+        <button id="wayra">WAYRA</button>
+        <button id="tamaya"><span>tamaya</span></button>
+        <p>{{ panicMessage }}</p>
+        {{{ go }}}
+    </div>
+</body>
+<script src="http://cdn.bootcss.com/jquery/2.2.1/jquery.js"></script>
+<script src="http://cdn.bootcss.com/vue/1.0.17/vue.min.js"></script>
+<script type="text/javascript">
+    Date.prototype.Format = function(fmt) {
+        var o = {
+            "M+" : this.getMonth()+1,
+            "d+" : this.getDate(),
+            "h+" : this.getHours(),
+            "m+" : this.getMinutes(),
+            "s+" : this.getSeconds(),
+            "q+" : Math.floor((this.getMonth()+3)/3),
+            "S"  : this.getMilliseconds()
+        };
+        if(/(y+)/.test(fmt))
+            fmt=fmt.replace(RegExp.$1, (this.getFullYear()+"").substr(4 - RegExp.$1.length));
+        for(var k in o)
+            if(new RegExp("("+ k +")").test(fmt))
+                fmt = fmt.replace(RegExp.$1, (RegExp.$1.length==1) ? (o[k]) : (("00"+ o[k]).substr((""+ o[k]).length)));
+            return fmt;
+    };
+    var vm = new Vue({
+        el: '#app',
+        data: {
+            panicMessage: '你永远不知道你按下之后会发生什么',
+            go: ''
+        },
+        methods: {
+            panicToday: function () {
+                this.panicMessage = 'To panic or not to panic, that\'s a question.';
+                crossDomain();
+                vm.$data.go = '<a>loading...</a>';
+            }
+        }
+    });
+    function htmlToDateArray(data) {
+        var re = /\d{1,4}-\d{1,2}-\d{1,2}/;
+        var arr = re.exec(data);
+        return arr[0];
+    }
+    function crossDomain() {
+        $.ajaxSetup({
+            scriptCharset: "utf-8",
+            contentType: "application/json; charset=utf-8"
+        });
+        $.getJSON('http://whateverorigin.org/get?url=' +
+            encodeURIComponent('https://ipn.li/kernelpanic/') + '&callback=?',
+            function (data) {
+                if (htmlToDateArray(data.contents) == new Date().Format("yyyy-MM-dd")) {
+                    vm.$data.go = '<a href="https://ipn.li/kernelpanic/">前往收听</a>';
+                    alert("恐慌。");
+                } else {
+                    vm.$data.go = '<a href="http://gaoryrt.com/">from gaoryrt with ♥︎.</a>';
+                    alert("不恐慌。");
+                }
+        });
+    }
+</script>
+</html>
