@@ -4,7 +4,7 @@ date: 2016-09-07 19:02:00
 categories: Discovery
 ---
 
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=260 height=86 src="http://music.163.com/outchain/player?type=2&id=27471609&auto=1&height=66"></iframe>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=260 height=86 src="//music.163.com/outchain/player?type=2&id=27471609&auto=1&height=66"></iframe>
 
 听了一段时间再来评测哟~ 为信仰充值的MDR-100AAP。
 ## 起因
