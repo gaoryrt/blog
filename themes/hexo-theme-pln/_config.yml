@@ -1,0 +1,28 @@
+menu:
+  主页: /
+  归档: /archives
+
+logo: BNGH
+
+more:
+  GitHub: https://github.com/gaoryrt/
+  微博: http://weibo.com/R1T1AN
+  rss: /rss2.xml
+  友链: /links.html
+  jungle.fm: https://jungle.fm
+
+about:
+  title: Theme Pln
+  link: https://github.com/gaoryrt/hexo-theme-pln
+
+show_toc_bool: true
+
+disqus_shortname: gaoryrt
+
+excerpt_num: 125
+
+footer_info: © Gaoryrt 2015-2020
+
+search:
+  path: search.xml
+  field: all
