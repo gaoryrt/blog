@@ -3,7 +3,7 @@ comments: true
 date: 2016-04-30 20:41:56
 categories: Geek Talks · 奇客怪谈
 ---
-今天回家，路上听了第38期的内核恐慌，这一期的题目就叫做[Hit the Kernel Panic Button（点击查看/收听）](https://ipn.li/kernelpanic/38/)，提到了一个内核恐慌按钮，和微博用户[今天是周五么](http://weibo.com/frifrifriday)、话题[#索尼今天倒闭了吗#](http://weibo.com/p/1008083db00081c6bc19771bf8f16b1c7dbc15)的目的类似。大概是因为内核恐慌改为不定期播出了，rio说需要在官网上做一个按钮，『今天恐慌吗』？  
+今天回家，路上听了第38期的内核恐慌，这一期的题目就叫做[Hit the Kernel Panic Button（点击查看/收听）](https://ipn.li/kernelpanic/38/)，提到了一个内核恐慌按钮，和微博用户[今天是周五么](//weibo.com/frifrifriday)、话题[#索尼今天倒闭了吗#](//weibo.com/p/1008083db00081c6bc19771bf8f16b1c7dbc15)的目的类似。大概是因为内核恐慌改为不定期播出了，rio说需要在官网上做一个按钮，『今天恐慌吗』？  
 *你永远不知道你按下之后会发现什么*  
 ***
 ## 大概的思路
@@ -31,12 +31,12 @@ $.get("https://ipn.li/kernelpanic/", function(data){
     alert(data);
 });
 ```
-还有一个纯的js，详见[stackoverflow的讨论](http://stackoverflow.com/questions/8197709/javascript-read-html-from-url-into-string)。  
+还有一个纯的js，详见[stackoverflow的讨论](//stackoverflow.com/questions/8197709/javascript-read-html-from-url-into-string)。  
 
 ## 从html得到最新时间
 **上一次这么做我还是一个不会正则的孩子，天真的我使用`.index`一层一层解析html字符串。**  
 **直到我遇见了正则。**  
-关于正则的学习，推荐一个网站：[rubular](http://www.rubular.com)，还有`practice makes perfect`。  
+关于正则的学习，推荐一个网站：[rubular](//www.rubular.com)，还有`practice makes perfect`。  
 ```
 function htmlToDateArray(data) {
     var re = /\d{1,4}-\d{1,2}-\d{1,2}/;
@@ -68,14 +68,14 @@ Date.prototype.Format = function(fmt)
   return fmt;
 }
 ```
-上面代码来自[csdn 的 Meizz](http://blog.csdn.net/meizz/article/details/405708?Pending=true)。  
-最后上作品：[the Kernel Panic Button](http://gaoryrt.com/CV/the-Kernel-Panic-Button/)  
+上面代码来自[csdn 的 Meizz](//blog.csdn.net/meizz/article/details/405708?Pending=true)。  
+最后上作品：[the Kernel Panic Button](//gaoryrt.com/CV/the-Kernel-Panic-Button/)  
 ## 跨域
 页面中的Javascript只能读取，访问同域的网页。  
 协议、域名、端口三者必须相同，否则就属于跨域。  
 [查看segmentfault的相关讨论](https://segmentfault.com/q/1010000000149454)  
 ~~由于跨域问题，你并不能在网页上获得alert~~  
-现在你可以[在线尝试](http://gaoryrt.com/CV/the-Kernel-Panic-Button/)、[查看源码](https://github.com/gaoryrt/Kernel-Panic-Button)、也可以尝试另存为html网页，然后手动拖进浏览器。经过测试均可以使用。  
+现在你可以[在线尝试](//gaoryrt.com/CV/the-Kernel-Panic-Button/)、[查看源码](https://github.com/gaoryrt/Kernel-Panic-Button)、也可以尝试另存为html网页，然后手动拖进浏览器。经过测试均可以使用。  
 ***
 以上
 

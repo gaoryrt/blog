@@ -40,7 +40,7 @@ background-clip: padding-box|border-box|content-box;
 padding-box在padding内绘制  
 border-box在margin内绘制  
 content-box在content内绘制  
-关于上面这两个的区别运用，[看这一篇文章](http://www.planabc.net/2008/04/14/background-clip_background-origin/)，写的真好。  
+关于上面这两个的区别运用，[看这一篇文章](//www.planabc.net/2008/04/14/background-clip_background-origin/)，写的真好。  
 ***
 # 文本
 text-shadow: h-shadow v-shadow blur color;
@@ -50,7 +50,7 @@ text-shadow: 0 0 3px #FF0000;
 ```
 word-wrap: normal|break-word;
 word-break: normal|break-all|keep-all;
-关于上面这两个的区别运用，[看这一篇文章](http://blog.csdn.net/u011043843/article/details/39375677?utm_source=tuicool&utm_medium=referral)。  
+关于上面这两个的区别运用，[看这一篇文章](//blog.csdn.net/u011043843/article/details/39375677?utm_source=tuicool&utm_medium=referral)。  
 主要区别是，`word-wrap`是另起一行后分割，`word-break`是直接分割。
 ***
 # 字体

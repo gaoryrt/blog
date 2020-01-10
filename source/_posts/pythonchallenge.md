@@ -5,20 +5,20 @@ categories: 硬悟学蛇
 ---
 这几天学校极客大挑战，三道编程题  
 然后发现这种才有意思嘛。。。  
-又找了一个：[python challenge](http://www.pythonchallenge.com)  
+又找了一个：[python challenge](//www.pythonchallenge.com)  
 感觉这种挑战比看书好多了
 <!--more-->
 ***
-# [第〇关](http://www.pythonchallenge.com/pc/def/0.html)简单计算
+# [第〇关](//www.pythonchallenge.com/pc/def/0.html)简单计算
 求2^38: `2**38` 即可  
 ***
-# [第一关](http://www.pythonchallenge.com/pc/def/274877906944.html)字符串操作
+# [第一关](//www.pythonchallenge.com/pc/def/274877906944.html)字符串操作
 将字符串中得字母移2位  
 不仅仅是改图上的三个字母，是26个全部改  
 用的`ord()`&`chr()`把26个字符都加二，然后发现`y`和`z`加二就出去了，然后又加了几个`if`来限制  
 黑哥说 `maketrans`就行了，看上去很方便，还没有研究。。。  
 ***
-# [第二关](http://www.pythonchallenge.com/pc/def/ocr.html)字符串操作
+# [第二关](//www.pythonchallenge.com/pc/def/ocr.html)字符串操作
 找原文件里出现的英文字符  
 ```python
 a = 原文
@@ -27,7 +27,7 @@ for i in a:
         print(i,end='')
 ```
 ***
-# [第三关](http://www.pythonchallenge.com/pc/def/equality.html)正则表达式
+# [第三关](//www.pythonchallenge.com/pc/def/equality.html)正则表达式
 hint 是这个   
 `One small letter, surrounded by EXACTLY three big bodyguards on each of its sides.`  
 想了半天没有理解他什么意思，特别是那个`its`因为没有`'apostrophe撇号`相当恼火  
@@ -37,7 +37,7 @@ hint 是这个
 r"[a-z][A-Z]{3}[a-z]{1}[A-Z]{3}[a-z]"
 ```
 ***
-# [第四关](http://www.pythonchallenge.com/pc/def/linkedlist.html) urllib
+# [第四关](//www.pythonchallenge.com/pc/def/linkedlist.html) urllib
 从网页中获取数字添加在`php`末尾然后继续访问  
 就是` urllib`的操作:
 ```python
@@ -50,9 +50,9 @@ for _ in range(500):
     print(nothing)
 ```
 ***
-# [第五关](http://www.pythonchallenge.com/pc/def/peak.html)pickle 、字典
+# [第五关](//www.pythonchallenge.com/pc/def/peak.html)pickle 、字典
 叫你 pronunce 一幅山峰的图片  
-![](http://www.pythonchallenge.com/pc/def/peakhell.jpg)
+![](//www.pythonchallenge.com/pc/def/peakhell.jpg)
 `peak hall`->`pickle`  
 这个` pickle`文件已经在原文件中给你了`banner.pickle`
 使用` pickle`:  
@@ -93,7 +93,7 @@ with open("banner.pickle","rb") as f:
 猜到了就是这样的。。。  
 ![](//ww1.sinaimg.cn/large/a243ad6cjw1ex25vm2dmhj20lh0kyn27.jpg) 
 ***
-# [第六关](http://www.pythonchallenge.com/pc/def/channel.html)zipfile
+# [第六关](//www.pythonchallenge.com/pc/def/channel.html)zipfile
 进去那个` paypal`跟题没有关系  
 源代码里面有个提示`zip`  就直接下载` channel.zip`  
 解压出来跟第四关的规则差不多  
@@ -141,13 +141,13 @@ README.txt
 ![](//ww1.sinaimg.cn/large/a243ad6cjw1ex281m1f0sj20st06wwj4.jpg)
 这一关略麻烦呢。。。
 ***
-# [第七关](http://www.pythonchallenge.com/pc/def/oxygen.html)图片操作
+# [第七关](//www.pythonchallenge.com/pc/def/oxygen.html)图片操作
 **从这一关开始后面都是用`python2`写的**
 ![](//ww1.sinaimg.cn/large/a243ad6cjw1ex286h3ncnj20hh02n0tj.jpg)   
 应该是灰度处理中间的一行灰色  
 然后读取出这个灰度值组成的数据  
 不出意料应该是包含了信息的。
-使用`Image`来处理图片: [加入第三方库文件](http://gaoryrt.github.io/2015/10/16/install-python-package/)  
+使用`Image`来处理图片: [加入第三方库文件](//gaoryrt.github.io/2015/10/16/install-python-package/)  
 然后对这张图片进行切割，只留下灰色的部分:  
 ```
 import Image
@@ -170,7 +170,7 @@ print k
 果然是这样的:  
 ![](//ww3.sinaimg.cn/large/a243ad6cjw1ex339xjakhj20jo01074m.jpg)
 ***
-# [第八关](http://www.pythonchallenge.com/pc/def/integrity.html)bz2
+# [第八关](//www.pythonchallenge.com/pc/def/integrity.html)bz2
 **这一关没办法不是自己做的** 
 就是一个解压:  
 ```
@@ -182,7 +182,7 @@ pw=bz2.decompress(pw)
 print un,pw
 ```
 ***
-# [第九关](http://www.pythonchallenge.com/pc/return/good.html)un:`huge` pw:`file`
+# [第九关](//www.pythonchallenge.com/pc/return/good.html)un:`huge` pw:`file`
 **这一关没有使用 `python`** 
 源文件跟上一关的 `coords`一样的，就是连线  
 于是我把上一关的` html`的值改成这一关的了:
@@ -212,7 +212,7 @@ print un,pw
 然后应该是个牛，要不就是羊。。。  
 我输入一个`http://www.pythonchallenge.com/pc/return/cow.html`他还告诉我`hmm. it's a male.`  
 ***
-# [第十关](http://www.pythonchallenge.com/pc/return/bull.html)
+# [第十关](//www.pythonchallenge.com/pc/return/bull.html)
 1 11 21 1211 111221 ...  
 求`len(a[30])`  
 1:一个一  

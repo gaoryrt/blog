@@ -5,7 +5,7 @@ categories: 前端
 ---
 
 这一篇是从css-trics抄到本人小本本上面的，现在又从小本本上腾到博客上来。  
-刚刚找原文，发现[阮一峰](http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html)也搬运过[这一篇文章](https://css-tricks.com/snippets/css/a-guide-to-flexbox/#flexbox-background)。  
+刚刚找原文，发现[阮一峰](//www.ruanyifeng.com/blog/2015/07/flex-grammar.html)也搬运过[这一篇文章](https://css-tricks.com/snippets/css/a-guide-to-flexbox/#flexbox-background)。  
 
 ***
 
@@ -126,7 +126,7 @@ baseline 文字基线对齐
 
 # 源文件在这里
 
-![css3flex](http://7xs4ih.com1.z0.glb.clouddn.com/css3flex.jpg)
+![css3flex](//7xs4ih.com1.z0.glb.clouddn.com/css3flex.jpg)
 
 ***
 

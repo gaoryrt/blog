@@ -4,9 +4,9 @@ date: 2016-04-29 16:41:25
 categories: 前端
 ---
 这篇文章的目的是让你快速上手Vue。  
-如果你想知道Vue是什么，请看[Vue的官方文档](http://vuejs.org)。  
-[官方文档中的入门](http://vuejs.org/guide/)已经写得足够好了，这里只是其他几个例子而已。  
-本篇中用到的例子来自于 [Vue.js - Getting Started](http://vuejs.org/guide/)，[coligo - VueJs: The Basics](https://coligo.io/vuejs-the-basics/)，[tutorialzine - 5 Practical Examples For Learning Vue.js](http://tutorialzine.com/2016/03/5-practical-examples-for-learning-vue-js/)和我自己。  
+如果你想知道Vue是什么，请看[Vue的官方文档](//vuejs.org)。  
+[官方文档中的入门](//vuejs.org/guide/)已经写得足够好了，这里只是其他几个例子而已。  
+本篇中用到的例子来自于 [Vue.js - Getting Started](//vuejs.org/guide/)，[coligo - VueJs: The Basics](https://coligo.io/vuejs-the-basics/)，[tutorialzine - 5 Practical Examples For Learning Vue.js](//tutorialzine.com/2016/03/5-practical-examples-for-learning-vue-js/)和我自己。  
 顺便提一句，中文的「Vue入门」类型的文章真是少，上面几个写的很可以了。  
 ***
 ## 一个html，一个例子

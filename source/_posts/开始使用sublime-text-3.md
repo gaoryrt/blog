@@ -14,7 +14,7 @@ windows上面基本上是个文件都可以用notepad++打开
 好像还有破解版，但是看人家说的貌似这个可以无限免费试用  
 也就是说正式版就只是向作者donate而已  
 那就用着试用版吧  
-下载链接👉 [sublime text](http://www.sublimetext.com)  
+下载链接👉 [sublime text](//www.sublimetext.com)  
 ***  
 # 设置  
 ## Package Control  
@@ -53,16 +53,16 @@ import urllib2,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a309809
 # sublime text 也是个大坑  
 何止是文档打开工具呢？简直就是生产力工具  
 就把网页链接放这里吧，懒得`cmd + d`了  
->[ Sublime Text 3 调教你的私人利器（上）](http://www.sheyilin.cn/2015/05/sublime_text_3_tiao_jiao_ni_de_si_ren_li_qi_1/)👈插件介绍，推荐设置，快捷键修改，默认html补全，插件调教  
-[ Sublime Text 3 调教你的私人利器（下）](http://www.sheyilin.cn/2015/05/sublime_text_3_tiao_jiao_ni_de_si_ren_li_qi_2/)👈（接上条）插件调教，推荐设置  
+>[ Sublime Text 3 调教你的私人利器（上）](//www.sheyilin.cn/2015/05/sublime_text_3_tiao_jiao_ni_de_si_ren_li_qi_1/)👈插件介绍，推荐设置，快捷键修改，默认html补全，插件调教  
+[ Sublime Text 3 调教你的私人利器（下）](//www.sheyilin.cn/2015/05/sublime_text_3_tiao_jiao_ni_de_si_ren_li_qi_2/)👈（接上条）插件调教，推荐设置  
 [jikeytang/sublime-text](https://github.com/jikeytang/sublime-text)插件介绍,推荐设置,快捷键,**网页推荐**  
 [Package Control](https://packagecontrol.io)Package Control官网，插件介绍    
-[Sublime Text 全程指南](http://zh.lucida.me/blog/sublime-text-complete-guide/)什么都有  
-[Mac下Sublime Text 2使用心得](http://www.jianshu.com/p/25cdc7d608bb)写的比我好多了就是了
+[Sublime Text 全程指南](//zh.lucida.me/blog/sublime-text-complete-guide/)什么都有  
+[Mac下Sublime Text 2使用心得](//www.jianshu.com/p/25cdc7d608bb)写的比我好多了就是了
 
 另知乎提问  
->[Sublime Text 有哪些使用技巧？](http://www.zhihu.com/question/24896283)  
-[sublime text 3 插件推荐？](http://www.zhihu.com/question/24736400)  
+>[Sublime Text 有哪些使用技巧？](//www.zhihu.com/question/24896283)  
+[sublime text 3 插件推荐？](//www.zhihu.com/question/24736400)  
 
 ***  
 # 这总不算烂尾了吧？  

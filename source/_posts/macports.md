@@ -9,7 +9,7 @@ Mac下安装软件一般都是下载`dmg`、`pkg`包来安装。
 <!--more-->
 ***
 # 下载
-[MacPorts 的下载页面](http://www.macports.org/install.php)
+[MacPorts 的下载页面](//www.macports.org/install.php)
 # 安装  
 双击`MacPorts-2.3.4-10.11-ElCapitan.pkg` 一直点击继续来安装，需要输入密码。  
 

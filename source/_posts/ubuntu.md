@@ -26,7 +26,7 @@ categories: Geek Talks · 奇客怪谈
 `gwet` `zsh` `sublime text` 还有各种插件 `autojump` `predawn` `Valign`
 ***
 # dns server
-跟着[这个文章](http://www.linuxidc.com/Linux/2015-04/116350.htm)来  
+跟着[这个文章](//www.linuxidc.com/Linux/2015-04/116350.htm)来  
 唯一卡住的地方就只有
 ```
 sudo service bind9 restart

@@ -3,7 +3,7 @@ comments: true
 date: 2016-03-21 17:39:56
 categories: 前端
 ---
-[demo点这里](http://gaoryrt.com/CV/shuffle/index.html)
+[demo点这里](//gaoryrt.com/CV/shuffle/index.html)
 # 需要达到的效果
 常见的轮播图组件  
 自动翻页，左右跳转按钮，下方是index  

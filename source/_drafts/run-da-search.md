@@ -21,7 +21,7 @@ search:
 然后 `hexo d` 就行了
 ---
 ## 心路历程
-参见 [这篇文章](http://hahack.com/codes/local-search-engine-for-hexo/)，都是人家写好的。
+参见 [这篇文章](//hahack.com/codes/local-search-engine-for-hexo/)，都是人家写好的。
 
 感恩的心，感谢有你。
 

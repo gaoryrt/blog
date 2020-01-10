@@ -9,10 +9,10 @@ categories: Discovery
   加加注释看看 .styl文件里面都是那些的定义，改改颜色，大小之类的，应该不难  
   <!--more-->
   可以参考以下四个链接  
-  1. [hexo 主题优化](http://www.zipperary.com/2013/06/26/hexo-theme-alteration/)  
-  2. [hexo博客主题更换](http://www.jianshu.com/p/ed8e8cf1632c)  
-  3. [基于Pacman主题的Hexo修改](http://www.tuicool.com/articles/eY3i2u3)  
-  4. [Hexo模板系统和pacman的修改](http://www.huangyunkun.com/2014/03/18/hexo_ejs_template/)   
+  1. [hexo 主题优化](//www.zipperary.com/2013/06/26/hexo-theme-alteration/)  
+  2. [hexo博客主题更换](//www.jianshu.com/p/ed8e8cf1632c)  
+  3. [基于Pacman主题的Hexo修改](//www.tuicool.com/articles/eY3i2u3)  
+  4. [Hexo模板系统和pacman的修改](//www.huangyunkun.com/2014/03/18/hexo_ejs_template/)   
     
 >突然发现sublime text这个工具相当好用，堪比notepad++  
 >可以参考这一篇文章[开始使用sublime text 3](/2015/09/10/开始使用sublime-text-3/)     
@@ -24,9 +24,9 @@ categories: Discovery
 2015年9月18日下午11:21更新  
 发现hexo/themes/next/languages/zh-Hans.yml 可以改一点东西  
 2015年10月04日上午01:14更新  
-1. [ARAO'S BLOG](http://www.arao.me)  
-2. [Hexo 主题 Light 修改教程](http://www.jianshu.com/p/70343b7c2fd3)
-3. [Concise，一款为hexo设计的简约而漂亮的主题](http://blog.csdn.net/v123411739/article/details/45227249)
+1. [ARAO'S BLOG](//www.arao.me)  
+2. [Hexo 主题 Light 修改教程](//www.jianshu.com/p/70343b7c2fd3)
+3. [Concise，一款为hexo设计的简约而漂亮的主题](//blog.csdn.net/v123411739/article/details/45227249)
 ***  
 # 更新2015年10月05日19:59:37  
 next 默认的主题名为 `MIST` 这个的设置在这个地方：  

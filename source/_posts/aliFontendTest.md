@@ -148,7 +148,7 @@ categories: 前端
     </form>
 </div>
 ```
-至于怎么取消`radio`的标签，[点这里](http://www.zhangxinxu.com/study/201201/css-radio-tab-switch.html)。  
+至于怎么取消`radio`的标签，[点这里](//www.zhangxinxu.com/study/201201/css-radio-tab-switch.html)。  
 三角形的框，我想最好还是用背景图最好，`checked {background-image}` 这样。
 ## js
 这个真不会，不忙查属性了  

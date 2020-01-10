@@ -3,7 +3,7 @@ date: 2015-10-10 14:13:55
 tags: [python]
 categories: 硬悟学蛇
 ---
-[上一篇](http://gaoryrt.github.io/2015/10/09/whatsup/)里面说过了，要改冲神的`jincin.py`   
+[上一篇](//gaoryrt.github.io/2015/10/09/whatsup/)里面说过了，要改冲神的`jincin.py`   
 改成功了，能够刷微博，但是好像并不完美。。。  
 <!--more-->
 # 代码

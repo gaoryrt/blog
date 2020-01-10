@@ -9,10 +9,10 @@ categories: 硬悟学蛇
 我这种就适合考前突击
 <!--more-->
 ***
-# [第十一关](http://www.pythonchallenge.com/pc/return/evil.html) 图片处理
+# [第十一关](//www.pythonchallenge.com/pc/return/evil.html) 图片处理
 这一关还是考验图片处理的能力  
 但是对我来说却是考验安装第三方库、正确使用` Stack Overflow` 的能力  
-没有想到这一篇还要更新: [安装 Python 库文件](http://gaoryrt.github.io/2015/10/16/install-python-package/)  
+没有想到这一篇还要更新: [安装 Python 库文件](//gaoryrt.github.io/2015/10/16/install-python-package/)  
 开始的时候`.jpg`文件还不能解析，换成了`.png`，结果一样不能用。。。  
 重装了与`Image`相关的库，重新装了  
 然后就简单了  
@@ -37,7 +37,7 @@ im.show()
 看不清的话请调亮一点，算了还是我来:
 ![](//ww1.sinaimg.cn/large/a243ad6cjw1ex3eaodiqvj20hy0brtg6.jpg)
 ***
-# [第十二关](http://www.pythonchallenge.com/pc/return/evil.html) gfx 拆分
+# [第十二关](//www.pythonchallenge.com/pc/return/evil.html) gfx 拆分
 题目是`dealing evil`  
 只有一个图，`evil1.jpg`:
 ![evil1](//ww2.sinaimg.cn/large/a243ad6cjw1ex4dcijs2dj20hs0dcgno.jpg)  
@@ -56,10 +56,10 @@ im.show()
 正确的解题是下载` evil2.gfx`然后步进分成五个图片
 ![](//ww1.sinaimg.cn/large/a243ad6cjw1ex4dghq992j20k404ojrw.jpg)  
 ***
-# [第十三关](http://www.pythonchallenge.com/pc/return/disproportional.html) rpc 协议
+# [第十三关](//www.pythonchallenge.com/pc/return/disproportional.html) rpc 协议
 是一个电话的图片  
 ![](//ww4.sinaimg.cn/large/a243ad6cjw1ex5r5ontkhj20hs0dcgm7.jpg)  
-查看源文件，跟前面哪个连线一样的，点击某个区域，跳转到[这个连接](http://www.pythonchallenge.com/pc/phonebook.php)   
+查看源文件，跟前面哪个连线一样的，点击某个区域，跳转到[这个连接](//www.pythonchallenge.com/pc/phonebook.php)   
 **完全不会做**  
 下面是找到的方法:  
 > xmlrpc是使用http协议做为传输协议的rpc机制，使用xml文本的方式传输命令和数据blablabla…  
@@ -78,7 +78,7 @@ def disproportional():
   
 `rpc`协议以后来补，~~however~~ ，答案就是 `italy`  
 ***
-# [第十四关](http://www.pythonchallenge.com/pc/return/italy.html) 编程
+# [第十四关](//www.pythonchallenge.com/pc/return/italy.html) 编程
 有个螺旋形的面包，源代码提示`walk around`,`<!-- remember: 100*100 = (100+99+99+98) + (...  -->`  
 下面一张图，格式相当奇葩`10000*1`的一个`png`  
 猜到了就是读图然后按照螺旋写成一个`100*100`的图  
@@ -142,7 +142,7 @@ mi.show()
 **不！可！能！这！么！简！单**  
 果然，猫的名字是` uzi`，正确的页面应该是 uzi 才对
 ***
-# [第十五关](http://www.pythonchallenge.com/pc/return/uzi.html) 编程
+# [第十五关](//www.pythonchallenge.com/pc/return/uzi.html) 编程
 还是得看攻略。。。  
 这上面这个是1xx6年，右下角说这一年的二月有29天，然后`今天`是一月26号，这一年的1月27号有事情要买花。  
 就是查这个`<!-- he ain't the youngest, he is the second -->`  
@@ -160,7 +160,7 @@ for i in range (1006,1997):
 把日历打开看了一下才把这个`k = 6`的值找到，用来校准周信息  
 第二年轻的就是`1956 27.Jan`这个是`莫扎特`的生日
 ***
-# [第十六关](http://www.pythonchallenge.com/pc/return/mozart.html) list 操作
+# [第十六关](//www.pythonchallenge.com/pc/return/mozart.html) list 操作
 一张图`let me get this straight`:  
 ![](//ww1.sinaimg.cn/large/a243ad6cjw1ex6lrv67j9g20hs0dc0zc.gif)  
 放大看每一行都有且只有一个`白紫紫紫紫紫白`，每一行都看做循环的，用这个标志对齐  
@@ -187,12 +187,12 @@ im.show()
 看图  
 ![](//ww1.sinaimg.cn/large/a243ad6cjw1ex6u9sowwwj20kw0hztnl.jpg)
 ***
-# [第十七关](http://www.pythonchallenge.com/pc/return/romance.html)这道题能自己做出来的都是大神
+# [第十七关](//www.pythonchallenge.com/pc/return/romance.html)这道题能自己做出来的都是大神
 看到` cookie`现在都果断看不到趣多多了  
 ![](//ww4.sinaimg.cn/large/a243ad6cjw1ex6ue2hds4j20t3024q3u.jpg)
 貌似要改 `cookie`但是不知道从哪里改呢。。。又要开始查答案了，没意思
-**左下角是你做过的一道题，我反正记不得了** [木头人推磨](http://www.pythonchallenge.com/pc/def/linkedlist.php)  
-果然是这样的,就是在[busynothing](http://www.pythonchallenge.com/pc/def/linkedlist.php?busynothing=12345)这个` php`页面上进行不断获取` cookie`的事情，然后还要一遍获取` cookie`:  
+**左下角是你做过的一道题，我反正记不得了** [木头人推磨](//www.pythonchallenge.com/pc/def/linkedlist.php)  
+果然是这样的,就是在[busynothing](//www.pythonchallenge.com/pc/def/linkedlist.php?busynothing=12345)这个` php`页面上进行不断获取` cookie`的事情，然后还要一遍获取` cookie`:  
 ```
 import urllib2
 import urllib
@@ -246,12 +246,12 @@ print xml_rpc.phone('Leopold')
 **你以为答案就出来了么？图样**  
 他爸爸就在这里，你要告诉他花在路上了  
 怎么告诉他?在 `cookie`里面,幸好我的 `chrome`还有` edit this cookie`插件  
-在[这个页面](http://www.pythonchallenge.com/pc/stuff/violin.php)新建一个` cookie`，名字叫` info`，值为`the+flowers+are+on+their+way`,然后刷新  
+在[这个页面](//www.pythonchallenge.com/pc/stuff/violin.php)新建一个` cookie`，名字叫` info`，值为`the+flowers+are+on+their+way`,然后刷新  
 ![](//ww1.sinaimg.cn/large/a243ad6cjw1ex6yq8ivokj209p08kdge.jpg)  
 ***
-# [第十八关](http://www.pythonchallenge.com/pc/return/balloons.html)  
+# [第十八关](//www.pythonchallenge.com/pc/return/balloons.html)  
 `difference` is `brigtness`  
-[brightness.html](http://www.pythonchallenge.com/pc/return/brightness.html)
+[brightness.html](//www.pythonchallenge.com/pc/return/brightness.html)
 > \<!-- maybe consider deltas.gz -->  
 
 download `deltas.pz` and unzip    
@@ -292,7 +292,7 @@ for n, data in enumerate((filecommon, fileright, fileleft)):
 ```
 ![](//ww2.sinaimg.cn/large/a243ad6cjw1ex8qkb44y3j20ro0a3my0.jpg)  
 ***
-# [19 (butter+fly)](http://www.pythonchallenge.com/pc/hex/bin.html)
+# [19 (butter+fly)](//www.pythonchallenge.com/pc/hex/bin.html)
 > Content-type: audio/x-wav; name="indian.wav"  
 Content-transfer-encoding: base64  
   

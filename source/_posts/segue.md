@@ -5,8 +5,8 @@ categories: 疑似机器人
 刚开始使用swift 的时候有很多问题  
 这篇文章帮了我很多  
 经过同意之后转过来记录一下  
-原帖地址[[iOS]segue与delegate在ViewController返回的时候进行反向回传参数](http://www.zoejblog.com/iossegueyu-delegatezai-viewcontrollerfan-hui-de-shi-hou-jin-xing-fan-xiang-hui-chuan-can-shu/#comments)  
-作者[zoej](http://www.zoejblog.com/author/zoej/)   
+原帖地址[[iOS]segue与delegate在ViewController返回的时候进行反向回传参数](//www.zoejblog.com/iossegueyu-delegatezai-viewcontrollerfan-hui-de-shi-hou-jin-xing-fan-xiang-hui-chuan-can-shu/#comments)  
+作者[zoej](//www.zoejblog.com/author/zoej/)   
 <!--more-->
 ***
 我们经常会使用navigationViewController，使用segue拉拉线，就可以实现页面跳转，使用`prepareForSegue`方便进行参数的正向传递，但我们也许也有的业务会是反向的传递参数，这个时候需要使用delegate。 
@@ -44,5 +44,5 @@ delegate?.isRefreshDataFlag=false
 ```
 
 最后就可以实现这个反向传递参数了，委托协议里面可以写方法.  
-参照[Swift语言实现代理传值-推酷](http://www.tuicool.com/articles/6zEne2)  
-[THE SWIFT SWIFT TUTORIAL: USING SEGUES AND DELEGATES IN NAVIGATION CONTROLLERS (PART 1 — THE TEMPLATE)](http://makeapppie.com/2014/07/01/swift-swift-using-segues-and-delegates-in-navigation-controllers-part-1-the-template/)
+参照[Swift语言实现代理传值-推酷](//www.tuicool.com/articles/6zEne2)  
+[THE SWIFT SWIFT TUTORIAL: USING SEGUES AND DELEGATES IN NAVIGATION CONTROLLERS (PART 1 — THE TEMPLATE)](//makeapppie.com/2014/07/01/swift-swift-using-segues-and-delegates-in-navigation-controllers-part-1-the-template/)

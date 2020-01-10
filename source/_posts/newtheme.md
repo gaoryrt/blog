@@ -11,7 +11,7 @@ categories: Geek Talks · 奇客怪谈
 改了之后你看到就是现在这个样子  
 `i give u ,the dame theme.`
 ***
-基本上是基于[Materialize Css](http://materializecss.com/)这个模板来的  
+基本上是基于[Materialize Css](//materializecss.com/)这个模板来的  
 他这个里面提供了很多 MD 的效果  
 包括阴影，下拉菜单，hover，点击波浪，还有视差效果等等  
 仔细看前后两张图，会动的好么  
@@ -36,7 +36,7 @@ css 就不说了，好多东西都不支持，hack 也尝试了很久。。。
 不知道是不是 mame 本身的原因，百度统计也没有了  
 以后再鸽吧，今天就到这里  
 ***
-附上 [ejs](http://www.embeddedjs.com) 和 [jade](http://jade-lang.com) 的链接
+附上 [ejs](//www.embeddedjs.com) 和 [jade](//jade-lang.com) 的链接
 ***
 以上  
  

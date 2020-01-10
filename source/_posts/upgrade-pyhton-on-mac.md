@@ -3,7 +3,7 @@ date: 2015-09-30 21:17:31
 tags: [abc,howto,mac]
 categories: [Geek Talks · 奇客怪谈]
 ---
-在前一篇 [开始Python](http://gaoryrt.github.io/2015/09/27/StartingPython/) 当中提到了安装新版本Python的方法  
+在前一篇 [开始Python](//gaoryrt.github.io/2015/09/27/StartingPython/) 当中提到了安装新版本Python的方法  
 但是在shell当中使用`python`命令的时候还是依旧使用的老版本Python。  
 今天下午解决这个问题花了好长时间。
 <!--more--> 
@@ -21,7 +21,7 @@ categories: [Geek Talks · 奇客怪谈]
 brew install python //brew安装Python
 ```   
 两种都是直接安装在`/Library/Frameworks/Python.framework/Versions/3.5`中  
-并没有[帮助](http://jingyan.baidu.com/article/27fa7326e4809646f8271fc7.html)我建立link，建立可执行文件
+并没有[帮助](//jingyan.baidu.com/article/27fa7326e4809646f8271fc7.html)我建立link，建立可执行文件
 好像直接覆盖的话会有很多遗留问题，Sublime和Xcode都要用到Python2.7脚本
 在Stack Overflow上面找了很久，试过的都不管用，主要是因为Mac OSX 10.11 El Captain的rootless这个新特性  
 初衷是为了用户的安全呗  不把root权限交给用户  搞得我现在sudo出来都报错告诉我   

@@ -3,7 +3,7 @@ date: 2015-10-04 11:39:01
 tags: [python,abc]
 categories: 硬悟学蛇
 ---
-暂时没有看[廖雪峰的python3教程](http://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000/001431658427513eef3d9dd9f7c48599116735806328e81000)，而是直接看了这个👉[笨办法学Python](http://www.2cto.com/shouce/Pythonbbf/index.html)   
+暂时没有看[廖雪峰的python3教程](//www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000/001431658427513eef3d9dd9f7c48599116735806328e81000)，而是直接看了这个👉[笨办法学Python](//www.2cto.com/shouce/Pythonbbf/index.html)   
 笨办法学python - Learn Python The Hard Way 里面写的基本上是初级语法  
 看了一会儿发现这是针对无基础人士写的**python2**教程  
 看完之后就一个感觉：  
@@ -13,10 +13,10 @@ categories: 硬悟学蛇
 ***
 # 需求
 终极目标是写一个python脚本，用于抓取热点微博，并定时转发  
-看了一下[新浪微博api](http://open.weibo.com/wiki/微博API)，为了完成该目标就需要  
-1. [转发一条微博信息](http://open.weibo.com/wiki/微博API)
-2. [发布一条微博信息](http://open.weibo.com/wiki/2/statuses/update)
-3. [获取最新的公共微博](http://open.weibo.com/wiki/2/statuses/public_timeline)
+看了一下[新浪微博api](//open.weibo.com/wiki/微博API)，为了完成该目标就需要  
+1. [转发一条微博信息](//open.weibo.com/wiki/微博API)
+2. [发布一条微博信息](//open.weibo.com/wiki/2/statuses/update)
+3. [获取最新的公共微博](//open.weibo.com/wiki/2/statuses/public_timeline)
   
 在深入的话还需要微博登录
 
@@ -34,7 +34,7 @@ demo看不懂至少我看懂了post包里面需要什么数据
 其中urllib2.urlopen()变成了urllib.request.urlopen()
 urllib2.Request()变成了urllib.request.Request() 
   
-参考了这两个网页[Python3 urllib GET方式获取数据](http://blog.csdn.net/mr_tank_/article/details/14104103)和[python3.3 抓取网页数据](http://wenku.baidu.com/link?url=d9Sxcd98Io4X8IYxx12J_YLBk7DPS2CFAlq-oUwzh8SByj90HMv3fTDCi4wgYpXjTR_luZDu7VzwbdHQ6k7aDHvl9bv2UyVmmqn9t2TX8R_)  
+参考了这两个网页[Python3 urllib GET方式获取数据](//blog.csdn.net/mr_tank_/article/details/14104103)和[python3.3 抓取网页数据](//wenku.baidu.com/link?url=d9Sxcd98Io4X8IYxx12J_YLBk7DPS2CFAlq-oUwzh8SByj90HMv3fTDCi4wgYpXjTR_luZDu7VzwbdHQ6k7aDHvl9bv2UyVmmqn9t2TX8R_)  
 
 代码如下  
 ![image](//ww1.sinaimg.cn/large/a243ad6cjw1ewn711zq9lj20cg0crgo5.jpg)
@@ -55,8 +55,8 @@ urllib2.Request()变成了urllib.request.Request()
 ## 操作
 此次操作当中最重要的弄懂 python3 的正则表达式和目录操作  
 相关网页：  
->[re模块 正则表达式](http://python3.h.baike.com/article-362233.html)  
-[Python 3语法小记（四）字典 dictionary](http://blog.csdn.net/jcjc918/article/details/9366011)  
+>[re模块 正则表达式](//python3.h.baike.com/article-362233.html)  
+[Python 3语法小记（四）字典 dictionary](//blog.csdn.net/jcjc918/article/details/9366011)  
   
 ## 代码  
 ```
@@ -109,7 +109,7 @@ print(dic)
 ***  
 # 更新2015-10-06 20:00:10
 ## 添加成绝对路径
-还是以[廖雪峰的 python3 教程](http://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000)为例  
+还是以[廖雪峰的 python3 教程](//www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000)为例  
 我们在上面已经得到了这样的url 字符串：
 ```python
 /wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000
@@ -121,7 +121,7 @@ urlname = "http://www.liaoxuefeng.com"+urlses.findall(data)[0]
 ```
 ## 存档以便以后使用
 这里使用` pickle`  
-参考网页：[Python3 pickle序列化](http://blog.csdn.net/mr_tank_/article/details/14224141)
+参考网页：[Python3 pickle序列化](//blog.csdn.net/mr_tank_/article/details/14224141)
 使用方法如下：
 **👇写入👇**
 ```

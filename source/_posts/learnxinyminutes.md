@@ -22,16 +22,16 @@ languages in existence. I fell in love with Python for its syntactic clarity. It
 executable pseudocode.* 
 Python 是90年代初由 Guido Van Rossum 发明的。这是当今最热门的语言之一。我最爱 Python 的简洁语法。它简直就是可执行的伪代码。  
 
-*Feedback would be highly appreciated! You can reach me at [@louiedinh](http://twitter.com/louiedinh) or louiedinh [at] [google's email service]8*
-我们期待你的反馈：[@louiedinh](http://twitter.com/louiedinh) 或 louiedinh@gmail.com  
+*Feedback would be highly appreciated! You can reach me at [@louiedinh](//twitter.com/louiedinh) or louiedinh [at] [google's email service]8*
+我们期待你的反馈：[@louiedinh](//twitter.com/louiedinh) 或 louiedinh@gmail.com  
 
 Note: This article applies to Python 2.7 specifically, but should be applicable
 to Python 2.x. Python 2.7 is reachong end of life and will stop beeign maintained in 2020,
 it is though recommended to start learnign Python with Python 3.  
 注意： 这篇文章特别应用于 Python2.7版本，也可用于 Python2.x。Python 2.7将一直支持到2020年，是时候建议你开始学习 Python 3了。  
   
-For Python 3.x, take a look at the [Python 3 tutorial](http://learnxinyminutes.com/docs/python3/).  
-对于 Python 3.x 的学习者， 参见[Python 3 tutorial](http://learnxinyminutes.com/docs/python3/)。  
+For Python 3.x, take a look at the [Python 3 tutorial](//learnxinyminutes.com/docs/python3/).  
+对于 Python 3.x 的学习者， 参见[Python 3 tutorial](//learnxinyminutes.com/docs/python3/)。  
 
 It is also possible to write Python code which is compatible with Python 2.7 and 3.x at the same time,
 using Python [`__future__` imports](https://docs.python.org/2/library/__future__.html). `__future__` imports
@@ -887,16 +887,16 @@ print say(say_please=True)  # Can you buy me a beer? Please! I am poor :(
 ### Free Online
 
 * [Automate the Boring Stuff with Python](https://automatetheboringstuff.com)
-* [Learn Python The Hard Way](http://learnpythonthehardway.org/book/)
-* [Dive Into Python](http://www.diveintopython.net/)
-* [The Official Docs](http://docs.python.org/2/)
-* [Hitchhiker's Guide to Python](http://docs.python-guide.org/en/latest/)
-* [Python Module of the Week](http://pymotw.com/2/)
-* [A Crash Course in Python for Scientists](http://nbviewer.ipython.org/5920182)
+* [Learn Python The Hard Way](//learnpythonthehardway.org/book/)
+* [Dive Into Python](//www.diveintopython.net/)
+* [The Official Docs](//docs.python.org/2/)
+* [Hitchhiker's Guide to Python](//docs.python-guide.org/en/latest/)
+* [Python Module of the Week](//pymotw.com/2/)
+* [A Crash Course in Python for Scientists](//nbviewer.ipython.org/5920182)
 * [First Steps With Python](https://realpython.com/learn/python-first-steps/)
 
 ### Dead Tree
 
-* [Programming Python](http://www.amazon.com/gp/product/0596158106/ref=as_li_qf_sp_asin_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0596158106&linkCode=as2&tag=homebits04-20)
-* [Dive Into Python](http://www.amazon.com/gp/product/1441413022/ref=as_li_tf_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1441413022&linkCode=as2&tag=homebits04-20)
-* [Python Essential Reference](http://www.amazon.com/gp/product/0672329786/ref=as_li_tf_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0672329786&linkCode=as2&tag=homebits04-20)
+* [Programming Python](//www.amazon.com/gp/product/0596158106/ref=as_li_qf_sp_asin_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0596158106&linkCode=as2&tag=homebits04-20)
+* [Dive Into Python](//www.amazon.com/gp/product/1441413022/ref=as_li_tf_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1441413022&linkCode=as2&tag=homebits04-20)
+* [Python Essential Reference](//www.amazon.com/gp/product/0672329786/ref=as_li_tf_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0672329786&linkCode=as2&tag=homebits04-20)

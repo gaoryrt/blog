@@ -5,7 +5,7 @@ categories: Discovery
 ---
 已经大三寒假了  
 今年开学就应该要实习了  
-以下内容参考自[AJason](http://my.oschina.net/u/1440297)在[开源中国](http://www.oschina.net/)发布的文章[V2EX大牛的指点](http://my.oschina.net/u/1440297/blog/494690?fromerr=kUzDAUdz)  
+以下内容参考自[AJason](//my.oschina.net/u/1440297)在[开源中国](//www.oschina.net/)发布的文章[V2EX大牛的指点](//my.oschina.net/u/1440297/blog/494690?fromerr=kUzDAUdz)  
 没有经过允许所以不敢全部搬  
 侵权删，先谢过  
 ***

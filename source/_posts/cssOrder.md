@@ -3,8 +3,8 @@ comments: true
 date: 2016-04-23 03:29:34
 categories: 前端
 ---
-阅读了[CSS的十八般技巧](http://www.w3cn.org/article/translate/2005/104.html)和[推荐大家使用的CSS书写规范、顺序](http://www.shejidaren.com/css-written-specifications.html)两篇文章之后，对css 压缩和美化有了另一番认识。  
-`2016-04-27 更新`：发现CSSComb已经实现并且很优雅。[csscomb](http://csscomb.com/)
+阅读了[CSS的十八般技巧](//www.w3cn.org/article/translate/2005/104.html)和[推荐大家使用的CSS书写规范、顺序](//www.shejidaren.com/css-written-specifications.html)两篇文章之后，对css 压缩和美化有了另一番认识。  
+`2016-04-27 更新`：发现CSSComb已经实现并且很优雅。[csscomb](//csscomb.com/)
 ***
 # 美化/ Beautify/ EasytoRead
 ## 书写顺序

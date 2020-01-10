@@ -3,7 +3,7 @@ comments: true
 date: 2016-10-01 22:39:28
 categories: 前端
 ---
-这一篇已经有人翻译过了：[CSS 3D 应该注意的事项](http://www.w3cplus.com/css3/things-watch-working-css-3d.html)
+这一篇已经有人翻译过了：[CSS 3D 应该注意的事项](//www.w3cplus.com/css3/things-watch-working-css-3d.html)
 
 
 原文链接：[Things to Watch Out for When Working with CSS 3D](https://css-tricks.com/things-watch-working-css-3d/) · 作者 [ANA TUDOR](https://css-tricks.com/author/thebabydino/)

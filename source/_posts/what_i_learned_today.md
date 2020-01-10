@@ -43,7 +43,7 @@ export default {
 // ....
 ```
 
-[详情看这里](http://www.doc00.com/doc/1001004eg)
+[详情看这里](//www.doc00.com/doc/1001004eg)
 
 ## 记得把 externals 写在 webpack.config.js 里面啊
 傻乎乎的在`index.html`中单独引入了cdn的jquery，忘了往webpack里面配置。结果打包出来一百多kb，是说那么慢。

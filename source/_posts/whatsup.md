@@ -44,7 +44,7 @@ ipn 的好几个都特别有意义，坐公交的时候都不听歌了
 ![](//ww1.sinaimg.cn/large/a243ad6cjw1ewvaglhr5sj20j60chmz7.jpg)
 
 要做的事情还很多  
-这个简单看了一下👉[Hexo主题Rebiture](http://zodiacg.net/2015/05/hexo-theme-rebiture/)  
+这个简单看了一下👉[Hexo主题Rebiture](//zodiacg.net/2015/05/hexo-theme-rebiture/)  
 他就是从 next 主题改过去的，步骤写的很详细了
 ***
 # python 脚本

@@ -4,12 +4,12 @@ date: 2016-05-01 12:45:57
 categories: 前端
 ---
 **这一篇主要讲的是跨域。**  
-前提：[今天恐慌吗？](http://gaoryrt.com/2016/04-30-KernelPanicButton/)  
+前提：[今天恐慌吗？](//gaoryrt.com/2016/04-30-KernelPanicButton/)  
 在那篇文章的最后提到了，由于跨域问题我并没有在线上完成`the kernel panic button`的功能。  
 然而现在可以了，下面写一写过程。**想看的看，不想看就别看**。  
 ***
 ## 跨域
-跨域是浏览器为了防止XSS的结果，我的网络攻防没有过，没有权威科普[什么是XSS](https://en.wikipedia.org/wiki/Cross-site_scripting)，就请看官[自己SOF](http://stackoverflow.com/search?q=xss)。  
+跨域是浏览器为了防止XSS的结果，我的网络攻防没有过，没有权威科普[什么是XSS](https://en.wikipedia.org/wiki/Cross-site_scripting)，就请看官[自己SOF](//stackoverflow.com/search?q=xss)。  
 *协议、域名、端口三者必须相同，否则就属于跨域。*  
 
 ## 解决跨域问题
@@ -88,7 +88,7 @@ categories: 前端
 4. 我不识数
   
 
-所有上面提到的所有解决方法均不可用，在[SOF上找到这么一篇](http://stackoverflow.com/questions/15005500/loading-cross-domain-html-page-with-ajax)，科普了很多个proxy跨域的解决方案，我也不怕个人信息泄露，就大胆使用了`whateverorigin.org`来做proxy为我提供中间服务。  
+所有上面提到的所有解决方法均不可用，在[SOF上找到这么一篇](//stackoverflow.com/questions/15005500/loading-cross-domain-html-page-with-ajax)，科普了很多个proxy跨域的解决方案，我也不怕个人信息泄露，就大胆使用了`whateverorigin.org`来做proxy为我提供中间服务。  
 相当于他有个node可以获得html文件，然后转发给我，速度还行。
   
 ***

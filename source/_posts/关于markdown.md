@@ -11,8 +11,8 @@ P.S. 后缀名是`.md`
 ***  
 # 科普Markdown是一个大坑
 直接上链接，你想要的全都有，我也不忍直接抄袭，主要是因为懒。  
-[Markdown中文网](http://www.markdown.cn/#acknowledgement)  
-[上面那个链接的英文版](http://daringfireball.net/projects/markdown/syntax)至于为什么会有英文版。。。  
+[Markdown中文网](//www.markdown.cn/#acknowledgement)  
+[上面那个链接的英文版](//daringfireball.net/projects/markdown/syntax)至于为什么会有英文版。。。  
 写的真的很好了  
 我也要先去学习了，才知道可以使用`ctl + shift + L`添加链接，以前一直来回切输入法  
 我也才知道Markdown可以使用`|`和`-`来制作表格，然而Hexo不支持  

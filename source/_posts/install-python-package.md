@@ -19,7 +19,7 @@ sudo nvram boot-args="rootless=0"
 至于怎么重新` enable`。。。  我也不知道  
 ***
 # 关闭 `pythonbrew`
-本来在[Stack Overflow](http://stackoverflow.com/)上面查到了的  
+本来在[Stack Overflow](//stackoverflow.com/)上面查到了的  
 也有人是这样的，在 `pythonbrew`下面不能使用` pip`  
 >I found a solution. I uninstalled my Python 3.3.0 by issuing `pythonbrew uninstall 3.3.0`. Then I installed it again with `pythonbrew install --configure="--with-zlib" 3.3.0`. This allowed pip to install and thus now I can use it to install to this Python version.
   

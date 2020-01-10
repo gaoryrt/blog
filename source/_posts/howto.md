@@ -16,7 +16,7 @@ tags: [abc,howto,hexo,markdown]
 > 然后进入Preferences->Download->Command Line Tools->Install 安装命令行工具  
 
 ## 安装Node.js
-在[Node.js官网](http://nodejs.org)可以下载到安装包  
+在[Node.js官网](//nodejs.org)可以下载到安装包  
 **或者**使用[nvm](https://github.com/creationix/nvm)进行安装
 cURL:  
 ```  
@@ -36,8 +36,8 @@ $ nvm install 0.10
  ```  
 如果安装成功返回的是npm的版本信息  
 ## 安装Git
-在[Git官网](http://git-scm.com)可以下载到安装包  
-**或者**使用[Homebrew](http://mxcl.github.com/homebrew/)，[MacPorts](http://www.macports.org/)进行安装  
+在[Git官网](//git-scm.com)可以下载到安装包  
+**或者**使用[Homebrew](//mxcl.github.com/homebrew/)，[MacPorts](//www.macports.org/)进行安装  
 安装成功后可使用git命令  
 ``` bash
 $ git --version
@@ -98,10 +98,10 @@ $ hexo new "abc"
 简单的刷新就可以让你看到你对博客的更改
 ***
 # 在Hexo中加载NexT主题  
-参见右边链接  [NexT - an elegant theme for Hexo](http://theme-next.iissnan.com)  
+参见右边链接  [NexT - an elegant theme for Hexo](//theme-next.iissnan.com)  
 ***  
 # 将网站部署到Github
-参见右边链接  [hexo你的博客|不如](http://ibruce.info/2013/11/22/hexo-your-blog/)  
+参见右边链接  [hexo你的博客|不如](//ibruce.info/2013/11/22/hexo-your-blog/)  
 不说了都是泪  
 
 

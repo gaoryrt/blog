@@ -79,7 +79,7 @@ footer_info: **black words fixed on the right end**
 
 欢迎您对本项目提供和意见和建议。
 
-(请直接提issue，或在[微博](http://weibo.com/R1T1AN)上私信，一般回复时间不超过12小时)
+(请直接提issue，或在[微博](//weibo.com/R1T1AN)上私信，一般回复时间不超过12小时)
 
 # FAQ
 - [启用搜索功能](https://github.com/gaoryrt/hexo-theme-pln/issues/9#issuecomment-242401562)

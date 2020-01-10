@@ -25,7 +25,7 @@ var ext2 = {
 	__proto__: base
 }
 ```
-![](http://7xs4ih.com1.z0.glb.clouddn.com/JSnote_base.png)
+![](//7xs4ih.com1.z0.glb.clouddn.com/JSnote_base.png)
 code 2/2:
 ```
 function Task(id) {
@@ -42,7 +42,7 @@ var task1 = Task(1)
 var task2 = Task(2)
 task1.status = "active";
 ```
-![](http://7xs4ih.com1.z0.glb.clouddn.com/JSnote_task.png)
+![](//7xs4ih.com1.z0.glb.clouddn.com/JSnote_task.png)
 ***
 # 事件
 html如下：  
@@ -61,11 +61,11 @@ wo.addEventListener("click", function(e){
 }, false);
 ```
 这里false是指注册冒泡事件，若为true就是捕获。  
-![](http://7xs4ih.com1.z0.glb.clouddn.com/JSnote_TF.png)
+![](//7xs4ih.com1.z0.glb.clouddn.com/JSnote_TF.png)
 先捕获后冒泡，先注册先执行。  
-![](http://7xs4ih.com1.z0.glb.clouddn.com/JSnote_propagation.png)
+![](//7xs4ih.com1.z0.glb.clouddn.com/JSnote_propagation.png)
 `e.stopPropagation()`停止冒泡和捕获。  
-![](http://7xs4ih.com1.z0.glb.clouddn.com/JSnote_stop.png)
+![](//7xs4ih.com1.z0.glb.clouddn.com/JSnote_stop.png)
 `removeEventListener`取消注册需要三个参数均相同。  
 ***
 # 闭包

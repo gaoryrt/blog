@@ -261,8 +261,8 @@ is检查两个对象是否是同一个对象,而==检查他们是否相等。
 为函数返回值。和其他的语言一样。
 ## **def**
 定义函数。  
-[Python中的函数（一）](http://www.cnblogs.com/dolphin0520/archive/2013/03/14/2954733.html)  
-[Python中的函数（二）](http://www.cnblogs.com/dolphin0520/archive/2013/03/18/2966674.html)
+[Python中的函数（一）](//www.cnblogs.com/dolphin0520/archive/2013/03/14/2954733.html)  
+[Python中的函数（二）](//www.cnblogs.com/dolphin0520/archive/2013/03/18/2966674.html)
 ```
 def display(a='hello',b='wolrd'):
     print a+b

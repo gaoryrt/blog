@@ -5,8 +5,8 @@ categories: Geek Talks · 奇客怪谈
 ---
 这篇文章的目的是让你使用Gulp。  
 **前提**：你要至少了解NPM，Gulp是什么，对前端开发的流程有个大概的概念。  
-如果你想知道Gulp是什么，那么请你先看[Gulp的官方文档（英文）](http://gulpjs.com/)。  
-我第一次看[中文官方文档](http://www.gulpjs.com.cn/)时并没有怎么看懂。
+如果你想知道Gulp是什么，那么请你先看[Gulp的官方文档（英文）](//gulpjs.com/)。  
+我第一次看[中文官方文档](//www.gulpjs.com.cn/)时并没有怎么看懂。
 要感谢[css魔法的博客中对Gulp4入门指南的翻译](https://github.com/cssmagic/blog/issues/62)。  
 ***
 我默认你已经安装了npm。

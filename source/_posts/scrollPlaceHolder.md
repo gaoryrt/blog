@@ -3,8 +3,8 @@ comments: true
 date: 2016-05-03 20:21:51
 categories: 前端
 ---
-这里指的是「由滚动触发，使元素变为fixed」的效果，我指的是[ifanr](http://www.ifanr.com)的导航栏（c-global-navbar）和边栏（o-wrapper__asides）效果。  
-当时阿里的笔试也有这个题，我笔试时遇见了blink问题，这个以后有时间再说，今天先做一个[类似的demo](http://gaoryrt.com/CV/ifanr/)。  
+这里指的是「由滚动触发，使元素变为fixed」的效果，我指的是[ifanr](//www.ifanr.com)的导航栏（c-global-navbar）和边栏（o-wrapper__asides）效果。  
+当时阿里的笔试也有这个题，我笔试时遇见了blink问题，这个以后有时间再说，今天先做一个[类似的demo](//gaoryrt.com/CV/ifanr/)。  
 ***
 ## 先看一个类似的效果
 就是本博客的主页，滚动时为`index-title`添加`animation`标签的这个js：  
@@ -44,7 +44,7 @@ $(window).load(revealOnScroll);
   });
   $(window).on("scroll", stackOnScroll);
 ```
-这里用到了两个三元运算，我用的少，只知道这样写，要是有更简单的我会在[demo](http://gaoryrt.com/CV/ifanr/)中更新。  
+这里用到了两个三元运算，我用的少，只知道这样写，要是有更简单的我会在[demo](//gaoryrt.com/CV/ifanr/)中更新。  
 ## 滚动固定 fixed sidebar 
 类似，判断`网页顶部滚出可视部分的高度`加上`可视部分总高度`与`该元素底部里网页顶部的距离`，就可以容易的做出相应效果。  
 ```
@@ -58,7 +58,7 @@ $(window).on("scroll", stackOnScroll);
 ***
 ## 接下来的问题
 这里先挖个坑，等我看看书再来。本来写了一个我认为可以的通用版本，但是不行。怎样做到各个元素的高度都改变之后还可以使用呢？  
-还有一个问题，大家可以看看[ifanr主页](http://www.ifanr.com)，右边`sidebar`在滚到最后的时候，会跟footer重合在一起，这个是个问题，怎样做到落到footer上方又重新static或relative呢？
+还有一个问题，大家可以看看[ifanr主页](//www.ifanr.com)，右边`sidebar`在滚到最后的时候，会跟footer重合在一起，这个是个问题，怎样做到落到footer上方又重新static或relative呢？
 以上
 
   

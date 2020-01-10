@@ -4,7 +4,7 @@ date: 2016-04-17 00:18:23
 categories: 前端
 ---
 看了一个题，叫使用纯CSS+HTML方式实现圆角框。  
-[想看题的点这里](http://yjbys.com/bishi/timu/613776.html)。  
+[想看题的点这里](//yjbys.com/bishi/timu/613776.html)。  
 题下面有答案，答案说直接margin就可以实现了，我研究了一下代码并没有看懂。  
 题目说是五条线设置不同外边距为5、3、2、1、1即可，但是下面给的答案却有八个不同的div，我并不知道是上下分开设置了还是一个角落就有八个div。    
 然后按照他的逻辑写了一下，但是没有搞成功，先挖个坑在这里，下面贴我成功的代码。  
@@ -83,9 +83,9 @@ categories: 前端
 惨了惨了，不会写了。
 # 效果对比
 题目要求：  
-![题目](http://7xs4ih.com1.z0.glb.clouddn.com/3927-14050G10346119.png)
+![题目](//7xs4ih.com1.z0.glb.clouddn.com/3927-14050G10346119.png)
 我的效果：
-![我的效果](http://7xs4ih.com1.z0.glb.clouddn.com/myversion.png)
+![我的效果](//7xs4ih.com1.z0.glb.clouddn.com/myversion.png)
 ***
 要是有更简单的方法还劳烦提醒一下。  
 以上。

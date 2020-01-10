@@ -3,7 +3,7 @@ comments: true
 date: 2016-05-11 17:24:42
 categories: 前端
 ---
-本篇是从 [codrops 的一篇文章](http://tympanus.net/codrops/2015/02/26/inspiration-button-styles-effects/)获得的灵感，文章使用css伪元素实现了很多按钮效果，看的我心动，动手自己也写一写。  
+本篇是从 [codrops 的一篇文章](//tympanus.net/codrops/2015/02/26/inspiration-button-styles-effects/)获得的灵感，文章使用css伪元素实现了很多按钮效果，看的我心动，动手自己也写一写。  
 效果可以[看这里](/CV/the-Kernel-Panic-Button/)。  
 **想看的看，不想看就别看。**
 ***

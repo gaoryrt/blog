@@ -10,8 +10,8 @@ categories: Geek Talks · 奇客怪谈
 ## 思路
 这个css文件是这个项目中的唯一的一个 css，我需要将它根据作用分成几个部分，再为其加上变量选项，以便维护。  
 所以我需要一款可以运行在 node.js 上的，支持变量以及导入的css预处理器。  
-那么就要选择是 Less、Sass 还是 Stylus 了，关于这几个之间的比较我找到一些文章：[Sass vs. LESS](https://css-tricks.com/sass-vs-less/)、[再谈 CSS 预处理器](http://efe.baidu.com/blog/revisiting-css-preprocessors/)。  
-简单看了一下，不用游标卡尺的[SCSS](http://sass-lang.com)，就是你了。  
+那么就要选择是 Less、Sass 还是 Stylus 了，关于这几个之间的比较我找到一些文章：[Sass vs. LESS](https://css-tricks.com/sass-vs-less/)、[再谈 CSS 预处理器](//efe.baidu.com/blog/revisiting-css-preprocessors/)。  
+简单看了一下，不用游标卡尺的[SCSS](//sass-lang.com)，就是你了。  
 在这之前我还需要将css文件根据DOM排序，分成几个文件。我想这个时候就不需要第三方的工具了，既然这几天在看node.js相关，其实也可以自己写一个爬虫，树状输出该页面下所有节点名。  
 那么整个过程就是下面几步：  
 1. 本地安装SCSS，以及常用操作
@@ -26,7 +26,7 @@ Mac 下的安装：
 gem install sass
 ```
 如果不行请用`sudo`，安装完了用`sass -v`检查一下是否成功。  
-常用操作就不再累述，想看的看[官网的介绍](http://sass-lang.com/guide)吧，都差不多。  
+常用操作就不再累述，想看的看[官网的介绍](//sass-lang.com/guide)吧，都差不多。  
 使用的话是这个：
 ```
 sass style.scss:style.css

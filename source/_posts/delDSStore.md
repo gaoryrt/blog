@@ -22,7 +22,7 @@ TypeError: Cannot read property 'compile' of undefined
 删除了会因为finder的访问重新出来，每一次都用相同的`rm .DS_store`总是不现实的。  
 加之`layout/`下有几个文件夹，就有几个`.DS_store`,挨个删除也麻烦。
 那么可以尝试`禁止系统创建`：  
-（建议在执行之前看看[知乎上相关的讨论](https://www.zhihu.com/question/20345704)，以及[StackOverflow上相关的讨论](http://stackoverflow.com/questions/18015978/how-to-stop-creating-ds-store-on-mac)）
+（建议在执行之前看看[知乎上相关的讨论](https://www.zhihu.com/question/20345704)，以及[StackOverflow上相关的讨论](//stackoverflow.com/questions/18015978/how-to-stop-creating-ds-store-on-mac)）
 ```
 defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool TRUE
 ```
@@ -70,7 +70,7 @@ for path in pathList:
 冲哥和奶神都说说线程会自动回收掉，但是我知道有kill的存在。  
 但是看了一下执行完成的flag也是0，这下真不知道如何确认执行完成再正确关闭了。  
 SOF上说不要盲目kill，那就这样了？  
-[点击这里查看更多Python线程](http://zhuanlan.zhihu.com/p/20167077?refer=auxten)
+[点击这里查看更多Python线程](//zhuanlan.zhihu.com/p/20167077?refer=auxten)
 ***
 # 结
 > 这里使用的是多线程版本。  

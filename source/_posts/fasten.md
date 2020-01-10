@@ -3,13 +3,13 @@ comments: true
 date: 2016-05-08 15:04:12
 categories: Geek Talks · 奇客怪谈
 ---
-最近一段时间干过的最差劲的事情就是每天起床守着[百度统计](http://tongji.baidu.com)找存在感了。干脆删除掉，改用[不蒜子](http://busuanzi.ibruce.info)。还有几处js的trick，这里也一起记录一下。  
+最近一段时间干过的最差劲的事情就是每天起床守着[百度统计](//tongji.baidu.com)找存在感了。干脆删除掉，改用[不蒜子](//busuanzi.ibruce.info)。还有几处js的trick，这里也一起记录一下。  
 ***
 ## 删除百度统计
-本博客放在[github上](https://github.com/gaoryrt/gaoryrt.github.io)，所以百度的[爬虫并不能爬到](https://www.zhihu.com/question/30898326)，有需要的可以看[这一篇](http://www.dozer.cc/2015/06/github-pages-and-cdn.html)，也可以使用[百度的方法](http://zhanzhang.baidu.com/linksubmit/index)：在浏览网页时提交给百度（我尝试了有半个月这个方法，结果还是不能再百度上通过`Blog Name Goes Here`或者`gaoryrt`找到自己，这也是我决心不用百度的原因之一）。  
+本博客放在[github上](https://github.com/gaoryrt/gaoryrt.github.io)，所以百度的[爬虫并不能爬到](https://www.zhihu.com/question/30898326)，有需要的可以看[这一篇](//www.dozer.cc/2015/06/github-pages-and-cdn.html)，也可以使用[百度的方法](//zhanzhang.baidu.com/linksubmit/index)：在浏览网页时提交给百度（我尝试了有半个月这个方法，结果还是不能再百度上通过`Blog Name Goes Here`或者`gaoryrt`找到自己，这也是我决心不用百度的原因之一）。  
 百度统计的js文件要求放在`</head>`标签之前，这个也是反人类，凭什么在这个js加载完成之前就不能继续加载我的网页？  
 如果你是用的是`2016-05-08`之前版本的`hexo-theme-pln`，那么还请你手动在`/pln/layout/_partial/head.ejs`中删除第39到47行的内容。  
-在下一个版本的`hexo-theme-pln`中保证不用百度。应该是启用[不蒜子](http://busuanzi.ibruce.info)，在出大问题之前暂时不换回来，我不想让自己浪费时间再去从一些数字上找存在感了。  
+在下一个版本的`hexo-theme-pln`中保证不用百度。应该是启用[不蒜子](//busuanzi.ibruce.info)，在出大问题之前暂时不换回来，我不想让自己浪费时间再去从一些数字上找存在感了。  
 ***
 ## 使用不蒜子
 对于这行文字的展示，我暂时没有想到一个美妙的方式，于是将这个结果的展示放在了源文件中，并没有展示出来，如果你想看，可以在网页源代码的最后几行找到这个结果。  
