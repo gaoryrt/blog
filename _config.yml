@@ -2,7 +2,6 @@
 ## Docs: http://hexo.io/docs/configuration.html
 ## Source: https://github.com/hexojs/hexo/
 
-# å¤šè¯´æœåŠ¡
 # duoshuo_share: true
 
 
@@ -83,7 +82,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: http://hexo.io/plugins/
 ## Themes: http://hexo.io/themes/
-theme: pln
+theme: hexo-theme-pln
 # theme: hexo-theme-bipus
 
 # Deployment
