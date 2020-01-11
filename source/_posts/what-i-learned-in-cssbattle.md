@@ -1,20 +1,20 @@
-title: 在 cssbattle 中学到的 css 技巧
+title: 在 CSSbattle 中学到的 CSS 技巧
 comments: true
 date: 2020-01-11 11:00:09
 categories: 前端
 ---
-## cssbattle 是什么
-[CSSBattle](https://cssbattle.dev/) 是一个 online judge 站，从 2019 年 4 月开始，每个月都会新增一期针对于某主题的、数量不定的前端 css 题目供网友 battle。比如第9期，是两道主题为「margin」的题：
+## CSSbattle 是什么
+[CSSBattle](https://cssbattle.dev/) 是一个 online judge 站，从 2019 年 4 月开始，每个月都会新增一期针对于某主题的、数量不定的前端 CSS 题目供网友 battle。比如第9期，是两道主题为「margin」的题：
 ![](1.jpg)
 
-题目要求在线编辑 html 和 css，实现和目标图片一样的效果，你的代码输出会实时展示出来。就像这样，我的显示和目标的宽度还有点不一样：
+题目要求在线编辑 HTML 和 CSS，实现和目标图片一样的效果，你的代码输出会实时展示出来。就像这样，我的显示和目标的宽度还有点不一样：
 ![](2.gif)
 
 该站评判的标准有二：一是显示是否 pixel to pixel 一摸一样，二是代码量尽量少。相似度 99% 比 100% 的得分要少很多，所以要在精妙的策略里精简代码。每个人的分数会积累起来，和本期以及本站所有人进行排名，也就是说你可以看到自己是全球第几。
 
 ## 技巧
 只针对做题有帮助的技巧，可以去看[这篇文章](https://www.sitepoint.com/code-challenge-2-4-tips-for-higher-scores-in-cssbattle-dev/)和[这篇文章](https://www.sarthakbatra.com/blog/getting-started-with-css-battle/)。这里选几个不熟悉的记录一下。
-### html attr 不加引号
+### HTML attr 不加引号
 ```
 <body><style>margin:10px 20px -30px</style>
 ```
@@ -73,7 +73,7 @@ color:rgba(0,0,0,0)
 ```
 color:#0000
 ```
-### css 变量
+### CSS 变量
 除了在外部定义，还可以设置默认值，代替某些长的 property key 比如 `border-top-left-color`、`border-radius`
 ```
 *{border-radius:40px}
