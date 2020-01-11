@@ -1,4 +1,5 @@
-$bg: #F1F3F5;
+$codeBGDark: #EfF0F1;
+$codeBGLight: #f7f8f9;
 $theme: #555;
 $c1: #547ab2;
 $c2: #547ab2;
@@ -8,12 +9,34 @@ $c5: #3eacab;
 $c6: #3eacab;
 $c7: #5a5050;
 
+table {
+    border-spacing: 0;
+}
+
 figure {
+    margin: 0;
     overflow-x: auto;
 }
 
+tr {
+    display: flex;
+}
+
+td {
+    display: block;
+}
+
 td.gutter {
-    width: 50px;
+    flex-shrink: 0;
+    flex-grow: 0;
+    text-align: right;
+    pre {
+        color: lighten($theme, 37%);
+    }
+}
+td.code {
+    flex-grow: 1;
+    flex-shrink: 0;
 }
 
 code,
@@ -24,18 +47,17 @@ pre {
 pre {
     font-size: 14px;
     line-height: 2em;
-    margin-bottom: 0;
-    padding: 15px;
+    margin: 0;
+    padding: 0 15px;
     border: 0;
-    border-radius: 0px;
-    tab-size: 4;
+    tab-size: 2;
     color: $theme;
     background: transparent;
     background-size: auto 4em;
     background-origin: content-box;
-    background-image: linear-gradient($bg 50%, transparent 0);
+    background-image: linear-gradient($codeBGDark 50%, $codeBGLight 0);
     .comment {
-        color: lighten($theme, 30%);
+        color: lighten($theme, 37%);
     }
     .line {
         height: 30px;
@@ -47,7 +69,7 @@ code {
     line-height: 2em;
     font-size: .97em;
     color: $theme;
-    background: $bg;
+    background: $codeBGDark;
 }
 
 
