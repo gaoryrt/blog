@@ -1,17 +1,18 @@
+$lightest: #cdd2d4;
 .toc {
   position: fixed;
   top: 50%;
   left: calc(50% - 391px);
   text-align: right;
   transform: translate(-100%, -50%);
-  padding: 4em 0;
+  padding: 1em 0;
   padding-right: 2em;
   overflow: auto;
   max-height: 100%;
 }
 
 .toc-text {
-  color: #ACACAB;
+  color: $lightest;
   transition: color .3s;
 }
 

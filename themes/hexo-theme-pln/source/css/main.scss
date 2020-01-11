@@ -96,6 +96,7 @@ body {
     -moz-osx-font-smoothing: grayscale;
     -webkit-tap-highlight-color: transparent;
     word-wrap: break-word;
+    transition: opacity .2s;
 }
 
 .archive-time {
@@ -136,8 +137,7 @@ a {
 
 a,
 a:hover,
-a:focus,
-a:visited {
+a:focus {
     color: $theme;
 }
 
@@ -311,21 +311,27 @@ img {
 }
 
 .page-meta,
-.index-meta,
-time {
-    display: flex;
-    align-items: center;
-    margin-right: 1em;
-    line-height: 1.2;
-    &>svg {
-        margin-right: .37em;
+.index-meta {
+    font-size: 18px;
+    line-height: 24px;
+    .i-calendar,
+    .i-tag {
+        display: inline-block;
+        height: 16px;
+        width: 16px;
+        margin-right: .2em;
+    }
+    .i-tag {
+        transform: translateY(2px);
+        margin-left: .6em;
     }
 }
 
 .main-ctnr {
     max-width: 750px;
     position: relative;
-    left: calc(50% - 375px)
+    left: calc(50% - 375px);
+    padding-bottom: 30px;
 }
 
 .standard,
