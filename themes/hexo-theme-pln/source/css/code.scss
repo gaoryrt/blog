@@ -132,19 +132,3 @@ pre .javascript .title,
 pre .coffeescript .title {
     color: $c7;
 }
-
-@media screen and (max-width:782px) {
-    figure {
-        width: 110%;
-        margin-left: -5%;
-    }
-    pre {
-        font-size: 1.2rem;
-        line-height: 18px;
-        padding: 10px;
-        background-size: auto 36px;
-    }
-    code {
-        line-height: 1.9em;
-    }
-}
