@@ -5,10 +5,10 @@ categories: 前端
 ---
 ## cssbattle 是什么
 [CSSBattle](https://cssbattle.dev/) 是一个 online judge 站，从 2019 年 4 月开始，每个月都会新增一期针对于某主题的、数量不定的前端 css 题目供网友 battle。比如第9期，是两道主题为「margin」的题：
-![](/1.jpg)
+![](1.jpg)
 
 题目要求在线编辑 html 和 css，实现和目标图片一样的效果，你的代码输出会实时展示出来。就像这样，我的显示和目标的宽度还有点不一样：
-![](/2.gif)
+![](2.gif)
 
 该站评判的标准有二：一是显示是否 pixel to pixel 一摸一样，二是代码量尽量少。相似度 99% 比 100% 的得分要少很多，所以要在精妙的策略里精简代码。每个人的分数会积累起来，和本期以及本站所有人进行排名，也就是说你可以看到自己是全球第几。
 
@@ -87,7 +87,7 @@ k{--:20px}
 减少了三个字符
 ### [clip-path](https://developer.mozilla.org/en-US/docs/Web/CSS/clip-path) 是某些策略的关键
 这个就是 border 再裁剪：
-![](/3.jpg)
+![](3.jpg)
 顺便安利这个 clip-path 生成器以及该站作者的其他作品：https://bennettfeely.com/clippy/
 
 
