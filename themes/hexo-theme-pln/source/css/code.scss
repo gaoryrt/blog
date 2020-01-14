@@ -56,6 +56,7 @@ pre {
     background-size: auto 4em;
     background-origin: content-box;
     background-image: linear-gradient($codeBGDark 50%, $codeBGLight 0);
+    overflow-x: auto;
     .comment {
         color: lighten($theme, 37%);
     }
