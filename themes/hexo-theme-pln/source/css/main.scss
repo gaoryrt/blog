@@ -1,5 +1,4 @@
 @import "navigator";
-@import "search";
 @import "posts";
 @import "pager";
 @import "footer";
@@ -287,7 +286,6 @@ table {
     width: 100%;
 }
 
-img,
 object,
 iframe,
 video {
@@ -302,11 +300,9 @@ img {
     display: block;
     height: auto;
     position: relative;
-    left: 50%;
     max-width: 100%;
-    -webkit-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
-    transform: translateX(-50%);
+    margin-left: auto; 
+    margin-right:auto; 
 }
 
 .busuanzi {
@@ -332,12 +328,14 @@ img {
         margin-left: .6em;
     }
 }
+#main {
+    padding-bottom: 30px;
+}
 
 .main-ctnr {
     max-width: 750px;
     position: relative;
     left: calc(50% - 375px);
-    padding-bottom: 30px;
 }
 
 .standard,

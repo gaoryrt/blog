@@ -22,7 +22,3 @@ disqus_shortname: gaoryrt
 excerpt_num: 125
 
 footer_info: © Gaoryrt 2015-2020
-
-search:
-  path: search.xml
-  field: all
