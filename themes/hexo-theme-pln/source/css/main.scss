@@ -79,7 +79,8 @@ h6,
 .description,
 .busuanzi,
 .archive-num {
-    font-family: 'Open Sans Condensed', Futura, AvenirNext, Avenir, sans-serif;
+    font-family: 'Open Sans Condensed', Futura, sans-serif;
+    font-stretch: condensed;
 }
 
 article,figure,footer,nav,section {
@@ -100,7 +101,6 @@ body {
     -moz-osx-font-smoothing: grayscale;
     -webkit-tap-highlight-color: transparent;
     word-wrap: break-word;
-    transition: opacity .2s;
 }
 
 .archive-time {
