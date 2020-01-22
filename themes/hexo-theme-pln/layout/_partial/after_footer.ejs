@@ -1,6 +1,11 @@
 <script src="//cdn.bootcss.com/jquery/2.2.1/jquery.min.js"></script>
 <script src="<%- config.root %>js/search.min.js"></script>
+<script src="<%- config.root %>js/zoom-image.js"></script>
 <script type="text/javascript">
+var imgArr = document.getElementsByTagName('img')
+for (var i = 0; i < imgArr.length; i += 1) {
+  zoom(imgArr[i])
+}
 // disqus scripts
 <% if (config.disqus_shortname){ %>
 var disqus_shortname = '<%= config.disqus_shortname %>';
