@@ -98,6 +98,7 @@ var player = el.animate([
 ], {
   duration: 300,
   easing: 'cubic-bezier(0,0,0.32,1)',
+  direction: 'normal'
 });
 
 // 结束回调
