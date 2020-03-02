@@ -35,7 +35,7 @@ categories: Geek Talks · 奇客怪谈
 
 首先想到的思路是监听、劫持全局的点击事件和滚动事件，然后如果检测到相关元素就绑定+采集，关闭或跳转前统一上传。然后上面的链接里面提供了一个更优雅的方式，`MutationObserver` + pollyfill，把用在自定义指令上的绑定更新解绑都放在普通元素上来了。所以可以结合两者，只用 `new` 一次就完成了埋点。
 
-上面文章里写的方式直接结合了 vue 的自定义指令，绑定、更新、解绑一个不落，我想要的是在一个 json 里面声明需要采集的元素选择器名、至多到什么 `before`、`after`、`once`、`creatCounter`、`creatTimer` 就完了，大概这样：
+上面文章里写的方式直接结合了 vue 的自定义指令，绑定、更新、解绑一个不落，我想要的是在一个 json 里面声明需要采集的元素选择器名、至多到什么 `before`、`after`、`once`、`creatCounter`、`creatTimer` 就完了，使用的时候大概这样：
 ```
 new EventTrack([
     {
@@ -49,11 +49,19 @@ new EventTrack([
         creatCounter,
         creatTimer
     }
-], '/api/eventUpload')
+], ({ node, event, param }) => {
+    // 每一次事件调用都执行一次本函数
+})
 ```
 支持自定义函数（`beforeClick` 和 `afterClick`），以及多次绑定。
 
-后端应该就是一个通用接口加一个通用数据库用户存放所有操作日志。希望这么些东西是有用的。
+> 侵入式的埋点复杂度转移到了针对事件的分析上
+
+于是所有的埋点信息都统一变成了针对 node 的各种 event，后端用一个通用接口加一个通用数据库去存放所有操作日志。
+
+这样的话，**侵入式的埋点复杂度就转移到了针对事件的分析上**，前端不用对照着埋点文档思考在那个组件的哪个回调里埋点了、后端也不用为每个埋点新增单独的 restapi。前端的埋点是非侵入的，在页面加载完成后执行绑定即可。
+
+相较于之前「只记录需要的信息」，这种埋点方式记录了更多基本信息，便于之后的分析。
 
 
 ## 参考
@@ -121,5 +129,3 @@ function createMicrobrewery(breweryName = 'default name') {}
 上面提到的 document.querySelector() 的逆函数：[unique-selector](https://github.com/ericclemmons/unique-selector)。
 
 如果只想监听出现和消失事件，可以用 [huntjs](https://github.com/jeremenichelli/hunt)。
-
-
