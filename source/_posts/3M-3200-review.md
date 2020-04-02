@@ -6,7 +6,7 @@ categories: Discovery
 由于众所周知的原因，一月末起，使用口罩成为了大家防疫的第一选择。一时间口罩市场需求量剧增，线下线上库存被一抢而空。在医用口罩和 n95 口罩价格疯涨、线上预约不成线下持票难求的情况下，我开始考虑购买呼吸器面罩，以备未来之需。
 
 # 各种考虑
-第一个问题就是呼吸器面罩在防疫上是否有用？能否替代医用口罩作为日常防疫的选择？(possible alternatives to surgical filtering facepiece respirators healthcare)[https://multimedia.3m.com/mws/media/1803705O/possible-alternatives-to-surgical-filtering-facepiece-respirators-healthcare.pdf]和(surgical n95 vs standard n95 which to consider)[https://multimedia.3m.com/mws/media/1794572O/surgical-n95-vs-standard-n95-which-to-consider.pdf]解答了这个问题，文中写到「(可重复使用的橡胶面罩)能有效过滤空气中的生物颗粒，例如病毒和细菌」，而标准 n95 口罩和医用 n95 口罩的最大区别是能不能防血溅，当然在日常生活中基本遇不到血溅的场景，我们是可以在日常防疫场景中使用 n95 标准呼吸器的。
+第一个问题就是呼吸器面罩在防疫上是否有用？能否替代医用口罩作为日常防疫的选择？ [possible alternatives to surgical filtering facepiece respirators healthcare](https://multimedia.3m.com/mws/media/1803705O/possible-alternatives-to-surgical-filtering-facepiece-respirators-healthcare.pdf) 和 [surgical n95 vs standard n95 which to consider](https://multimedia.3m.com/mws/media/1794572O/surgical-n95-vs-standard-n95-which-to-consider.pdf) 解答了这个问题，文中写到「(可重复使用的橡胶面罩)能有效过滤空气中的生物颗粒，例如病毒和细菌」，而标准 n95 口罩和医用 n95 口罩的最大区别是能不能防血溅，当然在日常生活中基本遇不到血溅的场景，我们是可以在日常防疫场景中使用 n95 标准呼吸器的。
 
 而可重用的面罩在使用成本上有优势：在二月初购买时，一整套橡胶面罩加上 20 片滤棉的价格是 200 元左右，滤棉是 3 元一片。按照滤棉一天一换，面罩寿命一百天来计算，橡胶面罩每天成本是 4.4 元。而 n95 口罩的价格是 20 元一个。
 
