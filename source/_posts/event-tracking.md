@@ -1,7 +1,7 @@
 title: 关于数据埋点
 comments: true
 date: 2017-08-29 22:31:13
-categories: [Geek Talks · 奇客怪谈, 前端]
+categories: ['Geek Talks · 奇客怪谈']
 ---
 ## 前提
 项目中需要埋点的地方越来越多，急需一套通用的埋点解决方案。之前基于后端 + api 的 PV／UV 统计方式不够精细、操作复杂，对于前端会入侵逻辑，后端在接收信息和事后统计时也不好处理逻辑。
