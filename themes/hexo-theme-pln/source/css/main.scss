@@ -280,7 +280,13 @@ blockquote {
     }
 }
 
+summary {
+    cursor: pointer;
+}
 
+summary:focus {
+    outline: none;
+}
 
 table {
     width: 100%;
