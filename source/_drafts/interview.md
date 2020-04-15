@@ -49,6 +49,9 @@ categories: 前端
      └── 在此 GMT 时间内强缓存
 </pre>
 
+border-box
+content-box
+
 <br/>
 
 <pre>
@@ -81,41 +84,93 @@ categories: 前端
 </pre>
 
 # http2 你都了解什么？
+<pre>
+https
+├── 兼容
+│    ├── 请求方法
+│    ├── URI
+│    └── 状态码
+└── 新特性
+     ├── 服务器推/客户端拉
+     ├── 修复队头阻塞
+     ├── 头部压缩
+     └── 二进制帧多路TCP复用
+</pre>
+# 浏览器回流与重绘
 
+HTML DOM tree
+CSS CSSOM tree
+合成 render tree
+计算元素渲染信息 回流
+绘制
+重绘
 
-# 什么是浏览器重绘
+回流：
+     init
+     位置
+     尺寸
+     窗口大小
+
+优化方式：先脱离，再批量修改，再放回去
+
 
 # html 加载和渲染顺序？
 
+HTML DOM tree
+CSS CSSOM tree
+合成 render tree
+计算元素渲染信息
+绘制
 
-```js
-
-```
+资源的加载不影响其他加载
+CSS 阻塞渲染直到 cssom 构建完成，因为 js 会访问 cssom
+inline js 的加载会阻塞HTML解析和渲染，自然就会阻塞真的 render tree 的解析和加载
+async 异步加载完立刻执行，之后才会 load
+defer 异步加载完后顺序执行
 
 # 前端相关安全攻击与防御？
 
 
 ```js
+输出转义不全 
+     xss 跨站脚本 设计陷阱
+          csrf 跨站请求伪造
+     注入
+          截断 sql
+          截断 shell script
+          截断 http header
 
+会话管理疏忽
+     会话劫持
 ```
 
 # https 建立链接的过程？
 
-
 ```js
-
+客户端申请，服务端发加密组件
+服务端发证书公钥
+验证证书
+公钥+随机数传回
+使用随机数生成会话密钥
 ```
 
 # 三次握手四次挥手？
+握手：
+SYN
+ACK+SYN
+ACK
 
+挥手：注意半关闭
+FIN
+ACK
+FIN
+ACK
 
-```js
 
 ```
 
 # 常见的加密算法？
 
-
-```js
-
-```
+对称：DES，AES
+非对称：RSA，Diffie-Hellman
+散列：sha，MD5
