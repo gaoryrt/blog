@@ -6,7 +6,7 @@ categories: 前端
 
 记录常见的前端面试题和答案要点，以飨来人。
 
-最近更新时间为：2020年 4月11日。
+最近更新时间为：2020年 4月13日。
 
 <!-- more -->
 
@@ -82,40 +82,186 @@ categories: 前端
 
 # http2 你都了解什么？
 
-
-# 什么是浏览器重绘
+<pre>
+http2
+└── 兼容
+│    ├── 请求方法
+│    ├── 状态码
+│    └── URI
+└── 新特性
+      ├── 服务端推/浏览器拉
+      └── 二进制帧：全双工
+      │    ├── 一个 tcp 链接多个双向流
+      │    ├── 一个流一个优先级，多个消息
+      │    └── 一个消息是一个逻辑 http 消息，内含多个帧
+      └── 压缩头部
+</pre>
 
 # html 加载和渲染顺序？
 
+<pre>
+加载-解析-渲染
+└── 加载总是互相不影响的
+│    ├── (Style -> CSSOM) + (HTML -> DOM) -> attach -> paint
+│    ├── CSSOM 构建会阻止 attach 渲染
+│    └── DOM 构建会阻止 attach 渲染
+├── CSSOM 会阻止 查询 style 的 JS 执行
+└── 同步脚本会阻止 DOM 构造
+</pre>
 
-```js
+# 重排和重绘
 
-```
+<pre>
+重排 reflow layout
+├── 初始化
+├── 添加删除 DOM
+├── DOM 尺寸位置修改
+├── 浏览器窗口变化
+├── 内容改变
+└── display: none
+重绘 paint
+├── 修改文字颜色
+└── visibility: hidden
+opacity 和 transform 只会 composited 不会引起重绘
+</pre>
 
 # 前端相关安全攻击与防御？
 
-
-```js
-
-```
+<pre>
+对内容输出输出的检查不够严格：
+└── 注入
+│    ├── os 注入
+│    ├── sql 注入
+│    └── http 注入
+└── xss 跨站脚本攻击
+会话管理疏忽：
+├── 会话劫持
+└── csrf 跨站请求伪造
+</pre>
 
 # https 建立链接的过程？
 
-
-```js
-
-```
-
-# 三次握手四次挥手？
-
-
-```js
-
-```
+c2b: 加密套件
+b2c: 算法、证书（公钥）
+c: 验证证书
+c: 生成随机字符串，用公钥和算法加密。用随机串加密 hash。
+c2b: 发送加密后的随机串，加密后的 hash
+b: 验证 hash，解密随机串，用作之后的对称加密密钥
 
 # 常见的加密算法？
 
+<pre>
+对称
+├── AES
+└── DES
+非对称
+├── RSA
+└── 迪菲赫尔曼
+散列
+└── sha
+</pre>
+
+# eventLoop 宏任务微任务
+```js
+async function a1 () {
+    console.log('a1 start')
+    await a2()
+    console.log('a1 end')
+}
+async function a2 () {
+    console.log('a2')
+}
+
+console.log('script start')
+
+setTimeout(() => {
+    console.log('setTimeout')
+}, 0)
+
+Promise.resolve().then(() => {
+    console.log('p1')
+})
+
+a1()
+
+let promise2 = new Promise((resolve) => {
+    resolve('p2.then')
+    console.log('p2')
+})
+
+promise2.then((res) => {
+    console.log(res)
+    Promise.resolve().then(() => {
+        console.log('p3')
+    })
+})
+console.log('script end')
+```
+立即执行-微任务-宏任务队列的顺序执行
+
+# bind 函数实现
+```js
+var foo = {
+    value: 1
+};
+
+function bar(name, age) {
+    console.log(this.value);
+    console.log(name);
+    console.log(age);
+
+}
+
+var bindFoo = bar.bind(foo, 'daisy');
+bindFoo('18');
+// 1
+// daisy
+// 18
+```
 
 ```js
-
+Function.prototype.bind = function(context, ...args1) {
+    const self = this
+    const fNOP = function() {}
+    const fBound = function(...args2) {
+        return self.apply(this instanceof fNNP ? this : context, args1.concat(args2))
+    }
+    fNOP.prototype = this.prototype;
+    fBound.prototype = new fNOP();
+    return fBound;
+}
 ```
+
+# js 中的全等
+```js
+if([] == false) true
+if({} == false) false
+if([]) true
+if([1]==[1]) false
+```
+# trottle 和 debounce
+
+# parcel 和 webpack 的区别
+
+# hooks 原理和优点
+
+# react如何进行性能优化
+- 调用 setState 时，React 会遍历所有节点，计算差异，然后再更新 UI。
+- 之前是使用原生调用栈递归，不调完不停止。
+- 之后是用 requestIdleCallback 实现链式调用栈，可以暂停让浏览器渲染。
+- React早期的优化都是停留于JS层面（vdom的 create/diff），诸如减少组件的复杂度（Stateless），减少向下diff的规模(SCU)，减少diff的成本(immutable.js)
+- react fiber
+
+# cdn 原理 获取最近节点资源的算法
+
+# react fiber
+
+# requestAnimationFrame 和setTimeout 、setInterval的关系
+
+# 性能优化关注点
+
+# 斐波那契尾递归
+
+# leetcode 三数之和
+
+# 客户端如何实现 js 的
