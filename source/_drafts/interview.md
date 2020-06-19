@@ -49,8 +49,6 @@ categories: 前端
      └── 在此 GMT 时间内强缓存
 </pre>
 
-<br/>
-
 <pre>
 协商缓存
 ├── 由服务器: 304 Not Modified
@@ -58,7 +56,7 @@ categories: 前端
 ├── ETag
 │    ├── 服务端 response Etag: [string]
 │    └── 浏览器 request If-None-Match: [string]
-└── Last-Modified
+└── Last-Modified 1.1
      ├── 服务端 response Last-Modified: [date]
      └── 浏览器 request If-Modified-Since: [date]
 </pre>
@@ -137,6 +135,9 @@ opacity 和 transform 只会 composited 不会引起重绘
 会话管理疏忽：
 ├── 会话劫持
 └── csrf 跨站请求伪造
+      ├── referer
+      ├── token
+      └── http only cookie
 </pre>
 
 # https 建立链接的过程？
@@ -209,7 +210,6 @@ function bar(name, age) {
     console.log(this.value);
     console.log(name);
     console.log(age);
-
 }
 
 var bindFoo = bar.bind(foo, 'daisy');
@@ -224,7 +224,7 @@ Function.prototype.bind = function(context, ...args1) {
     const self = this
     const fNOP = function() {}
     const fBound = function(...args2) {
-        return self.apply(this instanceof fNNP ? this : context, args1.concat(args2))
+        return self.apply(this instanceof fNOP ? this : context, args1.concat(args2))
     }
     fNOP.prototype = this.prototype;
     fBound.prototype = new fNOP();
@@ -264,4 +264,11 @@ if([1]==[1]) false
 
 # leetcode 三数之和
 
-# 客户端如何实现 js 的
+# js 类型
+`DR.AFO.BUNSN`
+<pre>
+└── 类型
+      ├── Obj, Arr, Func
+      ├── Number, String, Null, Undefined, Boolean
+      └── Date, Regex
+</pre>
