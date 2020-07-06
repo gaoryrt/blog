@@ -1,7 +1,7 @@
 title: 两个「倾向」
 comments: true
 date: 2020-07-06 19:11:57
-categories:
+categories: 随笔与个人文集
 ---
 
 人类倾向用简单的理论去归纳一切，这一条也包括在内。
