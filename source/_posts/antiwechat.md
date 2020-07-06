@@ -3,7 +3,7 @@ comments: true
 date: 2020-06-19 15:40:08
 categories: 随笔与个人文集
 ---
-从苹果 airpods 那篇公众号文章开始，利用 svg 为公众号文章添加交互变成了黑科技。
+从[苹果 airpods 那篇公众号文章](https://mp.weixin.qq.com/s/73gpTsJ3AVXKFDzQx2prpA)开始，利用 svg 为公众号文章添加交互变成了黑科技。
 但这是畸形的，是在微信生态下独有的独特审美。
 请使用非微信内置浏览器浏览苹果官网的产品页面，那才是真正的黑科技，那才是炫技。
 这些只是 hack 而已。
