@@ -6,7 +6,7 @@ keywords: shadowsocks, ssr, vmess, 购买, 翻墙, 机场, 推荐
 ---
 请注意，这是一篇带推荐码的半恰饭文。
 
-我使用[召唤师](https://zhs.today/auth/register?code=kX2ZI3kFwMzM)作为我的唯一翻墙方式已经五个月了。有一说一，是我翻墙史上最好用的服务。
+我使用[召唤师](https://zhs.today/auth/register?code=kX2ZI3kFwMzM)作为我的唯一翻墙方式已经五个月（19年8月至今）了。有一说一，是我翻墙史上最好用的服务。
 
 <!-- more -->
 
@@ -58,3 +58,6 @@ mac 上使用 clash 客户端，测速之后选线路就行：
 请再次注意，这是一篇带推荐码的半恰饭文。
 
 便宜、好用、不折腾肯定是两两互斥的。免费 vpn 便宜不折腾，自己搭 vps 稳定又便宜，选择适合自己的。
+
+---
+
