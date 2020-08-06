@@ -1,28 +1,31 @@
 $a: #555;
 
-.index-title {
-    font-size: 34px;
-    line-height: 1.5;
+.post-item {
+    padding: 10px 0;
 }
 
-.excerpt, .excerpt p {
+.index-title {
+    font-size: 34px;
+    line-height: 32px;
+}
+
+.excerpt {
     font-size: 18px;
     line-height: 1.95em;
+    padding: 10px 0;
     letter-spacing: .6px;
     color: $a;
 }
-.excerpt p {
-    margin: 0;
-    padding: 0
-}
 
 .index-meta {
-    padding-top: 1em;
-    padding-bottom: 60px;
+    padding-bottom: 30px;
 }
 
 @media screen and (max-width:782px) {
-    .excerpt, .excerpt p {
+    // .index-title {
+    //     width: 80%;
+    // }
+    .excerpt {
         font-size: 16px;
         line-height: 1.9em;
     }

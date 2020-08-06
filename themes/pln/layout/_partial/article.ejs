@@ -5,11 +5,11 @@
   <% if (item.excerpt){ %>
     <%- item.excerpt %>
   <% } else { %>
-    <%- truncate(strip_html(item.content).trim(), {
-      length:theme.excerpt_num,
-      omission: '...'
-    }) %>
+    <%- strip_html(item.content).replace(/^\s*/, '').replace(/\s*$/, '').substring(0, theme.excerpt_num) %>
   <% } %>
+  <a href="<%- config.root %><%- item.path %>">
+    <%= __("read_more") %>
+  </a>
   </div>
   <div class="index-meta">
     <%- partial('post/meta', {item: item}) %>
@@ -22,7 +22,7 @@
     <div class="title">
       <%- partial('post/title') %>
     </div>
-    <div class="page-meta center">
+    <div class="meta center">
       <%- partial('post/meta', {item: item}) %>
     </div>
     <hr>
