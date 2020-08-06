@@ -6,6 +6,8 @@
 }
 
 .right-foot {
+    display: flex;
+    align-items: center;
     font-family: 'Pacifico', Arial, sans-serif;
     position: fixed;
     z-index: 0;
@@ -23,13 +25,19 @@
 
 .firstrow,
 .secondrow {
-    display: inline-block;
-    line-height: 1;
-    vertical-align: top;
+    display: flex;
+    align-items: center;
+}
+.firstrow {
+    margin-right: .5em;
+}
+.feather-arrow-up {
+    @include tran(90deg);
 }
 
 @media screen and (max-width:782px) {
     .right-foot {
+        flex-direction: column;
         font-size: 26px !important;
         line-height: 35px;
         position: relative;
@@ -39,11 +47,10 @@
         @include tran(0);
         text-align: center;
     }
-    .i-caret-right {
-        @include tran;
+    .feather-arrow-up {
+        @include tran(0);
     }
-    .firstrow,
-    .secondrow {
-        display: block;
+    .firstrow {
+        margin-right: 0;
     }
 }

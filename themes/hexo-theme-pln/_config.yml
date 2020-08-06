@@ -16,7 +16,7 @@ about:
   title: Frankenstein
   link: https://frankenstein-ashen.now.sh/
 
-show_toc_bool: true
+show_toc_bool: false
 
 disqus_shortname: gaoryrt
 
