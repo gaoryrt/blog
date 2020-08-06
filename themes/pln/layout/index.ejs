@@ -1,7 +1,0 @@
-<%- partial('_partial/navigator', {index: true}) %>
-<ul class="posts">
-  <% page.posts.each(function(item){ %>
-    <%- partial('_partial/article', {item: item, index: true}) %>
-  <% }); %>
-</ul>
-<%- partial('_partial/pagination') %>

@@ -12,7 +12,10 @@
   <% } %>
   </div>
   <div class="index-meta">
-    <%- partial('post/meta', {item: item}) %>
+    <%- partial('post/meta', {
+      item: item,
+      width: 2
+    }) %>
   </div>
 </li>
 <hr>
@@ -23,7 +26,10 @@
       <%- partial('post/title') %>
     </div>
     <div class="page-meta center">
-      <%- partial('post/meta', {item: item}) %>
+      <%- partial('post/meta', {
+        item: item,
+        width: 1
+      }) %>
     </div>
     <hr>
     <% if (theme.show_toc_bool) {  %>
