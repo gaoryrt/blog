@@ -49,3 +49,9 @@ AABB 的结尾单押、单句里的内部押韵、Bar 切分单词、各种类�
 可能大家都看过 [Casey Neistat](https://www.youtube.com/user/caseyneistat/videos) 的[两万刀航班](https://www.youtube.com/watch?v=84WIaK3bl_s)视频。这个励志的也是来自他。
 
 [DO WHAT YOU CAN'T](https://www.youtube.com/watch?v=jG7dSXcfVqE)
+
+---
+## 2020年9月29日更新
+
+正好可以发在[白嫖缝合怪](https://frankenstein-ashen.now.sh/?channel=sharelink)上，以后遇见有趣的链接我都尽量记得往上面放。
+
