@@ -21,7 +21,7 @@ if (page.archive){
 </div>
 <div class="archive">
   <% var last = 0, year, yearArr = []; %>
-    <% page.posts.each(function(post){ %>
+    <% page.posts.filter(i => i.layout !== 'echo').each(function(post){ %>
       <% year = post.date.year(); %>
 
       <% if (last != year){ %>

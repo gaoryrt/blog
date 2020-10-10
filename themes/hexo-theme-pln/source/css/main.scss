@@ -78,7 +78,8 @@ h6,
 .page-meta,
 .description,
 .busuanzi,
-.archive-num {
+.archive-num,
+.echo-meta {
     font-family: 'Open Sans Condensed', Futura, sans-serif;
     font-stretch: condensed;
 }
@@ -377,6 +378,27 @@ hr:last-child {
     border-color: transparent
 }
 
+hr + .echo {
+    margin-top: -21px;
+}
+
+.echo {
+    position: relative;
+    font-size: 16px;
+    line-height: 1.95em;
+    letter-spacing: .6px;
+    background: darken(grayscale($background), 10%);
+    color: $lighter;
+    padding: 0 1em;
+    width: calc(100% + 2em);
+    margin-left: -1em;
+    overflow: auto;
+    margin-top: 4px;
+    .echo-meta {
+        float: right;
+    }
+}
+
 @media screen and (max-width:782px) {
     .main-ctnr {
         left: 0;
@@ -398,5 +420,14 @@ hr:last-child {
     }
     .post ul {
         margin-left: -10px;
+    }
+    object,
+    article.post iframe,
+    video {
+        left: 0;
+        margin-left: -7vw;
+        transform: translateX(0);
+        max-width: 100vw;
+        max-height: auto;
     }
 }

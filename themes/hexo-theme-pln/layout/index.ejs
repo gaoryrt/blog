@@ -1,7 +1,34 @@
 <%- partial('_partial/navigator', {index: true}) %>
 <ul class="posts">
-  <% page.posts.each(function(item){ %>
+  <%
+    const normalPosts = page.posts.filter(i => i.layout !== 'echo')
+    const _post0 = normalPosts.data[0]
+    const _post_1 = normalPosts.data[normalPosts.length - 1]
+    const endTime = _post0.prev
+      ? 99999999999
+      : _post0.date.unix()
+    const startTime = _post_1.next
+      ? _post_1.next.date.unix()
+      : _post_1.date.unix()
+    const echos = site.posts.data
+      .filter(i => i.layout === 'echo')[0].echo
+      .map(i => ({
+        content: i.content,
+        layout: 'echo',
+        date: moment(i.date, "YYYYMMDDHHmmss")
+      }))
+      .filter(i => i.date.unix() >= startTime && i.date.unix() < endTime)
+    normalPosts.data.concat(echos)
+      .sort((a, b) => b.date.unix() - a.date.unix())
+      .forEach(function(item) {
+        if (item.layout !== 'echo') {
+  %>
     <%- partial('_partial/article', {item: item, index: true}) %>
-  <% }); %>
+  <% } else { %>
+      <div class="echo">
+        <%= item.content %>
+        <time class="echo-meta"><%= item.date.format('MM-DD HH:mm:ss') %></time>
+      </div>
+  <% }}); %>
 </ul>
 <%- partial('_partial/pagination') %>
