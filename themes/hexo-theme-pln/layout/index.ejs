@@ -5,7 +5,7 @@
     const _post0 = normalPosts.data[0]
     const _post_1 = normalPosts.data[normalPosts.length - 1]
     const endTime = _post0.prev
-      ? 99999999999
+      ? _post0.prev.date.unix()
       : _post0.date.unix()
     const startTime = _post_1.next
       ? _post_1.next.date.unix()
