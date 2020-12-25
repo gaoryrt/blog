@@ -16,6 +16,3 @@ title: 友链
 [Jungle.fm](https://jungle.fm) - 骗狗进来杀
 
 还有一些以记录生活为主的、活着的博客，不算是友链，记录[在这里](https://frankenstein-ashen.now.sh/?channel=subscribe)。
-
-
-
