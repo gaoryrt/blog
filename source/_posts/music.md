@@ -119,4 +119,5 @@ Giorgio by Moroder、Touch、Contact
 <iframe width="560" height="315" src="https://www.youtube.com/embed/kl-J33IItzw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
-对音乐的喜好是多么主观的事情。挺好的。
+对音乐的喜好是多么主观的事情。能有兴趣点开已经是福分了，给朋友圈音乐点赞的更是万里挑一，需要珍惜。
+回了我的都在这里了，有更多再更新。
