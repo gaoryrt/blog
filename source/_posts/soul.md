@@ -13,7 +13,7 @@ categories: 随笔与个人文集
 
 为通过本次观影找到新的人生乐趣的朋友感到开心。但迪士尼作为一个讲故事的人，这次讲了一个意识形态如此鲜明的故事，就很难让人开心了。
 
-> Alan Kay: One of the things Neil Postman wrote in one of his earlier books was saying, “Look, there are a thousand forces trying to get hold of people’s minds, particularly children’s minds.” So, one of the major things that schools should be charged with, is to teach children to be media guerrillas—that’s what we call them. It’s guerrilla warfare going on, because everything has been infiltrated. It’s not like you’re out in the battlefield. It’s going on right in your community, in your own house. Things that are constant in our environment both seem natural and also become invisible. [来源](https://www.fastcompany.com/40435064/what-alan-kay-thinks-about-the-iphone-and-technology-now)
+> 艾伦·凯：尼尔·波兹曼在他早期的一本书里写道，“注意，有一千种力量试图控制人们的思想，尤其是儿童的思想。”因此，学校应该承担的主要任务之一是教育孩子们成为媒体游击队（media guerrillas）——这是我们起的名字。这是游击战，因为一切都被渗透了。你又不是在战场上。它就发生在你的社区，你自己的家里。在我们的环境中不变的东西看起来既自然又不可见。 [来源](https://www.fastcompany.com/40435064/what-alan-kay-thinks-about-the-iphone-and-technology-now)
 
 公众号可以讲这个故事，环球时报可以讲这个故事，但迪士尼不行，迪士尼的故事会有小朋友听的。
 
