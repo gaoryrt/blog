@@ -15,4 +15,8 @@ categories: 随笔与个人文集
 
 公众号可以讲这个故事，环球时报可以讲这个故事，但迪士尼不行，迪士尼的故事会有小朋友听的。
 
-总的来说，五星给三星。看完回去再补一补死亡诗社。
+~~总的来说，五星给三星~~。想了想只能给两颗，这明明就和爆裂鼓手反着来啊，全片都在耳边细语 it's okay，可去他妈的吧。
+
+> There are no two words in the English language more harmful than 'good job'.
+
+看完回去再补一补死亡诗社。
