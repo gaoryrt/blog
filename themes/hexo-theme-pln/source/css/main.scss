@@ -241,6 +241,10 @@ ul.posts {
     justify-content: center;
 }
 
+.archive-item + .archive-item {
+    margin-top: 40px;
+}
+
 .archive-time {
     font-size: $small;
     width: 40%;
@@ -254,7 +258,6 @@ ul.posts {
     width: 90%;
     padding: 0 20px;
     word-wrap: break-word;
-    border-left: 1px solid $lighter;
 }
 
 article {
@@ -387,13 +390,12 @@ hr + .echo {
     font-size: 16px;
     line-height: 1.95em;
     letter-spacing: .6px;
-    // border: #fff 1px solid;
     color: $lighter;
     padding: 0 1em;
     width: calc(100% + 2em);
     margin-left: -1em;
     overflow: auto;
-    margin-top: 4px;
+    margin-top: 20px;
     .echo-meta {
         float: right;
     }
