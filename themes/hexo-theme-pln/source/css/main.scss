@@ -387,7 +387,7 @@ hr + .echo {
     font-size: 16px;
     line-height: 1.95em;
     letter-spacing: .6px;
-    background: darken(grayscale($background), 10%);
+    // border: #fff 1px solid;
     color: $lighter;
     padding: 0 1em;
     width: calc(100% + 2em);
