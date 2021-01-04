@@ -9,4 +9,6 @@ echo:
     content: 这个动漫不错的：Dorohedoro (ドロヘドロ)
   - date: 20201228140915
     content: 电影和音乐专辑也可以写写看，下一篇就写《Soul》
+  - date: 20210104095404
+    content: † 是我现在觉得最棒的一张电子乐专辑了
 ---
