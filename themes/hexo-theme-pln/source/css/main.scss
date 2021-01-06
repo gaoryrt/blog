@@ -311,7 +311,7 @@ img {
 .busuanzi {
     font-size: $small;
     line-height: $small;
-    margin: 30px 0;
+    margin: 30px 0 44px;
     color: $para;
     opacity: .5;
 }
@@ -377,10 +377,6 @@ hr {
     border-top: 1px solid darken(grayscale($background), 10%)
 }
 
-hr:last-child {
-    border-color: transparent
-}
-
 hr + .echo {
     margin-top: -21px;
 }
@@ -399,6 +395,25 @@ hr + .echo {
     .echo-meta {
         float: right;
     }
+}
+
+#dsqjs .dsqjs-nav {
+    border-bottom: 1px solid darken(grayscale($background), 10%) !important
+}
+#dsqjs footer {
+    border: 0 !important
+}
+#dsqjs-msg,
+.dsqjs-footer,
+.dsqjs-no-comment {
+    color: $para;
+    font-family: 'Open Sans Condensed', Futura, sans-serif;
+    font-stretch: condensed;
+    font-weight: 300;
+    font-size: $small !important;
+    line-height: 1.6 !important;
+    margin: 30px 0 !important;
+    opacity: .5;
 }
 
 @media screen and (max-width:782px) {

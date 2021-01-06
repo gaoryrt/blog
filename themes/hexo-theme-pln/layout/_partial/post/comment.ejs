@@ -2,13 +2,14 @@
     <% if(config.disqus_shortname){ %>
         <div id="disqus_thread"></div>
         <script>
+        localStorage.setItem('dsqjs_mode', 'dsqjs')
         var dsqjs = new DisqusJS({
             shortname: 'gaoryrt',
-            siteName: 'gaoryrt.com',
             api: 'https://disqus.com/api/',
             apikey: 'mzL7hbX92tYyEBzHW204lW4MyBBF2QW2cTOlir5fUWTPBijfczkaOnTZOvLW7P3Z',
             admin: 'disqus_4nenuKQk9f',
-            adminLabel: 'Mod'
+            adminLabel: 'Mod',
+            nocomment: '暂无评论'
         });
         </script>
     <% } else if(theme.valine && theme.valine.enable){ %>
