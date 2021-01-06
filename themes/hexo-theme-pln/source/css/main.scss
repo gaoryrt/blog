@@ -77,7 +77,6 @@ h6,
 .index-meta,
 .page-meta,
 .description,
-.busuanzi,
 .archive-num,
 .echo-meta {
     font-family: 'Open Sans Condensed', Futura, sans-serif;
@@ -128,7 +127,6 @@ p,
     font-size: $small;
 }
 
-.busuanzi,
 .behind,
 .dropdown-content,
 .page-meta,
@@ -308,14 +306,6 @@ img {
     margin-right:auto;
 }
 
-.busuanzi {
-    font-size: $small;
-    line-height: $small;
-    margin: 30px 0 44px;
-    color: $para;
-    opacity: .5;
-}
-
 .page-meta,
 .index-meta {
     display: flex;
@@ -411,15 +401,21 @@ hr + .echo {
 }
 #dsqjs-msg,
 .dsqjs-footer,
-.dsqjs-no-comment {
+.dsqjs-no-comment,
+.dsqjs-nav-tab {
     color: $para;
     font-family: 'Open Sans Condensed', Futura, sans-serif;
     font-stretch: condensed;
     font-weight: 300;
-    font-size: $small !important;
-    line-height: 1.6 !important;
-    margin: 30px 0 !important;
     opacity: .5;
+}
+
+#dsqjs-msg,
+.dsqjs-footer,
+.dsqjs-no-comment {
+    line-height: 1.6 !important;
+    font-size: $small !important;
+    margin: 30px 0 !important;
 }
 
 @media screen and (max-width:782px) {
@@ -427,8 +423,7 @@ hr + .echo {
         left: 0;
     }
     .back,
-    li.archives,
-    .busuanzi {
+    li.archives {
         display: none;
     }
     .behind {
