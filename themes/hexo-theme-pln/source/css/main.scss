@@ -191,7 +191,7 @@ ul.posts {
     line-height: 1;
     .description {
         font-size: $mid;
-        color: $para;
+        color: $lighter;
         font-weight: 300;
         opacity: .5;
     }
@@ -399,15 +399,17 @@ hr + .echo {
 #dsqjs footer {
     border: 0 !important
 }
+
 #dsqjs-msg,
 .dsqjs-footer,
 .dsqjs-no-comment,
-.dsqjs-nav-tab {
-    color: $para;
+.dsqjs-post-header,
+.dsqjs-meta,
+.dsqjs-tab-active {
+    font-weight: 300 !important;
     font-family: 'Open Sans Condensed', Futura, sans-serif;
     font-stretch: condensed;
-    font-weight: 300;
-    opacity: .5;
+    font-size: 18px !important;
 }
 
 #dsqjs-msg,
