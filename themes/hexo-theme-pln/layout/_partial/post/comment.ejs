@@ -2,20 +2,14 @@
     <% if(config.disqus_shortname){ %>
         <div id="disqus_thread"></div>
         <script>
-
-        var disqus_config = function () {
-        this.page.url = '<%= url %>';
-        this.page.identifier = <%= item.id %>;
-        };
-
-        (function() { // DON'T EDIT BELOW THIS LINE
-        var d = document, s = d.createElement('script');
-
-        s.src = '//<%- config.disqus_shortname%>.disqus.com/embed.js';
-
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-        })();
+        var dsqjs = new DisqusJS({
+            shortname: 'gaoryrt',
+            siteName: 'gaoryrt.com',
+            api: 'https://disqus.com/api/',
+            apikey: 'mzL7hbX92tYyEBzHW204lW4MyBBF2QW2cTOlir5fUWTPBijfczkaOnTZOvLW7P3Z',
+            admin: 'disqus_4nenuKQk9f',
+            adminLabel: 'Mod'
+        });
         </script>
     <% } else if(theme.valine && theme.valine.enable){ %>
         <style>
