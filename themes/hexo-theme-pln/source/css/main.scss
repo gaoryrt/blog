@@ -393,23 +393,14 @@ hr + .echo {
     }
 }
 
-#dsqjs .dsqjs-nav {
-    border-bottom: 1px solid darken(grayscale($background), 10%) !important
-}
-#dsqjs footer {
-    border: 0 !important
-}
-
 #dsqjs-msg,
 .dsqjs-footer,
 .dsqjs-no-comment,
 .dsqjs-post-header,
 .dsqjs-meta,
 .dsqjs-tab-active {
-    font-weight: 300 !important;
     font-family: 'Open Sans Condensed', Futura, sans-serif;
     font-stretch: condensed;
-    font-size: 18px !important;
 }
 
 #dsqjs-msg,
