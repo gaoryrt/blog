@@ -78,8 +78,14 @@ h6,
 .page-meta,
 .description,
 .archive-num,
-.echo-meta {
-    font-family: 'Open Sans Condensed', Futura, sans-serif;
+.echo-meta,
+#dsqjs-msg,
+.dsqjs-footer,
+.dsqjs-no-comment,
+.dsqjs-post-header,
+.dsqjs-meta,
+.dsqjs-tab-active {
+    font-family: 'Open Sans Condensed', 'Futura-CondensedMedium', 'HelveticaNeue-CondensedBlack', 'AvenirNextCondensed-Regular', 'sans-serif-condensed';
     font-stretch: condensed;
 }
 
@@ -391,16 +397,6 @@ hr + .echo {
     .echo-meta {
         float: right;
     }
-}
-
-#dsqjs-msg,
-.dsqjs-footer,
-.dsqjs-no-comment,
-.dsqjs-post-header,
-.dsqjs-meta,
-.dsqjs-tab-active {
-    font-family: 'Open Sans Condensed', Futura, sans-serif;
-    font-stretch: condensed;
 }
 
 #dsqjs-msg,
