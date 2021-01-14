@@ -15,29 +15,16 @@ $hovera: #e7e7e7;
 .prev,
 .page-number,
 .next {
-    padding: 10px 25px;
-}
-
-a.page-number:hover,
-a.next:hover,
-a.prev:hover {
-    transition: background-color .2s, color .2s;
-    background-color: $hoverbg;
-    color: $hovera;
+    padding: 10px 5px;
+    font-size: 18px
 }
 
 .pager {
-    margin: 0 52px 32px;
+    margin: 52px;
     z-index: 1;
     flex-direction: row;
     justify-content: space-between;
-    background-color: $bg;
-    box-shadow: 0 0 8px rgba(209, 205, 199, .35);
-    padding-inline-start: 0;
-    padding-left: .5em;
-    a {
-        color: $a;
-    }
+    padding: 0;
 }
 
 .space {
@@ -46,12 +33,11 @@ a.prev:hover {
 
 @media screen and (max-width:782px) {
     .pager {
-        font-size: 26px;
         line-height: 35px;
         position: relative;
         bottom: 0;
         left: 0;
-        margin: 0 4px 20px;
+        margin: 22px;
         -webkit-transform: rotate(0deg);
         -moz-transform: rotate(0deg);
         -o-transform: rotate(0deg);

@@ -5,7 +5,7 @@ $a: #555;
     line-height: 1.5;
 }
 
-.excerpt, .excerpt p {
+.excerpt, .excerpt p, .echo {
     font-size: 18px;
     line-height: 1.95em;
     letter-spacing: .6px;
@@ -22,7 +22,7 @@ $a: #555;
 }
 
 @media screen and (max-width:782px) {
-    .excerpt, .excerpt p {
+    .excerpt, .excerpt p, .echo {
         font-size: 16px;
         line-height: 1.9em;
     }

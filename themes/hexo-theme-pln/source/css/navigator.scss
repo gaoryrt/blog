@@ -7,10 +7,9 @@ $bordr: #eee;
     top: 0;
     left: 0;
     width: 100%;
-    background-color: $bg;
+    // background-color: $bg;
     flex-direction: column;
     border: 0 !important;
-    box-shadow: 0 0 8px rgba(209, 205, 199, .5);
 }
 
 .navbar-right .dropdown-content {
@@ -92,13 +91,13 @@ $bordr: #eee;
 @media screen and (max-width:782px) {
     .navbar-left {
         order: 0;
-        flex-grow: 2;
+        // flex-grow: 2;
         justify-content: space-around;
         float: left;
     }
     .navbar-right {
         order: 2;
-        flex-grow: 1;
+        // flex-grow: 1;
         justify-content: space-around;
         float: right;
         .dropdown-content {
@@ -106,12 +105,13 @@ $bordr: #eee;
         }
     }
     .navbar-header {
-        order: 1;
+        // order: 1;
+        display: none;
     }
     .nav-container {
         padding: 0;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
     }
     .navbar-nav .open .dropdown-menu > a {
         line-height: 40px;

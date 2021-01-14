@@ -128,8 +128,7 @@ p,
 }
 
 .navbar-brand,
-.right-foot,
-.pager {
+.right-foot {
     font-size: $small;
 }
 
@@ -381,9 +380,6 @@ hr + .echo {
 
 .echo {
     position: relative;
-    font-size: 16px;
-    line-height: 1.95em;
-    letter-spacing: .6px;
     color: $lighter;
     padding: 0 1em;
     width: calc(100% + 2em);
