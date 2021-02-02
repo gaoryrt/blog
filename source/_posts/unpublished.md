@@ -11,4 +11,7 @@ echo:
     content: 电影和音乐专辑也可以写写看，下一篇就写《Soul》
   - date: 20210104095404
     content: † 是我现在觉得最棒的一张电子乐专辑了
+  - date: 20210201094719
+    content: 重听一遍，最棒的还是 disclosure 的 settle
 ---
+
