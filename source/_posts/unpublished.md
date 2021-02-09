@@ -13,5 +13,7 @@ echo:
     content: † 是我现在觉得最棒的一张电子乐专辑了
   - date: 20210201094719
     content: 重听一遍，最棒的还是 disclosure 的 settle
+  - date: 20210209105641
+    content: 不管睡前多难受，醒来都是舒适的
 ---
 
