@@ -44,11 +44,11 @@ Git（貌似）没有图形化客户端，在Github在web端就可以图形化�
 > 在[Git官网](//git-scm.com)可以下载到安装包  
 
 **或者**使用[Homebrew](//mxcl.github.com/homebrew/)，[MacPorts](//www.macports.org/)进行安装  
-安装成功后可使用git命令  
+安装成功后可使用git命令
 
 ```
 $ git --version
-```  
+```
 
 如果安装成功返回的是git的版本信息  
 
