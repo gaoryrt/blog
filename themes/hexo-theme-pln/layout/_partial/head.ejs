@@ -9,7 +9,7 @@
   <meta name="google-site-verification" content="<%- config.google_analytics %>" />
   <%
     var title = '';
-    if (page.current > 1) title = __('page', page.current);
+    if (page.current > 1) title = 'P' + page.current + ' ' + theme.logo;
     else if (page.title) title = page.title;
     else if (page.category) title = page.category;
     else if (page.tag) title = page.tag;
