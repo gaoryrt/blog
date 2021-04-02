@@ -1,14 +1,3 @@
-$codeBGDark: #EfF0F1;
-$codeBGLight: #f7f8f9;
-$theme: #555;
-$c1: #547ab2;
-$c2: #547ab2;
-$c3: #3eacab;
-$c4: #3eacab;
-$c5: #3eacab;
-$c6: #3eacab;
-$c7: #5a5050;
-
 table {
     border-spacing: 0;
 }
@@ -31,7 +20,7 @@ td.gutter {
     flex-grow: 0;
     text-align: right;
     pre {
-        color: lighten($theme, 37%);
+        color: hsl(0, 0%, var(--l-45));
     }
 }
 td.code {
@@ -51,14 +40,14 @@ pre {
     padding: 0 15px;
     border: 0;
     tab-size: 2;
-    color: $theme;
+    color: hsl(0, 0%, var(--l-35));
     background: transparent;
     background-size: auto 4em;
     background-origin: content-box;
-    background-image: linear-gradient($codeBGDark 50%, $codeBGLight 0);
+    background-image: linear-gradient(hsl(0, 0%, var(--l-95)) 50%, hsl(0, 0%, var(--l-100)) 0);
     overflow-x: auto;
     .comment {
-        color: lighten($theme, 37%);
+        color: hsl(0, 0%, var(--l-45));
     }
     .line {
         height: 30px;
@@ -69,8 +58,8 @@ code {
     word-wrap: break-word;
     line-height: 2em;
     font-size: .97em;
-    color: $theme;
-    background: $codeBGDark;
+    color: hsl(0, 0%, var(--l-35));
+    background: hsl(0, 0%, var(--l-95));
 }
 
 
@@ -87,12 +76,12 @@ pre .html .doctype,
 pre .css .id,
 pre .css .class,
 pre .css .pseudo {
-    color: $c1;
+    color: hsl(var(--theme-hs) var(--l-45));
 }
 
 pre .keyword,
 pre .javascript .function {
-    color: $c2;
+    color: hsl(var(--theme-hs) var(--l-45));
 }
 
 pre .number,
@@ -101,17 +90,17 @@ pre .built_in,
 pre .literal,
 pre .params,
 pre .constant {
-    color: $c3;
+    color: hsl(var(--green-hs) var(--l-45));
 }
 
 pre .ruby .class .title,
 pre .css .rules .attribute {
-    color: $c4;
+    color: hsl(var(--green-hs) var(--l-45));
 }
 
 pre .title,
 pre .css .hexcolor {
-    color: $c5;
+    color: hsl(var(--green-hs) var(--l-45));
 }
 
 pre .string,
@@ -120,7 +109,7 @@ pre .inheritance,
 pre .header,
 pre .ruby .symbol,
 pre .xml .cdata {
-    color: $c6;
+    color: hsl(var(--green-hs) var(--l-45));
 }
 
 pre .function,
@@ -131,5 +120,5 @@ pre .ruby .title .keyword,
 pre .perl .sub,
 pre .javascript .title,
 pre .coffeescript .title {
-    color: $c7;
+    color: hsl(0, 0%, var(--l-30));
 }

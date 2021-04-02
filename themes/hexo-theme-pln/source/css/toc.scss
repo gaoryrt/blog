@@ -1,4 +1,5 @@
-$lightest: #cdd2d4;
+$lightest: hsl(197, 8%, 82%);
+
 .toc {
   position: fixed;
   top: 50%;
@@ -29,7 +30,7 @@ $lightest: #cdd2d4;
 }
 
 .toc:hover .toc-text {
-  color: #2570a1;
+  color: hsl(var(--theme-hs) var(--l-45));
 }
 
 .toc ol, ul {

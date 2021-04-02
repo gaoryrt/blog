@@ -1,13 +1,9 @@
-$bg: #fff;
-$bordr: #eee;
-
 .navbar {
     position: fixed;
     z-index: 2;
     top: 0;
     left: 0;
     width: 100%;
-    // background-color: $bg;
     flex-direction: column;
     border: 0 !important;
 }
@@ -32,7 +28,7 @@ $bordr: #eee;
 .dropdown-toggle,
 .archives > a {
     display: block;
-    color: #777;
+    color: hsl(0, 0%, var(--l-30));
     padding: 15px;
     font-weight: 900;
 }
@@ -72,10 +68,10 @@ $bordr: #eee;
     width: 220px;
     margin: 0;
     padding: 0;
-    background-color: $bg;
+    background-color: hsl(0, 0%, var(--l-100));
     box-shadow: 0 0 8px rgba(209, 205, 199, .5);
     clip-path: polygon(-100% .5px, 200% .5px, 200% 200%, -100% 200%);
-    border-bottom: 1px solid $bordr;
+    border-bottom: 1px solid hsl(0, 0%, var(--l-95));
     a {
         display: block;
         width: 100%;
@@ -83,8 +79,8 @@ $bordr: #eee;
         padding: 18px 25px;
     }
     a:hover {
-        background: #2570a1;
-        color: #e7e7e7;
+        background: hsl(var(--theme-hs) var(--l-45));
+        color: hsl(0, 0%, var(--l-100));
     }
 }
 

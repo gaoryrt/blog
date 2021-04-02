@@ -1,5 +1,3 @@
-$a: #555;
-
 .index-title {
     font-size: 34px;
     line-height: 1.5;
@@ -9,7 +7,7 @@ $a: #555;
     font-size: 18px;
     line-height: 1.95em;
     letter-spacing: .6px;
-    color: $a;
+    color: hsl(0, 0%, var(--l-35));
 }
 .excerpt p {
     margin: 0;
