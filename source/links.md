@@ -1,11 +1,5 @@
 title: 友链
 ---
-<style>
-  a {
-    color: #000;
-    font-weight: 600;
-  }
-</style>
 
 [落格博客](https://www.logcg.com) - 写过一输入法
 
