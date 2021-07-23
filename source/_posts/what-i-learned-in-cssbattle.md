@@ -2,6 +2,7 @@ title: 在 CSSbattle 中学到的 CSS 技巧
 comments: true
 date: 2020-01-11 11:00:09
 categories: 前端
+keywords: cssbattle, css battle, css, 前端, 技巧
 ---
 ## CSSbattle 是什么
 [CSSBattle](https://cssbattle.dev/) 是一个 online judge 站，从 2019 年 4 月开始，每个月都会新增一期针对于某主题的、数量不定的前端 CSS 题目供网友 battle。比如第9期，是两道主题为「margin」的题：

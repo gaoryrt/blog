@@ -2,7 +2,7 @@ title: 尽量不用微信吧
 comments: true
 date: 2017-10-12 19:57:50
 categories: 随笔与个人文集
-keywords: 不用微信, 反微信
+keywords: 不用微信, 反微信, 微信
 ---
 本文带有作者价值观输出，请谨慎阅读。
 
