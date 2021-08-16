@@ -1,7 +1,7 @@
 title: 升级mac的python
 date: 2015-09-30 21:17:31
 tags: [abc,howto,mac]
-categories: [Geek Talks · 奇客怪谈]
+categories: Geek Talks · 奇客怪谈
 ---
 在前一篇 [开始Python](//gaoryrt.github.io/2015/09/27/StartingPython/) 当中提到了安装新版本Python的方法  
 但是在shell当中使用`python`命令的时候还是依旧使用的老版本Python。  

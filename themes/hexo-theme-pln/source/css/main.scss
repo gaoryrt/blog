@@ -30,7 +30,7 @@ $small: 18px;
 ::selection,
 ::-moz-selection,
 ::-webkit-selection {
-    background: hsl(var(--theme-hs) var(--l-45));
+    background: hsl(var(--theme-hs) var(--l-40));
 }
 
 * {
@@ -151,7 +151,7 @@ a {
 }
 
 a {
-    color: hsl(var(--theme-hs) var(--l-45));
+    color: hsl(var(--theme-hs) var(--l-40));
 }
 a:hover,
 a:focus {
@@ -229,7 +229,7 @@ ul.posts {
 .page-meta {
     font-size: $small;
     a {
-        color: hsl(var(--theme-hs) var(--l-45));
+        color: hsl(var(--theme-hs) var(--l-40));
     }
 }
 
@@ -319,7 +319,7 @@ img {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    color: hsl(0, 0%, var(--l-45));
+    color: hsl(0, 0%, var(--l-40));
 }
 time,
 .categories,
@@ -387,7 +387,7 @@ hr + .echo {
 
 .echo {
     position: relative;
-    color: hsl(0, 0%, var(--l-55));
+    color: hsl(0, 0%, var(--l-45));
     padding: 0 1em;
     width: calc(100% + 2em);
     margin-left: -1em;

@@ -1,7 +1,7 @@
 title: 开始 zsh + vim + iTerm
 date: 2015-09-28 20:40:52
 tags: [abc,howto,mac]
-categories: [Geek Talks · 奇客怪谈],
+categories: Geek Talks · 奇客怪谈
 keywords: zsh, oh my zsh, iTerm
 ---
 mac 中 terminal 默认使用的是 bash  
