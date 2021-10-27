@@ -1,3 +1,4 @@
+---
 title: 开始 zsh + vim + iTerm
 date: 2015-09-28 20:40:52
 tags: [abc,howto,mac]

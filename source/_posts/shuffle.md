@@ -1,3 +1,4 @@
+---
 title: JQuery实现简单的轮播图
 comments: true
 date: 2016-03-21 17:39:56

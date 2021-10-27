@@ -1,6 +1,4 @@
-
-
-
+---
 title: 下载Dive into python3
 date: 2015-10-06 21:16:33
 tags: [python,abc]

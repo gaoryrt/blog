@@ -1,3 +1,4 @@
+---
 title: 简单的vue场景转换
 comments: true
 date: 2016-07-25 21:53:22

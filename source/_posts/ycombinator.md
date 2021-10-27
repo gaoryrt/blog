@@ -1,3 +1,4 @@
+---
 title: 两种方法，ES6 推导 Y 组合子
 comments: true
 date: 2020-04-02 11:32:22

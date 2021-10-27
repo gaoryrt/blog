@@ -1,3 +1,4 @@
+---
 title: 关于实习
 comments: false
 date: 2016-01-27 22:51:54

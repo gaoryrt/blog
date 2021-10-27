@@ -1,3 +1,4 @@
+---
 title: 花了好长时间重装了hexo
 comments: true
 date: 2016-03-23 23:53:57

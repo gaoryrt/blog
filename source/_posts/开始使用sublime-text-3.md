@@ -1,3 +1,4 @@
+---
 title: 开始使用sublime text 3
 date: 2015-09-10 17:34:12
 categories: Geek Talks · 奇客怪谈

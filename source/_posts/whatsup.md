@@ -1,3 +1,4 @@
+---
 title: what's up
 date: 2015-10-09 22:49:40
 tags: [howto, mac]

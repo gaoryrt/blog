@@ -1,3 +1,4 @@
+---
 title: 为hexo添加不依赖模板的页面
 comments: true
 date: 2016-03-09 14:47:35

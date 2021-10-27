@@ -1,3 +1,4 @@
+---
 title: 开始使用 dame 主题
 comments: false
 date: 2016-01-24 15:22:19

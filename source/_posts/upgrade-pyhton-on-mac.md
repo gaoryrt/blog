@@ -1,3 +1,4 @@
+---
 title: 升级mac的python
 date: 2015-09-30 21:17:31
 tags: [abc,howto,mac]

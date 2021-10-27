@@ -1,3 +1,4 @@
+---
 title: 开始使用ubuntu
 comments: false
 date: 2015-10-27 22:54:10

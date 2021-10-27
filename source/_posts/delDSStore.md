@@ -1,3 +1,4 @@
+---
 title: 一个思考
 comments: true
 date: 2016-04-14 22:31:45

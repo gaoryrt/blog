@@ -1,3 +1,4 @@
+---
 title: 「精神病人思路广」
 comments: true
 date: 2016-08-13 15:57:02

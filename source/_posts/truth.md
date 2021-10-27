@@ -1,3 +1,4 @@
+---
 title: 两个「倾向」
 comments: true
 date: 2020-07-06 19:11:57

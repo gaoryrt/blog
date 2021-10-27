@@ -1,3 +1,4 @@
+---
 title: 吃苦耐劳
 comments: true
 date: 2016-06-14 20:42:38
