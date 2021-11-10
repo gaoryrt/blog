@@ -85,12 +85,7 @@ h6,
 .description,
 .archive-num,
 .echo-meta,
-#dsqjs-msg,
-.dsqjs-footer,
-.dsqjs-no-comment,
-.dsqjs-post-header,
-.dsqjs-meta,
-.dsqjs-tab-active {
+#comments {
     font-family: 'Open Sans Condensed', 'Avenir Next Condensed', 'DIN Condensed', 'sans-serif-condensed';
     font-stretch: condensed;
 }
@@ -141,7 +136,8 @@ p,
 .behind,
 .dropdown-content,
 .page-meta,
-.archive-num {
+.archive-num,
+#comments  {
     font-weight: 300;
 }
 
@@ -344,10 +340,6 @@ time,
     display: none;
 }
 
-#main {
-    padding-bottom: 30px;
-}
-
 .main-ctnr {
     max-width: 750px;
     position: relative;
@@ -357,7 +349,7 @@ time,
 .standard,
 .archive,
 .archive-title,
-#disqus_thread {
+#comments {
     padding: 0 6% 0 7%;
 }
 
@@ -398,12 +390,10 @@ hr + .echo {
     }
 }
 
-#dsqjs-msg,
-.dsqjs-footer,
-.dsqjs-no-comment {
+#comments {
     line-height: 1.6 !important;
     font-size: $small !important;
-    // margin: 30px 0 !important;
+    color: hsl(0, 0%, var(--l-40));
 }
 
 @media screen and (max-width:782px) {
