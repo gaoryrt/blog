@@ -1,7 +1,7 @@
 ---
 title: Olympus Pen FT
 comments: true
-date: 2022-01-01 20:55:12
+date: 2022-01-01 21:55:12
 categories: Discovery
 ---
 最小的 135 slr，裂像对焦，纯手动，可玩性极高。没有巨大的军舰头，可以拍半格，可以换镜头。
