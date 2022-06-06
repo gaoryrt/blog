@@ -2,8 +2,7 @@
 title: Soul (2020 film)
 comments: true
 date: 2020-12-29 11:39:35
-categories: 随笔与个人文集
-keywords: soul, 心灵奇旅, 电影, 影评
+categories: 看电影
 ---
 本篇（应该）没有剧透。
 

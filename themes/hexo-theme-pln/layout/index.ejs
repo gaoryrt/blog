@@ -1,6 +1,7 @@
-<%- partial('_partial/navigator', {index: true}) %>
-<ul class="posts">
-  <%
+<div class="main-ctnr">
+  <%- partial('_partial/navigator') %>
+  <ul class="posts">
+    <%
     const normalPosts = page.posts.filter(i => i.layout !== 'echo')
     const _post0 = normalPosts.data[0]
     const _post_1 = normalPosts.data[normalPosts.length - 1]
@@ -23,12 +24,31 @@
       .forEach(function(item) {
         if (item.layout !== 'echo') {
   %>
-    <%- partial('_partial/article', {item: item, index: true}) %>
-  <% } else { %>
-      <div class="echo">
-        <%= item.content %>
-        <time class="echo-meta"><%= item.date.format('MM-DD HH:mm:ss') %></time>
+    <li class="post-item">
+      <%- partial('_partial/post/title', {index: true, item}) %>
+      <div class="excerpt">
+        <% if (item.excerpt){ %>
+        <%- item.excerpt %>
+        <% } else { %>
+        <%- truncate(strip_html(item.content).trim(), {
+        length:theme.excerpt_num,
+        omission: '...'
+      }) %>
+        <% } %>
       </div>
-  <% }}); %>
-</ul>
-<%- partial('_partial/pagination') %>
+      <div class="index-meta">
+        <%- partial('_partial/post/meta', {
+        item,
+        width: 2
+      }) %>
+      </div>
+    </li>
+    <% } else { %>
+    <div class="echo">
+      <%= item.content %>
+      <time class="echo-meta"><%= item.date.format('MM-DD HH:mm:ss') %></time>
+    </div>
+    <% }}); %>
+  </ul>
+  <%- partial('_partial/pagination') %>
+</div>
