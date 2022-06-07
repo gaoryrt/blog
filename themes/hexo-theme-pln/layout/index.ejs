@@ -31,7 +31,7 @@
         <%- item.excerpt %>
         <% } else { %>
         <%- truncate(strip_html(item.content).trim(), {
-        length:theme.excerpt_num,
+        length: theme.excerpt_num,
         omission: '...'
       }) %>
         <% } %>

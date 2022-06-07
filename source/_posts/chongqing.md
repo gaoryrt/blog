@@ -4,7 +4,7 @@ date: 2022-05-12T10:24:42+08:00
 categories: Films
 tags: [LeicaM6, B&W]
 ---
-Agfa APX 100、leica m6、橙滤镜。四月的成都和重庆。
+Agfa APX 100、橙滤镜。四月的成都和重庆。我感觉我可以出个文章讲讲自己冲扫的流程呢。
 ![](https://cdn.jsdelivr.net/gh/gaoryrt/f/202205121022209.jpg)
 ![](https://cdn.jsdelivr.net/gh/gaoryrt/f/202205121022211.jpg)
 ![](https://cdn.jsdelivr.net/gh/gaoryrt/f/202205121022212.jpg)

@@ -44,7 +44,7 @@ archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
-skip_render: [aes/**, CV/**, flex/index.html, 404.html, em2px/*.html, wx_share.png, about.html]
+skip_render: [aes/**, CV/**, gallery/*, flex/index.html, 404.html, em2px/*.html, wx_share.png, about.html]
 
 # Writing
 new_post_name: :title.md # File name of new posts
