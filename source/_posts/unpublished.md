@@ -4,6 +4,8 @@ comments: true
 date: 2030-10-13 16:23:08
 layout: echo
 echo:
+  - date: 20220620105531
+    content: 周一快乐。最近又把谷歌统计捡起来用了。
   - date: 20201012140308
     content: 不知道为啥，近一周的浏览量翻了三倍。
   - date: 20201225154216
