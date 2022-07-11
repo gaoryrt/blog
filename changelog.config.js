@@ -1,11 +1,11 @@
 module.exports = {
   disableEmoji: false,
   list: [
-    "feat",
-    "docs",
-    "style",
+    "new",
+    "typo",
+    "theme",
     "fix",
-    "revert",
+    "remove",
     "append",
     "improve"
   ],
@@ -14,17 +14,17 @@ module.exports = {
   questions: ["type", "scope", "subject"],
   scopes: [],
   types: {
-    feat: {
+    new: {
       description: "New post.",
       emoji: "✨",
       value: "new",
     },
-    docs: {
+    typo: {
       description: "Fixing typo.",
       emoji: "📝",
       value: "typo",
     },
-    style: {
+    theme: {
       description: "Updating the UI and style files.",
       emoji: "💄",
       value: "theme",
@@ -34,7 +34,7 @@ module.exports = {
       emoji: "🐛",
       value: "fix",
     },
-    revert: {
+    remove: {
       description: "Removing code or files.",
       emoji: "🔥",
       value: "remove",
