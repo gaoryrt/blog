@@ -1,7 +1,7 @@
 // Choose a cache name
-const cacheName = 'gaoryrt.com.101';
+const cacheName = 'gaoryrt.com.111';
 // List the files to precache
-const precacheResources = ['/', '/css/m.min.css', '/js/zoom-image.js'];
+const precacheResources = ['/', '/page/2/', '/archives/'];
 
 // When the service worker is installing, open the cache and add the precache resources to it
 self.addEventListener('install', (event) => {
