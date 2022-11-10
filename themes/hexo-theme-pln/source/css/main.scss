@@ -108,6 +108,8 @@ body {
     -moz-osx-font-smoothing: grayscale;
     -webkit-tap-highlight-color: transparent;
     word-wrap: break-word;
+    opacity: 0;
+    transition: all .15s;
 }
 
 .archive-time {

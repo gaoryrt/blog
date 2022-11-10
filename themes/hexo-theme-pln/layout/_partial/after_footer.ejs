@@ -1,5 +1,6 @@
 <script src="<%- config.root %>js/zoom-image.js"></script>
 <script type="text/javascript">
+  // img zoom
   var imgArr = document.getElementsByTagName('img')
   for (var i = 0; i < imgArr.length; i += 1) {
     zoom(imgArr[i])
@@ -31,6 +32,8 @@
       dropDownContentElArr[i].classList.remove('open')
     }
   })
+
+  // smooth scroll
   $$('a[href^="#"]').forEach(e=>{
     e.addEventListener("click", function(e) {
       e.preventDefault();
@@ -40,6 +43,15 @@
       }),
       t === "top" ? history.replaceState(null, null, " ") : history.pushState(null, null, `#${t}`)
     })
-  }
-  )
+  })
+
+  // transition
+    $$('a[href^="\/"]').forEach(e=>{
+    e.addEventListener("click", function(e) {
+      document.body.style.opacity = '0'
+    })
+  })
+  document.body.style.opacity = '1'
+
+
 </script>
