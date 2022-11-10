@@ -4,7 +4,7 @@ comments: true
 date: 2016-10-27 22:02:40
 categories:
 ---
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=260 height=86 src="http://music.163.com/outchain/player?type=2&id=17455824&auto=1&height=66"></iframe>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=260 height=86 src="//music.163.com/outchain/player?type=2&id=17455824&auto=1&height=66"></iframe>
 
 在大学的后两年，我渐渐不再掩盖自己的负面情绪了。在朋友面前毫无保留的展示自己的坏心思、表达对某个人的厌恶情感。我的内心总有个声音在给我说这是不对的，但是我的感觉却又告诉我这如此美妙。
 
