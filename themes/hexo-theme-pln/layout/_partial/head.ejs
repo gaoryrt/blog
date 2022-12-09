@@ -7,7 +7,7 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   <meta name="referrer" content="unsafe-url">
-  <meta name="google-site-verification" content="<%- config.google_analytics %>" />
+
   <%
     var title = '';
     if (page.current > 1) title = 'P' + page.current + ' ' + theme.logo;
@@ -43,15 +43,5 @@
   <link rel="stylesheet" href="<%- config.root %>css/m.min.css">
   <link rel="icon" type="image/x-icon" href="<%- config.root %>favicon.ico">
   <% if (theme.latex){ %><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML" async></script><% } %>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-159221418-2"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-    gtag('config', 'UA-159221418-2');
-  </script>
+  <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "9e27ac03d3f64defaf6280efacc9ea9d"}'></script><!-- End Cloudflare Web Analytics -->
 </head>
