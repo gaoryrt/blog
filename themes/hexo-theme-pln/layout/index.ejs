@@ -7,7 +7,7 @@
     const _post_1 = normalPosts.data[normalPosts.length - 1]
     const endTime = _post0.prev
       ? _post0.prev.date.unix()
-      : _post0.date.unix()
+      : (new Date() / 1000)
     const startTime = _post_1.next
       ? _post_1.next.date.unix()
       : _post_1.date.unix()
@@ -45,8 +45,8 @@
     </li>
     <% } else { %>
     <div class="echo">
-      <%= item.content %>
       <time class="echo-meta"><%= item.date.format('MM-DD HH:mm:ss') %></time>
+      <%= item.content %>
     </div>
     <% }}); %>
   </ul>
