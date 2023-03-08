@@ -129,4 +129,3 @@ footer_info: **black words fixed on the right end**
 # donate
 如果你喜欢的话可以 star 或者捐助作者～
 [![](https://cdn.buymeacoffee.com/buttons/default-white.png)](https://www.buymeacoffee.com/pT2Y5iN)
-![](https://jungle.fm/assets/donate.jpg)
