@@ -1,5 +1,7 @@
 <script src="<%- config.root %>js/zoom-image.js"></script>
 <script type="text/javascript">
+  document.body.style.opacity = '1'
+
   // img zoom
   var imgArr = document.getElementsByTagName('img')
   for (var i = 0; i < imgArr.length; i += 1) {
@@ -46,12 +48,9 @@
   })
 
   // transition
-    $$('a[href^="\/"]').forEach(e=>{
+  $$('a[href^="\/"]').forEach(e=>{
     e.addEventListener("click", function(e) {
       document.body.style.opacity = '0'
     })
   })
-  document.body.style.opacity = '1'
-
-
 </script>
