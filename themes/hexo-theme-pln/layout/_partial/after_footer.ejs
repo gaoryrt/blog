@@ -50,7 +50,7 @@
   // transition
   $$('a[href^="\/"]').forEach(e=>{
     e.addEventListener("click", function(e) {
-      document.body.style.opacity = '0'
+      if (!e.metaKey) document.body.style.opacity = '0'
     })
   })
 </script>
