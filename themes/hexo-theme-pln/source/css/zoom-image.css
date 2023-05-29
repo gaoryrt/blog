@@ -13,7 +13,7 @@ img[data-action="zoom"] {
 }
 .zoom-overlay {
   z-index: 420;
-  background: #fff;
+  background: hsl(var(--green-hs) var(--l-100));
   position: fixed;
   top: 0;
   left: 0;
