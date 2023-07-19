@@ -7,14 +7,6 @@ figure {
     overflow-x: auto;
 }
 
-tr {
-    display: flex;
-}
-
-td {
-    display: block;
-}
-
 td.gutter {
     flex-shrink: 0;
     flex-grow: 0;
