@@ -24,5 +24,7 @@ echo:
     content: 孩子去和昨天和解吧，就像我们从前那样
   - date: 20210604144618
     content: 听歌看电影不叫爱好，人人都听歌看电影的。爱好是不听歌不看电影的人才有意思呢。
+  - date: 20230719135801
+    content: A midlife crisis is quitting your desk job to sell ice creams on the beach in the Caribbean. Getting to the point of doing it, not just thinking about it.
 ---
 
