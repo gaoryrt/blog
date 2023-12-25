@@ -33,7 +33,7 @@ categories: ['film']
 135:
 
 | Film       | Price per Roll |
-|:----------:|:--------------:|
+|----------|---------|
 | portra160  | 93.75          |
 | portra400  | 103.8          |
 | proimg100  | 76             |
@@ -43,14 +43,14 @@ categories: ['film']
 120:
 
 | Film       | Price per Roll |
-|:----------:|:--------------:|
+|----------|---------|
 | portra400  | 83.6           |
 | gold200    | 61             |
 
 other:
 
 | Film            | Price per Shoot |
-|:---------------:|:---------------:|
+|----------|---------|
 | Instax sq       | 5.5             |
 | Instax sq b&w   | 7               |
 | Instax wide     | 6.75            |
