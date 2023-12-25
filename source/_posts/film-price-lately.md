@@ -31,6 +31,7 @@ categories: ['film']
 23-12 更新
 
 135:
+
 | Film       | Price per Roll |
 |:----------:|:--------------:|
 | portra160  | 93.75          |
@@ -40,18 +41,20 @@ categories: ['film']
 | gold200    | 57.6           |
 
 120:
+
 | Film       | Price per Roll |
 |:----------:|:--------------:|
 | portra400  | 83.6           |
 | gold200    | 61             |
 
 other:
-| Film       | Price per Shoot |
-|:----------:|:--------------:|
-| Instax sq      | 5.5             |
-| Instax sq bw   | 7               |
-| Instax wide    | 6.75            |
-| Instax wide bw | 11.85           |
-| Itype          | 11.666          |
+
+| Film            | Price per Shoot |
+|:---------------:|:---------------:|
+| Instax sq       | 5.5             |
+| Instax sq b&w   | 7               |
+| Instax wide     | 6.75            |
+| Instax wide b&w | 11.85           |
+| i-type          | 11.666          |
 
 记录在这里，日后再买的时候也有个锚点参考。
