@@ -26,6 +26,9 @@ gr1s：
 ![](https://cdn.jsdelivr.net/gh/gaoryrt/f/202305291200524.JPG)
 ![](https://cdn.jsdelivr.net/gh/gaoryrt/f/202305291200529.JPG)
 ![](https://cdn.jsdelivr.net/gh/gaoryrt/f/202305291200526.JPG)
+![](https://i04.cc/r/ad1a5b153o900105c32a80d571c00a1b (1).jpg)
+![](https://i04.cc/r/f92ef4660mb594063a4b202c1212d1ec (1).jpg)
+
 机器，好。lomochorme，不好。
 
 
