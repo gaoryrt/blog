@@ -17,13 +17,13 @@ categories: Films
 
 疫情居家以来，每户每天可以有一人出门两小时。周五晚上规划了一下路线，周六就趁这个机会去了附近几个平时人多的地方，拍了几张难得一见的空旷街道。
 
-![天府大道，银泰](https://cdn.jsdelivr.net/gh/gaoryrt/f/202209051119133.jpg)
-![天府大道，金融城](https://cdn.jsdelivr.net/gh/gaoryrt/f/202209051119132.jpg)
-![金融城](https://cdn.jsdelivr.net/gh/gaoryrt/f/202209051119131.jpg)
-![高新](https://cdn.jsdelivr.net/gh/gaoryrt/f/202209051119130.jpg)
-![玉林生活广场](https://cdn.jsdelivr.net/gh/gaoryrt/f/202209051119126.jpg)
-![玉林路](https://cdn.jsdelivr.net/gh/gaoryrt/f/202209051119128.jpg)
-![南三环，宜家](https://cdn.jsdelivr.net/gh/gaoryrt/f/202209051119129.jpg)
+![天府大道，银泰](https://i04.cc/r/202209051119133.jpg)
+![天府大道，金融城](https://i04.cc/r/202209051119132.jpg)
+![金融城](https://i04.cc/r/202209051119131.jpg)
+![高新](https://i04.cc/r/202209051119130.jpg)
+![玉林生活广场](https://i04.cc/r/202209051119126.jpg)
+![玉林路](https://i04.cc/r/202209051119128.jpg)
+![南三环，宜家](https://i04.cc/r/202209051119129.jpg)
 
 使用的是 hp5+ 1600迫冲，mamiya7 43mm，[这颗头](https://gallery.gaoryrt.com/?chap=43f4.5)又广又锐。
 然而大家都以为这些是我用手机拍的黑白，我不知道该哭还是该笑。
