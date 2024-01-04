@@ -11,22 +11,22 @@ categories: Discovery
 
 不大的主城区里新老建筑融合在一起，这种变化时常让我没有准备，就像是城墙后面是大厦组成的天际线，或者是位置意想不到的先锋书店，给人一种赛博朋克的恍惚感觉。
 
-![](https://cdn.jsdelivr.net/gh/gaoryrt/f/1636524330578-0.webp)
-![](https://cdn.jsdelivr.net/gh/gaoryrt/f/1636524330578-1.webp)
-![](https://cdn.jsdelivr.net/gh/gaoryrt/f/1636524330578-2.webp)
-![](https://cdn.jsdelivr.net/gh/gaoryrt/f/1636524330578-3.webp)
-![](https://cdn.jsdelivr.net/gh/gaoryrt/f/1636524330578-4.webp)
-![](https://cdn.jsdelivr.net/gh/gaoryrt/f/1636524330578-5.webp)
-![](https://cdn.jsdelivr.net/gh/gaoryrt/f/1636524330578-6.webp)
-![](https://cdn.jsdelivr.net/gh/gaoryrt/f/1636524330578-7.webp)
-![](https://cdn.jsdelivr.net/gh/gaoryrt/f/1636524330578-8.webp)
-![](https://cdn.jsdelivr.net/gh/gaoryrt/f/1636524330578-9.webp)
-![](https://cdn.jsdelivr.net/gh/gaoryrt/f/1636524330578-a.webp)
-![](https://cdn.jsdelivr.net/gh/gaoryrt/f/1636524330578-b.webp)
-![](https://cdn.jsdelivr.net/gh/gaoryrt/f/1636524330578-c.webp)
-![](https://cdn.jsdelivr.net/gh/gaoryrt/f/1636524330578-d.webp)
-![](https://cdn.jsdelivr.net/gh/gaoryrt/f/1636524330578-e.webp)
-![](https://cdn.jsdelivr.net/gh/gaoryrt/f/1636524330578-f.webp)
+![](https://i04.cc/r/1636524330578-0.webp)
+![](https://i04.cc/r/1636524330578-1.webp)
+![](https://i04.cc/r/1636524330578-2.webp)
+![](https://i04.cc/r/1636524330578-3.webp)
+![](https://i04.cc/r/1636524330578-4.webp)
+![](https://i04.cc/r/1636524330578-5.webp)
+![](https://i04.cc/r/1636524330578-6.webp)
+![](https://i04.cc/r/1636524330578-7.webp)
+![](https://i04.cc/r/1636524330578-8.webp)
+![](https://i04.cc/r/1636524330578-9.webp)
+![](https://i04.cc/r/1636524330578-a.webp)
+![](https://i04.cc/r/1636524330578-b.webp)
+![](https://i04.cc/r/1636524330578-c.webp)
+![](https://i04.cc/r/1636524330578-d.webp)
+![](https://i04.cc/r/1636524330578-e.webp)
+![](https://i04.cc/r/1636524330578-f.webp)
 
 很长一段时间不写东西了，原因是这段时间很多想法一闪而过没有用心去捕捉，再者正如上次说到过的，我怕和其他人一样定位在主流的对立面，不敢再输出价值观了。所以从那时候开始，博客更多的还是记录思维和生活。
 
