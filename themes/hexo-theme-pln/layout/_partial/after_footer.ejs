@@ -36,22 +36,21 @@
   })
 
   // smooth scroll
-  $$('a[href^="#"]').forEach(e=>{
+  $$('a[href^="#"]').forEach(e => {
     e.addEventListener("click", function(e) {
       e.preventDefault();
       var t = this.getAttribute("href").substr(1);
       $(`[id='${decodeURIComponent(t)}']`).scrollIntoView({
-        behavior: "smooth"
-      }),
-      t === "top" ? history.replaceState(null, null, " ") : history.pushState(null, null, `#${t}`)
+          behavior: "smooth"
+        }),
+        t === "top" ? history.replaceState(null, null, " ") : history.pushState(null, null, `#${t}`)
     })
   })
 
   // transition
-  $$('a[href^="\/"]').forEach(e=>{
+  $$('a[href^="\/"]').forEach(e => {
     e.addEventListener("click", function(e) {
       if (!e.metaKey) document.body.style.opacity = '0'
     })
   })
 </script>
-<script src="https://app.embed.im/snow.js" defer></script>
