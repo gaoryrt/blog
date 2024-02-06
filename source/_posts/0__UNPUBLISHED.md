@@ -26,5 +26,6 @@ echo:
     content: 听歌看电影不叫爱好，人人都听歌看电影的。爱好是不听歌不看电影的人才有意思呢。
   - date: 20230719135801
     content: A midlife crisis is quitting your desk job to sell ice creams on the beach in the Caribbean. Getting to the point of doing it, not just thinking about it.
+  - date: 20240206181701
+    content: 凑巧就这两天看了好多朋友写的东西。他们没把责任推给年龄阅读量或是个人经历地写着。不像我，只会憋陈述句。
 ---
-
