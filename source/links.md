@@ -7,7 +7,7 @@ title: 友链
 
 [DaraW](https://blog.daraw.cn) - 知乎大V
 
-[墨原](https://noctis.im/) - 富翁
+[墨原](https://ncts.me/) - 富翁
 
 [通灵卡片](https://yuqiqin.me/) - 特师
 
