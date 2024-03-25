@@ -60,4 +60,13 @@
       }
     })
   })
+
+  var xhr = new XMLHttpRequest();
+  xhr.open("GET", "https://42.gaoryrt.com/c/hit?hit=889&key=" + encodeURIComponent(location.pathname));
+  xhr.responseType = "json";
+  xhr.onload = function() {
+    console.log(this.response)
+    document.getElementById('page_pv').innerText = this.response.value;
+  }
+  xhr.send();
 </script>
