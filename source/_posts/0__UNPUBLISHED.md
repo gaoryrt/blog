@@ -28,4 +28,6 @@ echo:
     content: A midlife crisis is quitting your desk job to sell ice creams on the beach in the Caribbean. Getting to the point of doing it, not just thinking about it.
   - date: 20240206181701
     content: 凑巧就这两天看了好多朋友写的东西。他们没把责任推给年龄阅读量或是个人经历地写着。不像我，只会憋陈述句。
+  - date: 20240325161010
+    content: 自己实现了文章阅读计数，不用卜蒜子了这玩意了总是有问题。
 ---
