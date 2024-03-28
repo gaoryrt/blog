@@ -2,7 +2,7 @@
 title: 滚动fixed
 comments: true
 date: 2016-05-03 20:21:51
-categories: 前端
+categories: Geek Talks
 ---
 这里指的是「由滚动触发，使元素变为fixed」的效果，我指的是[ifanr](//www.ifanr.com)的导航栏（c-global-navbar）和边栏（o-wrapper__asides）效果。  
 当时阿里的笔试也有这个题，我笔试时遇见了blink问题，这个以后有时间再说，今天先做一个[类似的demo](//gaoryrt.com/CV/ifanr/)。  

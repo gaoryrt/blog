@@ -2,7 +2,7 @@
 title: 使用markdown须知
 date: 2015-09-10 17:35:04
 tags: [markdown,mou]
-categories: Geek Talks · 奇客怪谈
+categories: 扫盲教育
 ---
 好好的一个学计算机的居然不知道Markdown？  
 虽然我也才开始没多久，反正开了这个博客之后发现Markdown＋Mou的组合很方便  

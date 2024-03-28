@@ -1,7 +1,7 @@
 title: 在 PLN 主题中使用搜索功能
 comments: true
 date: 2016-08-25 22:02:13
-categories: Geek Talks · 奇客怪谈
+
 ---
 这篇文章简单描述了一下怎样在 hexo-theme-pln 中用上搜索功能。
 简单描述的意思就是很简单。

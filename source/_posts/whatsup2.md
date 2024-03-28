@@ -2,7 +2,7 @@
 title: 这几天在干什么 2
 comments: false
 date: 2015-11-05 00:58:53
-categories: 随笔与个人文集
+categories: 最近在干什么
 ---
 这几天一直在搞全国密码学大赛的事情  
 看文献，github，SoF  

@@ -2,7 +2,7 @@
 title: 两种常用的 js 动画
 comments: true
 date: 2020-02-12 15:59:56
-categories: 前端
+categories: Geek Talks
 ---
 CSS3 动画已经很好了，感觉不够用的话再接着看吧。
 写了两种 `requestAnimationFrame` 的应用：FLIP 动画、跟随动画。

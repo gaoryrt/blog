@@ -2,7 +2,7 @@
 title: Kernel Panic Button
 comments: true
 date: 2016-05-01 12:45:57
-categories: 前端
+categories: CMD:CV
 ---
 **这一篇主要讲的是跨域。**  
 前提：[今天恐慌吗？](//gaoryrt.com/2016/04-30-KernelPanicButton/)  

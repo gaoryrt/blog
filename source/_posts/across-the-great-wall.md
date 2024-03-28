@@ -2,7 +2,7 @@
 title: 也谈翻墙
 comments: true
 date: 2020-01-22 10:38:28
-categories: Geek Talks · 奇客怪谈
+categories: 编程
 keywords: shadowsocks, ssr, vmess, 购买, 翻墙, 机场, 推荐
 ---
 请注意，这是一篇带推荐码的半恰饭文。

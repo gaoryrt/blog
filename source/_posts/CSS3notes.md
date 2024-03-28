@@ -2,7 +2,7 @@
 title: CSS3笔记
 comments: true
 date: 2016-04-22 18:57:56
-categories: 前端
+categories: CMD:CV
 ---
 当时看w3school的CSS3时记下来的一些（私以为）容易忽略的要点，写下来再加深印象。
 # 边框

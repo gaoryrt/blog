@@ -1,7 +1,7 @@
 ---
 title: 「转」segue与delegate在ViewController返回的时候进行反向回传参数
 date: 2016-01-11 18:27:15
-categories: 疑似机器人	
+categories: CMD:CV
 ---
 刚开始使用swift 的时候有很多问题  
 这篇文章帮了我很多  

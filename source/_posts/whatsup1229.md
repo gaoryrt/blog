@@ -2,7 +2,7 @@
 title: 最近在干什么12-29
 comments: false
 date: 2015-12-29 00:55:28
-categories: 随笔与个人文集
+categories: 最近在干什么
 ---
 一不小心 github 上面的 contribution 就空了11天  
 上周就沉浸在做 keynote 和补全软件功能上面了  

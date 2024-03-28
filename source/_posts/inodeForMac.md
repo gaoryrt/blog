@@ -2,7 +2,7 @@
 title: 开始在Mac上使用校园网
 comments: 
 date: 2016-02-29 11:41:25
-categories: Geek Talks · 奇客怪谈
+categories: 扫盲教育
 ---
 前几天尝试在win上面使用校园网的时候才发现inode这东西还不是很方便。  
 比起原来天翼飞young的客户端第一次设置多了些东西的设置。  

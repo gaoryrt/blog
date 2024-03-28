@@ -2,7 +2,7 @@
 title: 快速上手使用 Gulp
 comments: true
 date: 2016-06-25 23:34:10
-categories: Geek Talks · 奇客怪谈
+categories: 扫盲教育
 ---
 这篇文章的目的是让你使用Gulp。  
 **前提**：你要至少了解NPM，Gulp是什么，对前端开发的流程有个大概的概念。  

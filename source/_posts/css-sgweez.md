@@ -2,7 +2,7 @@
 title: 压缩css的一个想法
 comments: true
 date: 2016-06-10 19:12:19
-categories: Discovery
+categories: Geek Talks
 ---
 本篇写于这个压缩css自动化工具完成之前，暂时记录一下想法，不保证完成，想看的看，不想看的就别看。
 

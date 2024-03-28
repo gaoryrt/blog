@@ -2,7 +2,7 @@
 title: 最近在干什么 2024-03-11
 comments: true
 date: 2024-03-11 18:22:29
-categories: 随笔与个人文集
+categories: 最近在干什么
 ---
 
 依旧是手机相册流水账。

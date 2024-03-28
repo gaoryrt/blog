@@ -2,7 +2,7 @@
 title: review of Network attack and defense
 comments: true
 date: 2016-09-19 01:02:38
-categories: Discovery
+categories: 扫盲教育
 ---
 SQL注入即是指攻击者通过在应用程序中预先定义好的查询语句结尾加上额外的SQL语句元素，欺骗数据库服务器执行非授权的任意查询。
 

@@ -2,7 +2,7 @@
 title: 关于实习
 comments: false
 date: 2016-01-27 22:51:54
-categories: Discovery
+categories: 最近在干什么
 ---
 已经大三寒假了  
 今年开学就应该要实习了  

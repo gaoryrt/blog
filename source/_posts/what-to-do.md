@@ -2,7 +2,7 @@
 title: 干啥
 comments: false
 date: 2015-10-23 14:03:21
-categories: Discovery
+categories: 最近在干什么
 ---
 避免自己没有事情做
 <!--more-->

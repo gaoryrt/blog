@@ -2,7 +2,7 @@
 title: linux网络编程复习
 comments: false
 date: 2015-12-13 23:22:17
-categories: Discovery
+categories: 扫盲教育
 ---
 甘刚老师教的很不错的，对我们也很负责，真的是很好的一个老师。  
 但是江山易改本性难移，我们还是没有好好的听老师讲课，还是等着最后几天来复习。  

@@ -1,7 +1,7 @@
 ---
 title: 开始使用 GitHub
 date: 2015-09-14 20:19:46
-categories: Geek Talks · 奇客怪谈
+categories: 扫盲教育
 tags: [howto,GitHub]
 ---
 我自己也是刚开始使用 GitHub 没几天，写得不好  

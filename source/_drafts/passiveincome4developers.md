@@ -2,7 +2,7 @@
 title: 程序员的被动收入
 comments: true
 date: 2022-12-29 16:31:16
-categories: ['Geek Talks · 奇客怪谈']
+categories: Geek Talks
 ---
 
 # 如何判断一件事情能不能成，我需要了解这个行业的什么信息

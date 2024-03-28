@@ -2,7 +2,7 @@
 title: 开始使用ubuntu
 comments: false
 date: 2015-10-27 22:54:10
-categories: Geek Talks · 奇客怪谈
+categories: 扫盲教育
 ---
 **网络配置与服务**这门课对我来说已经成为周二晚的噩梦了。  
 在下周二之前要做的事情有点多：  

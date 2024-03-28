@@ -2,7 +2,7 @@
 title: 「翻译」开始使用 material-ui
 comments: false
 date: 2016-01-21 14:16:06
-categories: 疑似机器人	
+categories: CMD:CV
 ---
 翻译自[这一篇文章](//www.material-ui.com/#/get-started/prerequisites)，这个是 material-ui 的官方文档。  
 # 开始的前提

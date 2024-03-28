@@ -3,7 +3,7 @@ title: 对主题的修改
 tags: [next, hexo]
 comments: false
 date: 2015-10-11 15:04:40
-categories: Discovery
+categories: 编程
 ---
 我说过了我要改悬浮header还有字体的，今天都改好了。  
 现在完成了，但是移动端还有一点点小小的遗憾没有解决。  

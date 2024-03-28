@@ -2,7 +2,7 @@
 title: 为hexo添加不依赖模板的页面
 comments: true
 date: 2016-03-09 14:47:35
-categories: Geek Talks · 奇客怪谈
+categories: 编程
 ---
 前几天看到了一个（我觉得）做的很不错的[online CV](//zhangwenli.com/cv/cn.html)  
 想到自己的网页全都是通过md文件然后node.js出来的  

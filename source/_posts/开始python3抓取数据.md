@@ -2,7 +2,7 @@
 title: 开始python3抓取数据
 date: 2015-10-04 11:39:01
 tags: [python,abc]
-categories: 硬悟学蛇
+categories: CMD:CV
 ---
 暂时没有看[廖雪峰的python3教程](//www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000/001431658427513eef3d9dd9f7c48599116735806328e81000)，而是直接看了这个👉[笨办法学Python](//www.2cto.com/shouce/Pythonbbf/index.html)   
 笨办法学python - Learn Python The Hard Way 里面写的基本上是初级语法  

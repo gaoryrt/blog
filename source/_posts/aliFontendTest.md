@@ -1,7 +1,7 @@
 ---
 title: Fontend Test
 date: 2016-04-02 09:48:59
-categories: 前端
+categories: CMD:CV
 ---
 随便找了一份前端的测试题来做  
 想看原版的可以[点这里](http://www.tuicool.com/articles/YbQB3q)  

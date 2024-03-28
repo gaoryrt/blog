@@ -2,7 +2,7 @@
 title: Mac 下搭建汇编环境
 comments: false
 date: 2015-11-18 17:39:26
-categories: Geek Talks · 奇客怪谈
+categories: 扫盲教育
 ---
 注意我搞的是32位的  
 汇编有很多不同的编译器，每个编译器的语法都不一样  

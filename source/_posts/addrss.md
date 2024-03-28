@@ -2,7 +2,7 @@
 title: 为站点添加rss和sitemap
 comments: true
 date: 2016-03-22 17:54:35
-categories: Geek Talks · 奇客怪谈
+categories: 扫盲教育
 ---
 # rss是什么
 全称是really simple syndication  

@@ -2,7 +2,7 @@
 title: 今天恐慌吗？
 comments: true
 date: 2016-04-30 20:41:56
-categories: Geek Talks · 奇客怪谈
+categories: 编程
 ---
 今天回家，路上听了第38期的内核恐慌，这一期的题目就叫做[Hit the Kernel Panic Button（点击查看/收听）](https://ipn.li/kernelpanic/38/)，提到了一个内核恐慌按钮，和微博用户[今天是周五么](//weibo.com/frifrifriday)、话题[#索尼今天倒闭了吗#](//weibo.com/p/1008083db00081c6bc19771bf8f16b1c7dbc15)的目的类似。大概是因为内核恐慌改为不定期播出了，rio说需要在官网上做一个按钮，『今天恐慌吗』？  
 *你永远不知道你按下之后会发现什么*  

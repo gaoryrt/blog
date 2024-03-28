@@ -2,7 +2,7 @@
 title: 吻合器痔手术痛感流水账（下）
 comments: true
 date: 2024-02-29 3:09:17
-categories: 随笔与个人文集
+categories: 最近在干什么
 ---
 好了伤疤忘了痛，好了屁眼忘了写。
 

@@ -2,7 +2,7 @@
 title: JQuery实现简单日历组件
 comments: true
 date: 2016-03-23 02:19:09
-categories: 前端
+categories: CMD:CV
 ---
 [demo点这里](//gaoryrt.com/CV/calendar/index.html)
 # 需要达到的效果

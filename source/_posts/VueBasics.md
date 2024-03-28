@@ -2,7 +2,7 @@
 title: 快速上手Vue
 comments: true
 date: 2016-04-29 16:41:25
-categories: 前端
+categories: CMD:CV
 ---
 这篇文章的目的是让你快速上手Vue。  
 如果你想知道Vue是什么，请看[Vue的官方文档](//vuejs.org)。  

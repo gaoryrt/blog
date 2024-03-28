@@ -2,7 +2,7 @@
 title: 徒步露营装备指南
 comments: true
 date: 2023-05-25 18:57:33
-categories: discovery
+categories: Discovery
 ---
 
 # 最简单的装备-选择鞋袜

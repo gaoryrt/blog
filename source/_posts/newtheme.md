@@ -2,7 +2,7 @@
 title: 开始使用 dame 主题
 comments: false
 date: 2016-01-24 15:22:19
-categories: Geek Talks · 奇客怪谈
+categories: 编程
 ---
 终于，终于快完成了    
 重写这个主题在两个月之前就已经放进了日程当中  

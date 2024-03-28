@@ -2,7 +2,7 @@
 title: flex css3
 comments: true
 date: 2016-04-10 19:50:24
-categories: 前端
+categories: CMD:CV
 ---
 
 这一篇是从css-trics抄到本人小本本上面的，现在又从小本本上腾到博客上来。  

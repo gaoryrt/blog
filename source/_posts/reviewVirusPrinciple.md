@@ -2,7 +2,7 @@
 title: 复习计算机病毒分析与防范
 comments: true
 date: 2016-04-25 22:57:37
-categories: Discovery
+categories: 扫盲教育
 ---
 ## 引导型病毒的工作原理
 在BIOS后，操作系统前，通过中断服务程序(向量表 INT 13H)，占据物理位置(常驻内存高端)，替换、截获系统中断从而伺机传染发作。

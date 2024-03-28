@@ -2,7 +2,7 @@
 title: 前端动画之替换
 comments: true
 date: 2020-02-13 13:20:10
-categories: 前端
+categories: Geek Talks
 ---
 这个技巧是在 egoist 的 [zoom-image](https://github.com/egoist/zoom-image) 看的，这个库来自于 [zoom.js](https://github.com/fat/zoom.js)，实现了 medium 文章图片的展开/收起效果。
 

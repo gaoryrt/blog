@@ -1,6 +1,6 @@
 ---
 title: 好久没有听到抓耳朵的歌了
-comments: true[]()
+comments: true
 date: 2016-11-13 15:07:29
 categories: 随笔与个人文集
 ---

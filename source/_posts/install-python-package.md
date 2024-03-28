@@ -2,7 +2,7 @@
 title: 安装 python 库文件
 comments: false
 date: 2015-10-16 13:28:04
-categories: 硬悟学蛇
+categories: 
 ---
 我用的` pythonbrew`来管理我的两个 `python`版本  
 但是在使用第三方` package`的时候，`pip`总是不好用  

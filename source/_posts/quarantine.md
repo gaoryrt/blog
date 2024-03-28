@@ -2,7 +2,7 @@
 title: 居家
 comments: true
 date: 2022-09-04 11:02:32
-categories: Films
+categories: 快门狂按
 ---
 最近半个月都在居家：
 > 8月17日，高新供电发文要求软件园用电量需降至平日的三成，公司限电开始居家。

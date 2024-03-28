@@ -2,7 +2,7 @@
 title: what's up
 date: 2015-10-09 22:49:40
 tags: [howto, mac]
-categories: Geek Talks · 奇客怪谈
+categories: 最近在干什么
 ---
 买了 ipad 这几天都没有更新  
 长话短说，四件事  

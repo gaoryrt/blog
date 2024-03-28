@@ -1,7 +1,7 @@
 ---
 title: 开始使用sublime text 3
 date: 2015-09-10 17:34:12
-categories: Geek Talks · 奇客怪谈
+categories: 扫盲教育
 tags: [howto,sublime]
 ---
 windows上面基本上是个文件都可以用notepad++打开  

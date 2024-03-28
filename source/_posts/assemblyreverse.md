@@ -2,7 +2,7 @@
 title: 复习汇编
 comments: false
 date: 2015-11-27 03:16:41
-categories: Discovery
+categories: 扫盲教育
 ---
 汇编考试终于完了  
 然后把复习资料传一下  

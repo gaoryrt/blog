@@ -2,7 +2,7 @@
 title: 修改next主题
 date: 2015-10-04 01:42:57
 tags: [hexo,abc,try,sublime]
-categories: Discovery
+categories: 编程
 ---
   
   开始尝试修改 hexo/themes/next 中的.styl文件，来更改主题甚至开发新主题。  

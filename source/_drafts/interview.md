@@ -1,7 +1,6 @@
 title: 前端面试
 comments: true
 date: 2020-04-11 11:04:22
-categories: 前端
 ---
 
 记录常见的前端面试题和答案要点，以飨来人。

@@ -1,7 +1,7 @@
 ---
 title: "Agfa APX 100"
 date: 2022-05-12T10:24:42+08:00
-categories: Films
+categories: 快门狂按
 tags: [LeicaM6, B&W]
 ---
 Agfa APX 100、橙滤镜。四月的成都和重庆。我感觉我可以出个文章讲讲自己冲扫的流程呢。

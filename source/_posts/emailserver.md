@@ -2,7 +2,7 @@
 title: Ubuntu Email Server
 comments: false
 date: 2015-10-30 19:43:38
-categories: Geek Talks · 奇客怪谈 
+categories: 扫盲教育
 ---
 配置sendmail+dovecot 的服务器并用 email 客户端进行邮件收发  
 1. sendmail 只为192.168.x.0/24 提供转发

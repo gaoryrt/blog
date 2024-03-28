@@ -2,7 +2,7 @@
 title: 「转」learn x in y minutes - python
 comments: false
 date: 2015-10-22 10:59:11
-categories: 疑似机器人
+categories: CMD:CV
 ---
 **搬运自[learnxinyminutes-docs](https://github.com/adambard/learnxinyminutes-docs)  
 文档地址[python.html.markdown](https://github.com/adambard/learnxinyminutes-docs/blob/master/python.html.markdown)**

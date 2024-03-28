@@ -2,7 +2,7 @@
 title: 拆分CSS
 comments: true
 date: 2016-05-14 21:55:22
-categories: Geek Talks · 奇客怪谈
+categories: Geek Talks
 ---
 在我开始着手写[hexo-theme-pln]()的时候我就已经预见到了这一幕：这个 css 文件太过巨大，对于普通的维护来说比较复杂，我需要将它拆分开来。  
 这篇文章就在进行的同时记录一下过程。  

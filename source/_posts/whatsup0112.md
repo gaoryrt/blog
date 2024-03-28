@@ -2,7 +2,7 @@
 title: 最近都在干啥01-12
 comments: false
 date: 2016-01-12 23:25:47
-categories: 随笔与个人文集
+categories: 最近在干什么
 ---
 居然离最近的一篇更新是 whatsup 系列  
 好像最近的一次 contribution 是对改动一个 hexo theme 吧  

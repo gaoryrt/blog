@@ -2,7 +2,7 @@
 title: 终于还是自己买了vps搭ss
 comments: true
 date: 2016-03-17 17:19:43
-categories: Geek Talks · 奇客怪谈
+categories: 扫盲教育
 ---
 # 先买一个vps  
 主要是人家一般都要paypal，但是我没有，为了方便就直接上了淘宝，贵了11元/年  

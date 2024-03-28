@@ -1,7 +1,7 @@
 ---
 title: Hello World
 date: 2015-09-08 01:25:00
-categories: 疑似机器人
+categories: CMD:CV
 tags: [try]
 ---
 Welcome to [Hexo][1]! This is your very first post. Check [documentation][2] for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting][3] or you can ask me on [GitHub][4].

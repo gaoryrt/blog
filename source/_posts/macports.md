@@ -2,7 +2,7 @@
 title: 安装 MacPorts
 comments: false
 date: 2015-10-23 00:28:48
-categories: Geek Talks · 奇客怪谈
+categories: 扫盲教育
 ---
 Mac下安装软件一般都是下载`dmg`、`pkg`包来安装。
 在命令行中常使用`brew`、`wget`、`pip`来安装命令行软件包。  
