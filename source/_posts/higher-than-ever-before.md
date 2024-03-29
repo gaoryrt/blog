@@ -14,7 +14,7 @@ Disclosure - Higher Than Ever Before
 ## 以前的几张专辑
 《Alchemy》这张专辑已经发了一年了，记得当时激动不已沐浴更衣正经端坐一首首听下来，先是不解，而后有些失落。除了偶尔出现的一些熟悉的音色和处理能让人短暂闪回当年的美好瞬间，十年来的第四专，首听给我的印象就是廉颇老矣。
 
-没有了十年前《Settle》那样一首（《F For You》）紧接一首（《White Noise》），一次次地（《Jannuary》《Confess To Me》）撩拨振奋、再次激昂起尚未从上一首停歇的心绪的感觉了。于是紧接着第二年的《Caracal》有了更多的合作（The Weeknd/Sam Smith/Lorde）人声出演，更深沉力量的节奏，但也把它变成了一张落入俗套的想要急切证明突破自己的商业化作品。
+没有了十年前《Settle》那样一首（《F For You》）紧接一首（《White Noise》），一次次地（《Jannuary》《Confess To Me》）撩拨振奋、再次激昂起尚未从上一首停歇的心绪的感觉了。于是紧接着第二年的《Caracal》有了更多的合作（The Weeknd / Sam Smith / Lorde）人声出演、更深沉力量的节奏，但也把它变成了一张落入俗套的想要急切证明突破自己的商业化作品。
 
 之后我们一通好等就是五年，期间每一首单曲（《Ultimatum》《Where Angels Fear To Tread》）都能证明他们的能力才华，直到2020《ENERGY》回归，融合了更多风格（《Tondo》）和元素（《My High》），成为了一个更高的杰作，在与《Settle》不同的另一角度。
 
