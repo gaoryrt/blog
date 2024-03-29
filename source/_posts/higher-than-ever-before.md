@@ -1,12 +1,11 @@
 ---
-title: Higher Than Ever Before
+title: Disclosure - Higher Than Ever Before
 comments: true
 date: 2024-03-29 08:22:23
 categories: 看电影听音乐
 ---
 免责：本篇还有大量的主观意见，不想看的就别看。
 
-Disclosure - Higher Than Ever Before
 先把视频放在这里：
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/cvbIT_CKQ9M?si=g6VEFygwiuedqEkx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
