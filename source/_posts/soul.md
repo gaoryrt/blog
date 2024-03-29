@@ -2,7 +2,7 @@
 title: Soul (2020 film)
 comments: true
 date: 2020-12-29 11:39:35
-categories: 看电影
+categories: 看电影听音乐
 ---
 本篇（应该）没有剧透。
 

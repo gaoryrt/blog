@@ -2,7 +2,7 @@
 title: 世界上最糟糕的人
 comments: true
 date: 2022-06-15 19:31:21
-categories: 看电影
+categories: 看电影听音乐
 ---
 
 本篇**冇**剧透。

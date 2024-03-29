@@ -2,7 +2,7 @@
 title: 美国小说 American Fiction (2023)
 comments: true
 date: 2024-03-16 23:31:21
-categories: 看电影
+categories: 看电影听音乐
 ---
 
 刚下楼看到个中年男人穿着睡衣，踩在滑板车上用煤油打火机点烟，让我更怀疑自己是否在做梦了。
