@@ -2,7 +2,7 @@
 title: 关键词搜索修正
 comments: false
 date: 2015-12-15 02:12:50
-categories: 编程
+categories: Geek Talks
 ---
 由 python 2.7 编写  
 作用是从常用自然疑问句中查询关键字  

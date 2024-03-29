@@ -2,7 +2,7 @@
 title: what i learned today
 comments: true
 date: 2016-09-23 23:44:25
-categories: CMD:CV
+categories: 扫盲教育
 ---
 ## 怎样<del>正确</del>使用 vue-resource + vuex
 vue-resource 是一个用于XMLHttpRequest以及JSON操作的插件，其实如果不是对`inteceptor`有需求，有jQuery就够了。

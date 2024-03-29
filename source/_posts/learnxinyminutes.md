@@ -2,7 +2,7 @@
 title: 「转」learn x in y minutes - python
 comments: false
 date: 2015-10-22 10:59:11
-categories: CMD:CV
+categories: 扫盲教育
 ---
 **搬运自[learnxinyminutes-docs](https://github.com/adambard/learnxinyminutes-docs)  
 文档地址[python.html.markdown](https://github.com/adambard/learnxinyminutes-docs/blob/master/python.html.markdown)**

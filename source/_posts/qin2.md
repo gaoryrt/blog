@@ -2,7 +2,7 @@
 title: 买了个多亲 AI 助手
 comments: true
 date: 2019-09-09 20:43:10
-categories: Discovery
+categories: 消费主义
 ---
 上个月在小米有品499众筹的，九月一日发货，中间等了有差不多半个月。但是在九月一日之前就出现了很多该手机的开箱视频，别问，问就是恰饭。
 

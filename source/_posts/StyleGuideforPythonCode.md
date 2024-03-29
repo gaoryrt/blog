@@ -2,7 +2,7 @@
 title: 「转」PEP8中文翻译
 comments: false
 date: 2015-10-21 22:57:43
-categories: CMD:CV
+categories: 扫盲教育
 ---
 自己翻译了一些发现了一个更好的版本  
 转过来[PEP8中文翻译](//wiki.hiaero.net/doku.php?id=python:pep8&do=edit&rev=0)  

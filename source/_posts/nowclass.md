@@ -2,7 +2,7 @@
 title: 简单的vue场景转换
 comments: true
 date: 2016-07-25 21:53:22
-categories: CMD:CV
+categories: Geek Talks
 ---
 从实习以来就在使用vue做web app的开发，经常会用到**场景的转换**。
 

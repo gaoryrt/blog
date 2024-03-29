@@ -2,7 +2,7 @@
 title: 三亚
 comments: true
 date: 2023-05-29 12:56:28
-categories:
+categories: 快门狂按
 ---
 五一去了三亚，拍了照。
 

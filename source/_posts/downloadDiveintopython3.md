@@ -2,7 +2,7 @@
 title: 下载Dive into python3
 date: 2015-10-06 21:16:33
 tags: [python,abc]
-categories: CMD:CV
+categories: 扫盲教育
 ---
 还是没有看廖雪峰的教程，就算我把它爬下来了。。。  
 在[上一篇](/2015/10/04/开始python3抓取数据/)中，本来的目标是通过构造`get`和`post`来自动获取热门微博然后刷微博，但是写到最后变成了通过网站目录下载网站  

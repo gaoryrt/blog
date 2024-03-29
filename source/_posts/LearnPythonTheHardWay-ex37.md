@@ -2,7 +2,7 @@
 title: [笨办法学 Python,习题37]
 comments: false
 date: 2015-11-20 12:45:36
-categories: CMD:CV
+categories: 扫盲教育
 ---
 复习 Python 中的**符号**和**关键字**  
 <!--more-->  

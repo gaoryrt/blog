@@ -2,7 +2,7 @@
 title: 手写Border
 comments: true
 date: 2016-04-17 00:18:23
-categories: CMD:CV
+categories: Geek Talks
 ---
 看了一个题，叫使用纯CSS+HTML方式实现圆角框。  
 [想看题的点这里](//yjbys.com/bishi/timu/613776.html)。  

@@ -2,7 +2,7 @@
 title: JS笔记
 comments: true
 date: 2016-04-21 18:06:39
-categories: CMD:CV
+categories: 扫盲教育
 ---
 这几天主要是在看JS，小本本上记录了一些（私以为）具有代表性的要点，这里写一遍再加深一下印象。  
 <!-- more -->

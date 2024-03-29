@@ -2,7 +2,7 @@
 title: 最近的胶片价格
 comments: true
 date: 2023-07-19 12:58:18
-categories: Discovery
+categories: 消费主义
 ---
 近日的胶片摄影热度不及ccd，胶片价格自然也悄悄下降了许多。
 翻了翻拼多多和淘宝购买记录，简单整理了一下近一年半的到手价格。

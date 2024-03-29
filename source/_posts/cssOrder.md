@@ -2,7 +2,7 @@
 title: CssOrder
 comments: true
 date: 2016-04-23 03:29:34
-categories: CMD:CV
+categories: Geek Talks
 ---
 阅读了[CSS的十八般技巧](//www.w3cn.org/article/translate/2005/104.html)和[推荐大家使用的CSS书写规范、顺序](//www.shejidaren.com/css-written-specifications.html)两篇文章之后，对css 压缩和美化有了另一番认识。  
 `2016-04-27 更新`：发现CSSComb已经实现并且很优雅。[csscomb](//csscomb.com/)

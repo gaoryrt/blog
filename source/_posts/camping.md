@@ -2,7 +2,7 @@
 title: 九顶山露营
 comments: true
 date: 2022-07-12 15:37:30
-# categories: ['']
+categories: 消费主义
 ---
 上一个周末去了茂县九顶山两日一夜露营，前所未有的体验，记录一下。
 ![](https://i04.cc/r/202207130944993.JPG)

@@ -2,7 +2,7 @@
 title: python challenge 11-19
 comments: false
 date: 2015-10-16 23:00:57
-categories: 编程
+categories: 扫盲教育
 ---
 我感觉我是做入迷了  
 因为确实好玩啊。。。

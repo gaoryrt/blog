@@ -2,7 +2,7 @@
 title: 花了好长时间重装了hexo
 comments: true
 date: 2016-03-23 23:53:57
-
+categories: 扫盲教育
 ---
 今天使用hexo的时候，发现找不到这个命令了  
 打开finder，我的hexo文件夹还在那里  

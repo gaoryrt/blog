@@ -2,7 +2,7 @@
 title: 「翻译」使用 ES2017 Async 函数
 comments: true
 date: 2017-08-17 23:13:43
-categories: CMD:CV
+categories: 扫盲教育
 ---
 翻译自[Using ES2017 Async Functions](https://css-tricks.com/using-es2017-async-functions/)
 

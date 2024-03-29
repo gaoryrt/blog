@@ -2,7 +2,7 @@
 title: 解决hexo MODULE NOT FOUND问题
 comments: ture
 date: 2016-04-11 02:19:32
-categories: CMD:CV
+categories: 扫盲教育
 ---
 看见其他地方是其他的方法，我这里还是记录下来，万一别人也遇见了呢。
 

@@ -2,7 +2,7 @@
 title: JS去重
 comments: true
 date: 2016-04-17 18:50:25
-categories: CMD:CV
+categories: 扫盲教育
 ---
 看了一个题，要求用JS给数组去重。  
 标答的实现时间复杂度比我自己想的版本要多一些，下面记录一下自己的版本。  

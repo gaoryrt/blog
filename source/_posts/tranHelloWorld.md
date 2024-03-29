@@ -1,7 +1,7 @@
 ---
 title: "「翻译」Hello World"
 date: 2015-09-08 01:26:23
-categories: CMD:CV
+categories: 扫盲教育
 tags: [try,trans]
 ---
   欢迎来到 [Hexo](https://hexo.io)！这是你的第一篇文章。在[这个文档](//hexo.io/docs/)查看更多的信息。如果在使用Hexo时遇到了任何问题，你可以在[这个页面](//hexo.io/docs/troubleshooting.html)找到答案，或者在[Github](https://github.com/hexojs/hexo/issues)上直接询问我。

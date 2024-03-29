@@ -2,7 +2,7 @@
 title: 一个思考
 comments: true
 date: 2016-04-14 22:31:45
-categories: 编程
+categories: 扫盲教育
 ---
 原本第一句话是『.DS_store是git的敌人』，我想了一下，还是默默改成了下面这一句。  
 > DS.store是hexo generate的敌人。

@@ -2,7 +2,7 @@
 title: python challenge 1-10
 comments: false
 date: 2015-10-14 23:47:06
-categories: 编程
+categories: 扫盲教育
 ---
 这几天学校极客大挑战，三道编程题  
 然后发现这种才有意思嘛。。。  

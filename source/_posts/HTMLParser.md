@@ -2,7 +2,7 @@
 title: HTMLRarser 的使用
 comments: false
 date: 2015-11-30 17:13:36
-categories: CMD:CV
+categories: 扫盲教育
 ---
 记录一下如何使用 HTMLParser   
 这一个跑在 python2.7.10 上，跟以前的那一篇不一样  

@@ -2,7 +2,7 @@
 title: 关于速度优化
 comments: true
 date: 2016-05-08 15:04:12
-categories: 编程
+categories: 扫盲教育
 ---
 最近一段时间干过的最差劲的事情就是每天起床守着[百度统计](//tongji.baidu.com)找存在感了。干脆删除掉，改用[不蒜子](//busuanzi.ibruce.info)。还有几处js的trick，这里也一起记录一下。  
 ***
