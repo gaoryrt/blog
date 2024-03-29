@@ -2,7 +2,7 @@
 title: what's up these days
 comments: true
 date: 2016-11-25 00:04:41
-categories: 
+categories: 最近在干什么
 ---
 The reason why this article is written in English is that I'm using vim which is not chinese-display friendly.
 

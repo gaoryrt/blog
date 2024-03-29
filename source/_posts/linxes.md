@@ -2,7 +2,7 @@
 title: linxes Ⅰ
 comments: true
 date: 2017-11-05 16:26:59
-categories:
+categories: Geek Talks
 ---
 这是一篇实验性的文章，想看的人看，不想看的就别看。
 
