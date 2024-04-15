@@ -95,8 +95,8 @@
       $('#heart-num').innerText = res.count
     })
     heart.addEventListener('click', function() {
-      heart.classList.toggle("is-active");
       const isActive = heart.classList.contains("is-active")
+      heart.classList.toggle("is-active");
       if (!isActive) {
         get(url + '&hit=777')
           .then(function(res) {
