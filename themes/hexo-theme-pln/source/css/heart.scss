@@ -3,7 +3,7 @@
   display: flex;
   align-items: center;
   // justify-content: center;
-  padding: 52px;
+  // padding: 52px;
 }
 #heart-ctnr {
   height: 50px;
@@ -22,7 +22,7 @@
 }
 #heart-num {
   font-size: 1em;
-  padding-left: 25px;
+  padding: 0 1em;
 }
 #heart.is-active {
   color: hsl(var(--theme-hs) var(--l-40));
