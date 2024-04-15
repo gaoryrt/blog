@@ -21,6 +21,22 @@
   function $$(s) {
     return document.querySelectorAll(s)
   }
+
+  function get(api) {
+    return new Promise(function(resolve, reject) {
+      var xhr = new XMLHttpRequest()
+      xhr.open('GET', api)
+      xhr.onload = function() {
+        if (xhr.status === 200) {
+          resolve(xhr.response)
+        } else {
+          reject(xhr.statusText)
+        }
+      }
+      xhr.send()
+    })
+  }
+
   var dropDownElArr = $$('.dropdown')
   for (var i = 0; i < dropDownElArr.length; i += 1) {
     dropDownElArr[i].addEventListener('click', function(event) {
@@ -61,12 +77,28 @@
     })
   })
 
-  var xhr = new XMLHttpRequest();
-  xhr.open("GET", "https://42.gaoryrt.com/c/hit?hit=889&key=" + encodeURIComponent(location.pathname));
-  xhr.responseType = "json";
-  xhr.onload = function() {
-    console.log(this.response)
-    document.getElementById('page_pv').innerText = this.response.count;
+  get("https://42.gaoryrt.com/c/hit?hit=889&key=" + encodeURIComponent(location.pathname))
+    .then(function(res) {
+      const pv_el = $('#page_pv')
+      if (pv_el) pv_el.innerText = res.count;
+    })
+
+
+  var heart = $('#heart')
+  if (heart) {
+    const url = "https://42.gaoryrt.com/c/hit?key=" + encodeURIComponent('heart click on gaoryrt.com')
+    get(url).then(function(res) {
+      $('#heart-num').innerText = res.count
+    })
+    heart.addEventListener('click', function() {
+      heart.classList.toggle("is-active");
+      const isActive = heart.classList.contains("is-active")
+      if (!isActive) {
+        get(url + '&hit=777')
+          .then(function(res) {
+            $('#heart-num').innerText = res.count
+          })
+      }
+    })
   }
-  xhr.send();
 </script>
