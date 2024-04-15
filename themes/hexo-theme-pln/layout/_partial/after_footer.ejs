@@ -28,7 +28,11 @@
       xhr.open('GET', api)
       xhr.onload = function() {
         if (xhr.status === 200) {
-          resolve(xhr.response)
+          try {
+            resolve(JSON.parse(xhr.response))
+          } catch (e) {
+            resolve(xhr.response)
+          }
         } else {
           reject(xhr.statusText)
         }
