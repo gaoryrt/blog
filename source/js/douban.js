@@ -118,15 +118,15 @@ var Douban = /*#__PURE__*/ (function () {
     this.paged = 1;
     this.genre_list = [
       {
-        name: "已看",
+        name: "Completed",
         value: "done",
       },
       {
-        name: "在看",
+        name: "Ongoing",
         value: "doing",
       },
       {
-        name: "想看",
+        name: "Wishlist",
         value: "mark",
       },
     ];
@@ -258,9 +258,9 @@ var Douban = /*#__PURE__*/ (function () {
         for (var key in result) {
           var date = key.split("-");
           html +=
-            '<div class="db--listBydate"><div class="db--titleDate"><div class="db--titleDate__day">'
-              .concat(date[1], '</div><div class="db--titleDate__month">')
-              .concat(date[0], '</div></div><div class="db--dateList__card">');
+            '<div class="db--listBydate"><div class="db--titleDate"><div class="db--titleDate__year">'
+              .concat(date[0], '</div><div class="db--titleDate__mon">')
+              .concat(date[1], '</div></div><div class="db--dateList__card">');
           html += result[key]
             .map(function (movie) {
               return '<div class="db--item">'

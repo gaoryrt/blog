@@ -1,10 +1,16 @@
+.db--container {
+  font-family: "Open Sans Condensed", "Avenir Next Condensed", "DIN Condensed",
+    "sans-serif-condensed";
+  font-stretch: condensed;
+}
 .db--nav {
   padding: 30px 0 20px;
   display: flex;
   align-items: center;
   flex-wrap: wrap;
 }
-.db--navItem {
+.db--navItem,
+.db--genreItem {
   font-size: 20px;
   cursor: pointer;
   border-bottom: 1px solid rgba(0, 0, 0, 0);
@@ -38,31 +44,18 @@
 }
 .db--title {
   margin-top: 2px;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 1.4;
+  font-weight: 700;
 }
-.db--title a:hover {
-  color: var(--main-hover-color);
-  text-decoration: underline;
-}
-.db--genreItem {
-  background: var(--background-gray-light);
-  font-size: 12px;
-  padding: 5px 12px;
-  border-radius: 4px;
-  margin-right: 6px;
-  margin-bottom: 10px;
-  line-height: 1.4;
-  cursor: pointer;
-}
-.db--genreItem.is-active {
-  background-color: var(--main-hover-color);
-  color: #fff;
-}
+.db--title a:hover,
+.db--genreItem.is-active,
 .db--genreItem:hover {
-  background-color: var(--main-hover-color);
-  color: #fff;
+  border-bottom: 1px solid rgba(64, 64, 64);
+  /* text-decoration: underline; */
+  font-weight: bold;
 }
+
 .db--genres {
   padding-bottom: 15px;
   display: flex;
@@ -74,8 +67,8 @@
 .db--score {
   display: flex;
   align-items: center;
-  font-size: 14px;
-  color: var(--text-gray-lightest);
+  font-size: 18px;
+  /* color: var(--text-gray-lightest); */
 }
 .db--item {
   width: 150px;
@@ -93,14 +86,14 @@
   left: 0;
   top: 0;
   background: #f5c518;
-  color: #000;
+  /* color: #000; */
   border-radius: 4px 4px 4px 0;
   line-height: 1;
   padding: 3px 10px 3px 5px;
-  font-size: 12px;
+  font-size: 18px;
   display: flex;
   margin-bottom: 2px;
-  font-weight: 900;
+  font-weight: bold;
 }
 .db--item .top250:after {
   content: "";
@@ -119,15 +112,15 @@
 .ipc-signpost {
   position: relative;
   background: #f5c518;
-  color: #000;
+  /* color: #000; */
   border-radius: 4px;
   line-height: 1;
   padding: 3px 5px;
-  font-size: 12px;
+  font-size: 18px;
   display: flex;
   width: 58%;
   margin-bottom: 2px;
-  font-weight: 900;
+  font-weight: bold;
 }
 .ipc-signpost:after {
   content: "";
@@ -145,7 +138,7 @@
 }
 .doulist-item {
   margin: 30px 0;
-  color: #666;
+  /* color: #666; */
   border: 1px solid var(--main-border-color);
   border-radius: 4px;
 }
@@ -164,14 +157,14 @@
   right: 0;
   top: 0;
   background: #f5c518;
-  color: #000;
+  /* color: #000; */
   border-radius: 4px 4px 0px 4px;
   line-height: 1;
   padding: 3px 5px 3px 10px;
-  font-size: 12px;
+  font-size: 18px;
   display: flex;
   margin-bottom: 2px;
-  font-weight: 900;
+  font-weight: bold;
 }
 .doulist-item .doulist-subject .db--viewTime:after {
   content: "";
@@ -205,14 +198,14 @@
 }
 .doulist-item .doulist-subject .rating {
   margin: 0 0 5px;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 1;
   display: flex;
   align-items: center;
 }
 .doulist-item .doulist-subject .rating .allstardark {
   position: relative;
-  color: #f99b01;
+  /* color: #f99b01; */
   height: 16px;
   width: 80px;
   background-repeat: repeat;
@@ -223,7 +216,7 @@
 .doulist-item .doulist-subject .rating .allstarlight {
   position: absolute;
   left: 0;
-  color: #f99b01;
+  /* color: #f99b01; */
   height: 16px;
   overflow: hidden;
   background-repeat: repeat;
@@ -231,7 +224,7 @@
   background-size: auto 100%;
 }
 .doulist-item .doulist-subject .abstract {
-  font-size: 14px;
+  font-size: 18px;
 }
 .doulist-item .doulist-subject img {
   width: 96px !important;
@@ -242,8 +235,8 @@
 .db--date {
   position: relative;
   font-size: 20px;
-  color: var(--text-gray-light);
-  font-weight: 900;
+  /* color: var(--text-gray-light); */
+  font-weight: bold;
   line-height: 1;
   margin-top: 30px;
   margin-bottom: 10px;
@@ -272,8 +265,8 @@
   align-items: center;
   padding: 15px 0;
   border-bottom: 1px dotted var(--main-border-color);
-  font-size: 14px;
-  color: var(--text-gray-lightest);
+  font-size: 18px;
+  /* color: var(--text-gray-lightest); */
 }
 .db--card__list:last-child {
   border-bottom: 0;
@@ -284,14 +277,14 @@
 }
 .db--card__list .rating {
   margin: 0 0 0px;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 1;
   display: flex;
   align-items: center;
 }
 .db--card__list .rating .allstardark {
   position: relative;
-  color: #f99b01;
+  /* color: #f99b01; */
   height: 16px;
   width: 80px;
   background-repeat: repeat;
@@ -302,7 +295,7 @@
 .db--card__list .rating .allstarlight {
   position: absolute;
   left: 0;
-  color: #f99b01;
+  /* color: #f99b01; */
   height: 16px;
   overflow: hidden;
   background-repeat: repeat;
@@ -319,21 +312,22 @@
 }
 .db--titleDate {
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   line-height: 1.1;
   margin-bottom: 10px;
   flex: 0 0 auto;
   margin-right: 15px;
   align-items: center;
 }
-.db--titleDate__day {
-  font-weight: 900;
-  font-size: 44px;
+.db--titleDate__mon {
+  font-weight: bold;
+  font-size: 28px;
 }
-.db--titleDate__month {
-  font-size: 14px;
-  color: var(--text-gray-light);
-  font-weight: 900;
+.db--titleDate__year {
+  font-size: 28px;
+  font-weight: bold;
+  /* opacity: 0.6; */
+  margin-right: 10px;
 }
 .db--list__card {
   display: block;
