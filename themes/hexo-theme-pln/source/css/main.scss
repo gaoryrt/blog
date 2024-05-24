@@ -12,7 +12,7 @@ $mid: 26px;
 $small: 18px;
 
 :root {
-  --theme-hs: 204 62%;
+  --theme-hs: 22 100%;
   --green-hs: 180 33%;
   @for $i from 0 through 20 {
     --l-#{$i * 5}: #{$i * 5}%;
