@@ -321,10 +321,10 @@
 }
 .db--titleDate__mon {
   font-weight: bold;
-  font-size: 28px;
+  font-size: 28 px;
 }
 .db--titleDate__year {
-  font-size: 28px;
+  font-size: 28 px;
   font-weight: bold;
   /* opacity: 0.6; */
   margin-right: 10px;
