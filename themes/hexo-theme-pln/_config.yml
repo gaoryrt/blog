@@ -13,10 +13,6 @@ more:
   书影音: /douban.html
   rss: /rss2.xml
 
-# about:
-#   title: Guestbook
-#   link: https://frankenstein-ashen.now.sh/
-
 show_toc_bool: false
 
 excerpt_num: 150
