@@ -13,9 +13,9 @@ more:
   书影音: /douban.html
   rss: /rss2.xml
 
-about:
-  title: Guestbook
-  link: https://frankenstein-ashen.now.sh/
+# about:
+#   title: Guestbook
+#   link: https://frankenstein-ashen.now.sh/
 
 show_toc_bool: false
 
