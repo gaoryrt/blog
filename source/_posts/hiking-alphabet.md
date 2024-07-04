@@ -6,6 +6,8 @@ categories: 消费主义
 toc: true
 ---
 
+> 修改于 20240703，[查看历史版本↗](https://github.com/gaoryrt/blog/commits/master/source/_posts/hiking-alphabet.md)
+
 长长短短地走了不少路线，结合自己的经验写了一篇单日徒步装备指南，给想发展这一爱好的朋友们。
 
 # 步行套装
