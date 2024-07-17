@@ -17,4 +17,4 @@ title: 友链
 
 [澜璒](https://langdon.one/)
 
-还有一些以记录生活为主的、活着的博客，不算是友链，记录[在这里](https://frankenstein-ashen.now.sh/?channel=subscribe)。
+还有一些以记录生活为主的、活着的博客，不算是友链，记录[在这里](https://frankenstein.gaoryrt.com/?channel=subscribe)。
