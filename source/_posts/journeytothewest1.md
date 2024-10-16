@@ -58,6 +58,8 @@ categories: 快门狂按
 
 ---
 
+上一篇：[西域行：克拉玛依 - 托里 - 阿拉山口](https://gaoryrt.com/2024/10-11-journeytothewest/)
+
 敬请期待下一篇：伊宁 - 那拉提
 
 <!-- # D3  伊宁 - 那拉提
