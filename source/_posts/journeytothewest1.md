@@ -27,6 +27,18 @@ categories: 快门狂按
 ![](https://i04.cc/r/DSC04399g.jpeg)
 ![](https://i04.cc/r/DSC04451g.jpeg)
 
+下面几张翻拍的时候太懒了没有遮住两侧导致右边泛白，有机会再重拍：
+
+![](https://i04.cc/r/DSC05105.jpeg)
+![](https://i04.cc/r/DSC05107.jpeg)
+![](https://i04.cc/r/DSC05108.jpeg)
+![](https://i04.cc/r/DSC05109.jpeg)
+![](https://i04.cc/r/DSC05110.jpeg)
+![](https://i04.cc/r/DSC05111.jpeg)
+![](https://i04.cc/r/DSC05112.jpeg)
+![](https://i04.cc/r/DSC05118.jpeg)
+![](https://i04.cc/r/DSC05119.jpeg)
+
 
 ![](https://i04.cc/r/3f7ee6174idb71d3b4a2111d05e4c6a6.jpg)
 
