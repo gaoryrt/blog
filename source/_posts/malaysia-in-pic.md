@@ -21,6 +21,8 @@ categories: 快门狂按
 ![](https://i04.cc/r/545d2ecb8uc27c8649af0102a374ae36.jpg)
 ![](https://i04.cc/r/e7b02629dld8d58669f0367b8422b25d.jpg)
 ![](https://i04.cc/r/04248d9a8t7306aa77931fcbae7b682f.jpg)
+![](https://i04.cc/r/d8bdc3835i858ebb1d2f2a1e1813fe02.jpeg)
+![](https://i04.cc/r/9a82065a7jbf3d680cb419b6a956f50b.jpeg)
 ![](https://i04.cc/r/000086520004%203.jpg)
 <div class='alt'>吉隆破旧火车站</br>lomo turquoise · ricoh gr1s</div>
 ![](https://i04.cc/r/000397340016.jpg)
