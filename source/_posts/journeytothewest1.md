@@ -4,6 +4,16 @@ comments: true
 date: 2024-10-11 13:16:19
 categories: 快门狂按
 ---
+<iframe
+  width="652"
+  height="521"
+  style="border:0"
+  loading="lazy"
+  allowfullscreen
+  referrerpolicy="no-referrer-when-downgrade"
+  src="https://www.google.com/maps/embed/v1/directions?key=AIzaSyCFVVCWGG-tFOUFNmzxOvzG0ivydHVx6ZA&origin=place_id:ChIJ33LUgRYWnUIR0E9UWN6lHyU&waypoints=place_id:ChIJXZKBgPGxgkIR6_g9V3lXPZ4|place_id:ChIJ56MGdPmneDgRNccaLGss-Jk|place_id:ChIJaTdwbIeDeDgR3jaw99tWVLA&destination=place_id:ChIJQXYVOd0PeTgRo2m8ZXQJK7Y&zoom=7">
+</iframe>
+
 白天的阿拉山口市和印象中的石河子或是其他的军垦城市一样，干净宽大的马路上零星行驶几辆老款越野车，道路一眼望不到尽头，中间排列的红绿灯整齐地变换信号。稍微大一点的路口旁都会站着年轻或年老、正式或编外、或汉或维或哈族的警察，他们不指挥交通，而是在那里充当警示的作用。大气能见度很高，阳光强烈，空气在灿烂阳光下泛着淡淡黄色，薄薄的挡住后面的山。
 
 新疆的加油站都要刷身份证验证人脸才能进，在油枪处还要再刷一次才能出油。门口的阿达西一般都穿着不合身的保安服，说着不流利的普通话让你下车，到入口旁这个像邮筒一样的机器前照照才允许进。
@@ -62,15 +72,3 @@ categories: 快门狂按
 
 敬请期待下一篇：伊宁 - 那拉提
 
-<!-- # D3  伊宁 - 那拉提
-六星街，富饶的峡谷，民宿
-# D4  那拉提 - 独库中段 - 巴音布鲁克
-草原，笔直的国道，货车司机驻扎点
-# D5  巴音布鲁克 - 独库南段 - 天山神秘大峡谷 - 库车
-国道，川西，峡谷，灰大，库车老街
-# D6  库车 - 托木尔大峡谷 - 阿克苏
-灰更大了，阿克苏老街
-# D7  阿克苏 - 喀什
-阿克苏博物院，戈壁长路
-# 8 喀什
-新Q喀什的，老城 -->
