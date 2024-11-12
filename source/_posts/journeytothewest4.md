@@ -12,7 +12,7 @@ date: 2024-10-20 14:32:18
   loading="lazy"
   allowfullscreen
   referrerpolicy="no-referrer-when-downgrade"
-  src="https://www.google.com/maps/embed/v1/directions?key=AIzaSyCFVVCWGG-tFOUFNmzxOvzG0ivydHVx6ZA&origin=place_id:ChIJf015WNL2cjgRwp2Yh_dr6eU&destination=place_id:ChIJSd-gyhx9bjgRygQVZnGaGzc&zoom=7">
+  src="https://www.google.com/maps/embed/v1/directions?key=AIzaSyCFVVCWGG-tFOUFNmzxOvzG0ivydHVx6ZA&origin=place_id:ChIJD8VnX9GsczgRWBGlF5bnkYI&destination=place_id:ChIJSd-gyhx9bjgRygQVZnGaGzc&zoom=7">
 </iframe>
 
 巴音布鲁克早上很冷，刚上车的时候，前挡玻璃已经结霜了，幸好租的这大众还有祖传的方向盘加热，不然就要热车等水箱温度上来了。

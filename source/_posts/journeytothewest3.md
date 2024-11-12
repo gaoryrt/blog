@@ -12,7 +12,7 @@ date: 2024-10-13 12:13:21
   loading="lazy"
   allowfullscreen
   referrerpolicy="no-referrer-when-downgrade"
-  src="https://www.google.com/maps/embed/v1/directions?key=AIzaSyCFVVCWGG-tFOUFNmzxOvzG0ivydHVx6ZA&origin=place_id:ChIJmc4usPeVczgRpnEjqmWfEJc&destination=place_id:ChIJf015WNL2cjgRwp2Yh_dr6eU&zoom=9">
+  src="https://www.google.com/maps/embed/v1/directions?key=AIzaSyCFVVCWGG-tFOUFNmzxOvzG0ivydHVx6ZA&origin=place_id:ChIJmc4usPeVczgRpnEjqmWfEJc&destination=place_id:ChIJD8VnX9GsczgRWBGlF5bnkYI&zoom=9">
 </iframe>
 
 那拉提游客中心入口连接在那拉提镇主路上，从民宿往东开了几分钟就到了。但想把车开进去自驾，还需要亲自在游客中心三楼现场办理。这儿门口全是等着自驾进去的人，广场广播也重复播放着让游客们带上各种证件。游客中心里还有肯德基和 KTV，不知道在这里怎么开得下去。
