@@ -1,12 +1,5 @@
 <script src="<%- config.root %>js/zoom-image.js"></script>
 <script type="text/javascript">
-  document.body.style.opacity = '1'
-  document.addEventListener('visibilitychange', function() {
-    if (document.visibilityState === 'visible') {
-      document.body.style.opacity = '1'
-    }
-  })
-
   // img zoom
   var imgArr = document.getElementsByTagName('img')
   for (var i = 0; i < imgArr.length; i += 1) {
@@ -69,15 +62,6 @@
           behavior: "smooth"
         }),
         t === "top" ? history.replaceState(null, null, " ") : history.pushState(null, null, `#${t}`)
-    })
-  })
-
-  // transition
-  $$('a[href^="\/"]').forEach(e => {
-    e.addEventListener("click", function(e) {
-      if (!e.metaKey) {
-        document.body.style.opacity = '0'
-      }
     })
   })
 
