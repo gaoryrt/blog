@@ -9,16 +9,13 @@ categories: 快门狂按
 ---
 
 <iframe
-  width="450"
-  height="250"
-  frameborder="0" style="border:0"
+  width="652"
+  height="521"
+  style="border:0"
+  loading="lazy"
+  allowfullscreen
   referrerpolicy="no-referrer-when-downgrade"
-  src="https://www.google.com/maps/embed/v1/directions
-  ?key=AIzaSyCFVVCWGG-tFOUFNmzxOvzG0ivydHVx6ZA
-  &origin=Oslo+Norway
-  &destination=Telemark+Norway
-  &avoid=tolls|highways"
-  allowfullscreen>
+  src="https://www.google.com/maps/embed/v1/directions?key=AIzaSyCFVVCWGG-tFOUFNmzxOvzG0ivydHVx6ZA&origin=place_id:ChIJjzTApeEsoEIRsdvOxqJMmWY&waypoints=place_id:ChIJCed8RPnznkIRTigkWyh2YK0&destination=place_id:ChIJ33LUgRYWnUIR0E9UWN6lHyU&zoom=7">
 </iframe>
 
 古海机场只有一条跑道和一座小小的航站楼，出了320走上廊桥，可见的标识就变成了维汉英三语，跟着指引穿过短短的过道，在小小的转盘边等了等行李，不超十五分钟，便离开机场正式来到了西域。航站楼外万里无云，晒但是很凉爽，放眼望去只有高高的柳树或是杨树，山远远的放在那里作为背景，以及一线分开的蓝天黄土。
