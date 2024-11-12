@@ -5,6 +5,16 @@ categories: 快门狂按
 date: 2024-10-13 12:13:21
 ---
 
+<iframe
+  width="652"
+  height="521"
+  style="border:0"
+  loading="lazy"
+  allowfullscreen
+  referrerpolicy="no-referrer-when-downgrade"
+  src="https://www.google.com/maps/embed/v1/directions?key=AIzaSyCFVVCWGG-tFOUFNmzxOvzG0ivydHVx6ZA&origin=place_id:ChIJmc4usPeVczgRpnEjqmWfEJc&destination=place_id:ChIJf015WNL2cjgRwp2Yh_dr6eU&zoom=9">
+</iframe>
+
 那拉提游客中心入口连接在那拉提镇主路上，从民宿往东开了几分钟就到了。但想把车开进去自驾，还需要亲自在游客中心三楼现场办理。这儿门口全是等着自驾进去的人，广场广播也重复播放着让游客们带上各种证件。游客中心里还有肯德基和 KTV，不知道在这里怎么开得下去。
 但即使是有这么个大喇叭，还是往车上来回跑了两三趟才把证件带全，其实是俺这个租的车只有行驶证照片没给实物，而且行驶证照片入口在app里藏得还挺深。
 跟随指引坐直梯直接上三楼，同轿厢两男两女也去办，但电梯门一开他们就往反方向走，我在柜台前排了半天了他们才找过来，但等他们四人办完了，我前面的还没办好，好像是说这俩大哥拿了一堆驾驶证进来。
@@ -36,4 +46,5 @@ date: 2024-10-13 12:13:21
 
 上一篇：[西域行（三）：伊宁 - 那拉提](https://gaoryrt.com/2024/10-11-journeytothewest2/)
 
-敬请期待下一篇：西域行（五）：独库南段 - 天山神秘大峡谷 - 库车
+下一篇：[西域行（五）：独库南段 - 天山神秘大峡谷 - 库车](https://gaoryrt.com/2024/10-20-journeytothewest4/)
+

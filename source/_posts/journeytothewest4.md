@@ -4,6 +4,17 @@ comments: true
 categories: 快门狂按
 date: 2024-10-20 14:32:18
 ---
+
+<iframe
+  width="652"
+  height="521"
+  style="border:0"
+  loading="lazy"
+  allowfullscreen
+  referrerpolicy="no-referrer-when-downgrade"
+  src="https://www.google.com/maps/embed/v1/directions?key=AIzaSyCFVVCWGG-tFOUFNmzxOvzG0ivydHVx6ZA&origin=place_id:ChIJf015WNL2cjgRwp2Yh_dr6eU&destination=place_id:ChIJSd-gyhx9bjgRygQVZnGaGzc&zoom=7">
+</iframe>
+
 巴音布鲁克早上很冷，刚上车的时候，前挡玻璃已经结霜了，幸好租的这大众还有祖传的方向盘加热，不然就要热车等水箱温度上来了。
 沿着独库，往西南雪山山脉的方向开。路两旁是广阔无垠的草原，很远的氤氲大气里零星看得到一些蒙古包，以及蒙古包旁群群牲畜的轮廓，更远的天空中隐约看得到山和天空的分界线，也好像隐约分辨不出来。
 就这么开了个把小时，终于来到山脉前，道路跨过一条布满巨石的小河，交警在桥上设置了路障，将两车道合并成一条，大大小小的车辆排队经过交警面前：小哥挨个提醒，前方山路减速谨慎驾驶。
@@ -39,4 +50,4 @@ date: 2024-10-20 14:32:18
 
 上一篇：[西域行（四）：那拉提 - 独库中段 - 巴音布鲁克](https://gaoryrt.com/2024/10-11-journeytothewest3/)
 
-敬请期待下一篇：西域行（六）：库车 - 托木尔大峡谷 - 阿克苏
+下一篇：[西域行（六）：库车 - 托木尔大峡谷 - 阿克苏](https://gaoryrt.com/2024/10-30-journeytothewest5/)

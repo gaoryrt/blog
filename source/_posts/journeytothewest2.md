@@ -4,6 +4,17 @@ comments: true
 categories: 快门狂按
 date: 2024-10-11 18:26:19
 ---
+
+<iframe
+  width="652"
+  height="521"
+  style="border:0"
+  loading="lazy"
+  allowfullscreen
+  referrerpolicy="no-referrer-when-downgrade"
+  src="https://www.google.com/maps/embed/v1/directions?key=AIzaSyCFVVCWGG-tFOUFNmzxOvzG0ivydHVx6ZA&origin=place_id:ChIJQXYVOd0PeTgRo2m8ZXQJK7Y&destination=place_id:ChIJmc4usPeVczgRpnEjqmWfEJc&zoom=7">
+</iframe>
+
 地图上伊宁的位置写的是伊犁哈萨克自治州，不认真的话看难以理解到底哪个名字代表的区域更大，也就让人找不到正确的线索来预约酒店。
 伊宁在我国很靠西的位置，这里经度和斯里兰卡差不多，但是人家用的是GMT+5:30，咱用的还是北京的加八时间，早上九点半十点退房离开全季，路上都还没啥人。
 跟着点评去吃伊犁特色早餐，把车开到了旧城区。这里车都乱停，我也跟着京牌叔叔阿姨，把车头斜放在没有店铺门头的人行横道上。步行前往早餐店，窄窄的巷子旁在打围施工，蓝色铁皮栅栏只有齐腰高，圈出十多米的马路来，留下勉强能过一辆车的宽度。我好奇地看着施工内容，戴着安全帽的哈族大哥也一脸好奇看着我。
@@ -41,4 +52,5 @@ date: 2024-10-11 18:26:19
 
 上一篇：[西域行（二）：阿拉山口 - 赛里木湖 - 果子沟 - 伊宁](https://gaoryrt.com/2024/10-11-journeytothewest1/)
 
-敬请期待下一篇：西域行（四）：那拉提 - 独库中段 - 巴音布鲁克
+下一篇：[西域行（四）：那拉提 - 独库中段 - 巴音布鲁克](/2024/10-13-journeytothewest3/)
+

@@ -5,6 +5,16 @@ categories: 快门狂按
 date: 2024-10-30 15:44:11
 ---
 
+<iframe
+  width="652"
+  height="521"
+  style="border:0"
+  loading="lazy"
+  allowfullscreen
+  referrerpolicy="no-referrer-when-downgrade"
+  src="https://www.google.com/maps/embed/v1/directions?key=AIzaSyCFVVCWGG-tFOUFNmzxOvzG0ivydHVx6ZA&origin=place_id:ChIJSd-gyhx9bjgRygQVZnGaGzc&destination=place_id:ChIJM2esmovpkjgRXtT5tC642aI&zoom=5">
+</iframe>
+
 结束独库旅程到达库车，自此风沙就没有停止过。
 沿着塔克拉玛干北缘西行，只有无尽的荒漠。
 ![](https://i04.cc/r/f36b17878i0e8cbe137f8244b98977a8.jpeg)
