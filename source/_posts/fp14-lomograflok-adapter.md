@@ -44,7 +44,7 @@ categories: Geek Talks
 <div class="stlwv2-model" data-model-url="./3.stl"></div>
 
 但是打出来发现孔的位置没弄对，老板还问我「你难道没有游标卡尺吗」，我说我有，只是没有笔和纸，然后口算算错了：
-<video src='./wrong_version_3.MP4' controls></video>
+<video src='./wrong_version_3.MP4' playsinline webkit-playsinline mute loop autoplay></video>
 
 重新计算返工：
 <div class="stlwv2-model" data-model-url="./4.stl"></div>

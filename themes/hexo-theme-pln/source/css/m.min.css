@@ -1156,8 +1156,7 @@ li.archives {
   }
 
   object,
-article.post iframe,
-video {
+article.post iframe {
     left: 0;
     margin-left: -7vw;
     transform: translateX(0);

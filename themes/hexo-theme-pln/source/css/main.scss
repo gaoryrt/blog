@@ -442,8 +442,7 @@ hr + .echo {
     margin-left: -10px;
   }
   object,
-  article.post iframe,
-  video {
+  article.post iframe {
     left: 0;
     margin-left: -7vw;
     transform: translateX(0);
