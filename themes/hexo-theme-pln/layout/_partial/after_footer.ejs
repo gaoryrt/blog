@@ -7,11 +7,11 @@
   }
 
   // dropdown scripts
-  function $(s) {
+  function _$(s) {
     return document.querySelector(s)
   }
 
-  function $$(s) {
+  function _$$(s) {
     return document.querySelectorAll(s)
   }
 
@@ -34,7 +34,7 @@
     })
   }
 
-  var dropDownElArr = $$('.dropdown')
+  var dropDownElArr = _$$('.dropdown')
   for (var i = 0; i < dropDownElArr.length; i += 1) {
     dropDownElArr[i].addEventListener('click', function(event) {
       var content = this.querySelector('.dropdown-content')
@@ -47,18 +47,18 @@
     })
   }
   document.body.addEventListener('click', function() {
-    var dropDownContentElArr = $$('.dropdown-content')
+    var dropDownContentElArr = _$$('.dropdown-content')
     for (var i = 0; i < dropDownContentElArr.length; i += 1) {
       dropDownContentElArr[i].classList.remove('open')
     }
   })
 
   // smooth scroll
-  $$('a[href^="#"]').forEach(e => {
+  _$$('a[href^="#"]').forEach(e => {
     e.addEventListener("click", function(e) {
       e.preventDefault();
       var t = this.getAttribute("href").substr(1);
-      $(`[id='${decodeURIComponent(t)}']`).scrollIntoView({
+      _$(`[id='${decodeURIComponent(t)}']`).scrollIntoView({
           behavior: "smooth"
         }),
         t === "top" ? history.replaceState(null, null, " ") : history.pushState(null, null, `#${t}`)
@@ -67,16 +67,16 @@
 
   get("https://42.gaoryrt.com/c/hit?hit=889&key=" + encodeURIComponent(location.pathname))
     .then(function(res) {
-      const pv_el = $('#page_pv')
+      const pv_el = _$('#page_pv')
       if (pv_el) pv_el.innerText = res.count;
     })
 
 
-  var heart = $('#heart')
+  var heart = _$('#heart')
   if (heart) {
     const url = "https://42.gaoryrt.com/c/hit?key=" + encodeURIComponent('heart click on gaoryrt.com')
     get(url).then(function(res) {
-      $('#heart-num').innerText = res.count
+      _$('#heart-num').innerText = res.count
     })
     heart.addEventListener('click', function() {
       const isActive = heart.classList.contains("is-active")
@@ -84,7 +84,7 @@
       if (!isActive) {
         get(url + '&hit=777')
           .then(function(res) {
-            $('#heart-num').innerText = res.count
+            _$('#heart-num').innerText = res.count
           })
       }
     })
