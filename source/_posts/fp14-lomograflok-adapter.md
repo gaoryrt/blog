@@ -31,7 +31,7 @@ categories: Geek Talks
 
 先随手找了个大画幅后背打出来定位，可以看到这个还是斜插卡扣的方案：
 
-<div class="stlwv2-model" data-model-url="./1.stl"></div>
+<div class="stlwv2-model" data-model-url="./1.stl">如果你看到这行文字而非 3D 文件预览，请刷新一下</div>
 
 自己研究了一下，发现斜插卡扣只需要一边即可。稍微修剪一点，有了这个锁边的第二版：
 
