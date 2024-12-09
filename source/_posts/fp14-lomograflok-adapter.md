@@ -15,7 +15,7 @@ categories: Geek Talks
 
 [上半年前后脚收了两个](http://m.weibo.cn/status/4998939910865892?) fujifilm fotorama 的肖像撕拉片机器，一个双目的 fp-ul，一个四眼的 [fp-14](http://camera-wiki.org/wiki/Fujifilm_FP-14)（以下称之为四眼机）。这种是当年火车站、领事馆旁边照相馆里立等可取证件照用的机器，拍一下出两/四张，剪裁后就能贴上证件。
 
-双目机的介绍和体验可以看这一篇：[[拍立得相機] Fujifilm FOTORAMA FP-UL．1990》](https://jimmyyen.blogspot.com/2013/06/fujifilm-fotorama-fp-ul1990.html)，写得非常详细。玩双目机也不折腾，买来就能用，缺点是由于 lomograflok 后背到相纸平面的距离略大，最终成像的固定对焦距离由原本的 1～1.5米 变成了 0.5～0.7米。对的，镜头后距越大，最近对焦距离越短，这也是常见微距环的原理：增加后距。
+双目机的介绍和体验可以看这一篇：[[拍立得相機] Fujifilm FOTORAMA FP-UL．1990](https://jimmyyen.blogspot.com/2013/06/fujifilm-fotorama-fp-ul1990.html)，写得非常详细。玩双目机也不折腾，买来就能用，缺点是由于 lomograflok 后背到相纸平面的距离略大，最终成像的固定对焦距离由原本的 1～1.5米 变成了 0.5～0.7米。对的，镜头后距越大，最近对焦距离越短，这也是常见微距环的原理：增加后距。
 
 这两种机器除了镜头数，还有一个很大的不同点：双目的可以兼容国际标准 4×5 Graflok 后背以及 pa-145 撕拉片后背，但是四眼只兼容 pa-24 撕拉片后背。
 
