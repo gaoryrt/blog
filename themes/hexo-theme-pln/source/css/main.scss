@@ -295,18 +295,18 @@ summary:focus {
 .post {
   table {
     width: 100%;
-    border-top: 1px solid hsl(0 0%, var(--l-85));
-    border-bottom: 1px solid hsl(0 0%, var(--l-85));
+    border-top: 1px solid hsl(0, 0%, var(--l-85));
+    border-bottom: 1px solid hsl(0, 0%, var(--l-85));
   }
   tbody tr:nth-child(odd) td:nth-child(odd),
   tbody tr:nth-child(even) td:nth-child(even),
   thead th:nth-child(even) {
-    background-color: hsl(0 0%, var(--l-90));
+    background-color: hsl(0, 0%, var(--l-90));
   }
   tbody tr:nth-child(odd) td:nth-child(even),
   tbody tr:nth-child(even) td:nth-child(odd),
   thead th:nth-child(odd) {
-    background-color: hsl(0 0%, var(--l-95));
+    background-color: hsl(0, 0%, var(--l-95));
   }
   th,
   td {
