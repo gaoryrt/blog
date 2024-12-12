@@ -1,60 +1,53 @@
 table {
-    border-spacing: 0;
+  border-spacing: 0;
 }
 
 figure {
-    margin: 0;
-    overflow-x: auto;
-}
-
-td.gutter {
+  margin: 0;
+  overflow-x: auto;
+  td.gutter {
     flex-shrink: 0;
     flex-grow: 0;
     text-align: right;
-    pre {
-        color: hsl(0, 0%, var(--l-45));
-    }
-}
-td.code {
+    padding: 0 1em 0 0;
+    color: var(--color-dimtext);
+  }
+  td.code {
+    padding: 0;
     flex-grow: 1;
     flex-shrink: 0;
+  }
 }
 
 code,
 pre {
-    font-family: Menlo, Monaco, Consolas, 'Courier New', monospace;
+  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
 pre {
-    font-size: 14px;
-    line-height: 2em;
-    margin: 0;
-    padding: 0 15px;
-    border: 0;
-    tab-size: 2;
-    color: hsl(0, 0%, var(--l-35));
-    background: transparent;
-    background-size: auto 4em;
-    background-origin: content-box;
-    background-image: linear-gradient(hsl(0, 0%, var(--l-95)) 50%, hsl(0, 0%, var(--l-100)) 0);
-    overflow-x: auto;
-    .comment {
-        color: hsl(0, 0%, var(--l-45));
-    }
-    .line {
-        height: 30px;
-    }
+  font-size: 14px;
+  line-height: 2em;
+  margin: 0;
+  border: 0;
+  tab-size: 2;
+  background: transparent;
+  background-size: auto 4em;
+  background-origin: content-box;
+  background-image: linear-gradient(var(--color-bg1) 50%, var(--color-bg2) 0);
+  overflow-x: auto;
+  .comment {
+    color: var(--color-dimtext);
+  }
+  .line {
+    height: 30px;
+  }
 }
 
 code {
-    word-wrap: break-word;
-    line-height: 2em;
-    font-size: .97em;
-    color: hsl(0, 0%, var(--l-35));
-    background: hsl(0, 0%, var(--l-95));
+  word-wrap: break-word;
+  line-height: 2em;
+  font-size: 0.97em;
 }
-
-
 
 pre .variable,
 pre .attribute,
@@ -67,13 +60,10 @@ pre .xml .doctype,
 pre .html .doctype,
 pre .css .id,
 pre .css .class,
-pre .css .pseudo {
-    color: hsl(var(--theme-hs) var(--l-45));
-}
-
+pre .css .pseudo,
 pre .keyword,
 pre .javascript .function {
-    color: hsl(var(--theme-hs) var(--l-45));
+  color: var(--color-highlight);
 }
 
 pre .number,
@@ -82,17 +72,12 @@ pre .built_in,
 pre .literal,
 pre .params,
 pre .constant {
-    color: hsl(var(--green-hs) var(--l-45));
+  color: var(--color-highlight);
 }
 
-pre .ruby .class .title,
-pre .css .rules .attribute {
-    color: hsl(var(--green-hs) var(--l-45));
-}
-
-pre .title,
+pre .css .rules .attribute,
 pre .css .hexcolor {
-    color: hsl(var(--green-hs) var(--l-45));
+  color: var(--color-theme);
 }
 
 pre .string,
@@ -101,9 +86,11 @@ pre .inheritance,
 pre .header,
 pre .ruby .symbol,
 pre .xml .cdata {
-    color: hsl(var(--green-hs) var(--l-45));
+  color: var(--color-theme);
 }
 
+pre .ruby .class .title,
+pre .title,
 pre .function,
 pre .python .decorator,
 pre .python .title,
@@ -112,5 +99,5 @@ pre .ruby .title .keyword,
 pre .perl .sub,
 pre .javascript .title,
 pre .coffeescript .title {
-    color: hsl(0, 0%, var(--l-30));
+  color: inherit;
 }

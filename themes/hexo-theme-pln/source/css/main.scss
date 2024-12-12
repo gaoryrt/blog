@@ -7,31 +7,35 @@
 @import "toc";
 @import "zoom-image";
 @import "heart";
+
 $big: 48px;
 $mid: 26px;
 $small: 18px;
 
+$hue: 0;
+$ahue: ($hue + 60) %360;
+$bhue: ($hue + 100) %360;
+
 :root {
-  --theme-hs: 24 102;
-  --green-hs: 180 33%;
-  @for $i from 0 through 20 {
-    --l-#{$i * 5}: #{$i * 5}%;
-  }
+  --color-bg: hsl(#{$hue}, 50%, 99.5%);
+  --color-bg1: hsl(#{$ahue}, 50%, 98%);
+  --color-bg2: hsl(#{$ahue}, 50%, 95%);
+  --color-text: hsl(#{$hue}, 50%, 10%);
+  --color-dimtext: hsl(#{$ahue}, 10%, 40%);
+  --color-theme: hsl(#{$ahue}, 70%, 25%);
+  --color-highlight: hsl(#{$bhue}, 90%, 25%);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --theme-hs: 24 73;
-    @for $i from 0 through 20 {
-      --l-#{$i * 5}: #{100 - $i * 5}%;
-    }
+    --color-bg: hsl(#{$hue}, 50%, 0.5%);
+    --color-bg1: hsl(#{$ahue}, 50%, 2%);
+    --color-bg2: hsl(#{$ahue}, 50%, 5%);
+    --color-text: hsl(#{$hue}, 50%, 90%);
+    --color-dimtext: hsl(#{$ahue}, 10%, 60%);
+    --color-theme: hsl(#{$ahue}, 70%, 75%);
+    --color-highlight: hsl(#{$bhue}, 90%, 75%);
   }
-}
-
-::selection,
-::-moz-selection,
-::-webkit-selection {
-  background: hsl(var(--theme-hs) var(--l-40));
 }
 
 * {
@@ -44,7 +48,7 @@ html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
-  color: hsl(0, 0%, var(--l-25));
+  color: var(--color-text);
 }
 
 h1,
@@ -105,7 +109,7 @@ body {
   font-size: $small;
   font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "PingFang SC",
     STHeiti, "Helvetica Neue", "Microsoft Yahei", Tahoma, Simsun, sans-serif;
-  background-color: hsl(var(--green-hs) var(--l-100));
+  background-color: var(--color-bg);
   margin: 0;
   padding: 0;
   vertical-align: baseline;
@@ -116,10 +120,6 @@ body {
   -webkit-tap-highlight-color: transparent;
   word-wrap: break-word;
   transition: all 0.15s;
-}
-
-.archive-time {
-  background-color: hsl(var(--green-hs) var(--l-100));
 }
 
 .index-title,
@@ -155,16 +155,15 @@ a {
 }
 
 a {
-  color: hsl(var(--theme-hs) var(--l-45));
+  color: var(--color-theme);
 }
 a:hover,
 a:focus {
-  color: hsl(var(--theme-hs) var(--l-25));
+  color: var(--color-highlight);
 }
 
 p {
   margin: 0.7em 0;
-  color: hsl(0, 0%, var(--l-30));
   padding: 0;
   border: 0;
   outline: 0;
@@ -175,7 +174,6 @@ p {
 .post ul li {
   position: relative;
   line-height: 2em;
-  color: hsl(0, 0%, var(--l-30));
 }
 
 .post ul li:before {
@@ -205,11 +203,11 @@ ul.posts {
 .behind {
   padding: 26px 52px 0;
   word-spacing: 2px;
-  color: hsl(0, 0%, var(--l-55));
   line-height: 1;
+  color: var(--color-theme);
   .description {
     font-size: $mid;
-    color: hsl(0, 0%, var(--l-55));
+    color: var(--color-dimtext);
     font-weight: 300;
     // opacity: .5;
   }
@@ -233,10 +231,6 @@ ul.posts {
 .archive-num,
 .page-meta {
   font-size: $small;
-}
-
-.black-color {
-  color: hsl(0, 0%, var(--l-30));
 }
 
 .archive-list {
@@ -295,18 +289,16 @@ summary:focus {
 .post {
   table {
     width: 100%;
-    border-top: 1px solid hsl(0, 0%, var(--l-85));
-    border-bottom: 1px solid hsl(0, 0%, var(--l-85));
   }
   tbody tr:nth-child(odd) td:nth-child(odd),
   tbody tr:nth-child(even) td:nth-child(even),
   thead th:nth-child(even) {
-    background-color: hsl(0, 0%, var(--l-90));
+    background-color: var(--color-bg1);
   }
   tbody tr:nth-child(odd) td:nth-child(even),
   tbody tr:nth-child(even) td:nth-child(odd),
   thead th:nth-child(odd) {
-    background-color: hsl(0, 0%, var(--l-95));
+    background-color: var(--color-bg2);
   }
   th,
   td {
@@ -338,7 +330,7 @@ img {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  color: hsl(0, 0%, var(--l-40));
+  color: var(--color-dimtext);
 }
 time,
 .categories,
@@ -402,7 +394,7 @@ hr + .echo {
 
 .echo {
   position: relative;
-  color: hsl(0, 0%, var(--l-55));
+  color: var(--color-dimtext);
   padding: 0 1em;
   width: calc(100% + 2em);
   margin-left: -1em;
@@ -417,7 +409,6 @@ hr + .echo {
 #comments {
   line-height: 1.6 !important;
   font-size: $small !important;
-  color: hsl(0, 0%, var(--l-40));
 }
 
 @media screen and (max-width: 782px) {

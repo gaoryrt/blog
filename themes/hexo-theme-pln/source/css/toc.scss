@@ -1,5 +1,3 @@
-$lightest: hsl(197, 8%, 82%);
-
 .toc {
   position: fixed;
   top: 50%;
@@ -13,8 +11,7 @@ $lightest: hsl(197, 8%, 82%);
 }
 
 .toc-text {
-  color: $lightest;
-  transition: color .3s;
+  transition: color 0.3s;
 }
 
 .toc-level-1 .toc-text,
@@ -30,19 +27,19 @@ $lightest: hsl(197, 8%, 82%);
 }
 
 .toc:hover .toc-text {
-  color: hsl(var(--theme-hs) var(--l-40));
 }
 
-.toc ol, ul {
-    padding-right: .5em;
+.toc ol,
+ul {
+  padding-right: 0.5em;
 }
 
 .toc-item:before {
-    content: '' !important;
+  content: "" !important;
 }
 
 // 小屏幕
-@media screen and (max-width:1200px) {
+@media screen and (max-width: 1200px) {
   .toc {
     display: none;
   }

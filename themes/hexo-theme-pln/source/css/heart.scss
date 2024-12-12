@@ -19,7 +19,7 @@
   transform-origin: 56% 47%;
 }
 #heart.is-active {
-  color: hsl(var(--theme-hs) var(--l-40));
+  color: var(--color-theme);
   filter: none;
   will-change: font-size;
   -webkit-animation: heart 1s cubic-bezier(0.17, 0.89, 0.32, 1.49);
@@ -114,26 +114,26 @@
 @-webkit-keyframes bubble {
   15% {
     transform: scale(1);
-    border-color: hsl(var(--theme-hs) var(--l-20));
+    border-color: var(--color-dimtext);
     border-width: 2.25rem;
   }
   30%,
   100% {
     transform: scale(1);
-    border-color: hsl(var(--theme-hs) var(--l-60));
+    border-color: var(--color-bg2);
     border-width: 0;
   }
 }
 @keyframes bubble {
   15% {
     transform: scale(1);
-    border-color: hsl(var(--theme-hs) var(--l-20));
+    border-color: var(--color-dimtext);
     border-width: 2.25rem;
   }
   30%,
   100% {
     transform: scale(1);
-    border-color: hsl(var(--theme-hs) var(--l-60));
+    border-color: var(--color-bg2);
     border-width: 0;
   }
 }
