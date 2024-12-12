@@ -29,9 +29,9 @@ $bhue: ($hue + 100) %360;
 @media (prefers-color-scheme: dark) {
   :root {
     --color-bg: hsl(#{$hue}, 50%, 0.5%);
-    --color-bg1: hsl(#{$ahue}, 50%, 2%);
-    --color-bg2: hsl(#{$ahue}, 50%, 5%);
-    --color-text: hsl(#{$hue}, 50%, 90%);
+    --color-bg1: hsl(#{$ahue}, 50%, 5%);
+    --color-bg2: hsl(#{$ahue}, 50%, 9%);
+    --color-text: hsl(#{$hue}, 50%, 99%);
     --color-dimtext: hsl(#{$ahue}, 10%, 60%);
     --color-theme: hsl(#{$ahue}, 70%, 75%);
     --color-highlight: hsl(#{$bhue}, 90%, 75%);
