@@ -89,3 +89,9 @@ https://news.ycombinator.com/item?id=17690852
 发送图片到这个号码，奶奶会收到实体照片
 
 基本同上
+
+## 麻将
+字体的具象化（
+
+## 恶搞卡包
+刷 Should I Open it? Or Should I Keep it Sealed 看到有恶搞宝可梦的卡包，做得还挺精致。迁移到我国就是水浒卡，应该有人会买
