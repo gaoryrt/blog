@@ -42,10 +42,20 @@
   color: #be2828;
 }
 
-.embedim-snow:nth-child(5n + 1) {
+#embedim--snow {
+  z-index: -1 !important;
+}
+
+.embedim-snow:nth-child(6n + 1) {
   background: #005a00 !important;
 }
 
-.embedim-snow:nth-child(5n + 2) {
+.embedim-snow:nth-child(6n + 2) {
   background: #be2828 !important;
+}
+
+.embedim-snow:nth-child(6n + 3),
+.embedim-snow:nth-child(6n + 4),
+.embedim-snow:nth-child(6n + 5) {
+  display: none;
 }
