@@ -1,3 +1,47 @@
+.posts > li:nth-child(odd) > .index-meta {
+  .categories a,
+  .categories svg {
+    color: #005a00;
+  }
+  time {
+    color: #be2828;
+  }
+}
+
+.posts > li:nth-child(even) > .index-meta {
+  .categories a,
+  .categories svg {
+    color: #be2828;
+  }
+  time {
+    color: #005a00;
+  }
+}
+
+.archive-item:nth-child(odd) .archive-time {
+  color: #be2828;
+}
+
+.archive-item:nth-child(even) .archive-time {
+  color: #005a00;
+}
+
+.page-number:nth-child(odd) {
+  color: #be2828;
+}
+
+.page-number:nth-child(even) {
+  color: #005a00;
+}
+
+.dropdown-content > div:nth-child(odd) > a {
+  color: #005a00;
+}
+
+.dropdown-content > div:nth-child(even) > a {
+  color: #be2828;
+}
+
 .index-title {
   font-size: 34px;
   line-height: 1.5;
