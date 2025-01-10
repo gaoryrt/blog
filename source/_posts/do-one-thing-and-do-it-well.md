@@ -7,7 +7,7 @@ categories: Geek Talks
 
 > 刀是人类最古老的工具之一，至少在石器时代已经出现。纵观时间线，这种工具没有太多变化：自博物馆到后厨，刀具都保持着类似的形态：单边开刃、具有把手。
 
-工具即[函数](https://en.wikipedia.org/wiki/Function_(computer_programming))。
+工具即[函数](https://en.wikipedia.org/wiki/Function_(computer_programming%29)。
 
 人们通常使用时间或空间复杂度来评价算法的有效性。同样的，我们也可以使用软件工程中的指标对工具进行评价：
 
