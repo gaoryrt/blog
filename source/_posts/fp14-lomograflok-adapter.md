@@ -13,11 +13,23 @@ categories: Geek Talks
 <script src="/js/stlwebviewer2.js" defer></script>
 
 
+
+
 [上半年前后脚收了两个](http://m.weibo.cn/status/4998939910865892?) fujifilm fotorama 的肖像撕拉片机器，一个双目的 fp-ul，一个四眼的 [fp-14](http://camera-wiki.org/wiki/Fujifilm_FP-14)（以下称之为四眼机）。这种是当年火车站、领事馆旁边照相馆里立等可取证件照用的机器，拍一下出两/四张，剪裁后就能贴上证件。
+
+![alt text](./IMG_0568.jpeg)
+<div class='alt'>（改好的）fp-14 和 （增加了滤镜的）fp-ul</div>
+
 
 双目机的介绍和体验可以看这一篇：[[拍立得相機] Fujifilm FOTORAMA FP-UL．1990](https://jimmyyen.blogspot.com/2013/06/fujifilm-fotorama-fp-ul1990.html)，写得非常详细。玩双目机也不折腾，买来就能用，缺点是由于 lomograflok 后背到相纸平面的距离略大，最终成像的固定对焦距离由原本的 1～1.5米 变成了 0.5～0.7米。对的，镜头后距越大，最近对焦距离越短，这也是常见微距环的原理：增加后距。
 
+![](./758640235268067.jpeg)
+<div class='alt'>双眼机的成片效果</div>
+
 这两种机器除了镜头数，还有一个很大的不同点：双目的可以兼容国际标准 4×5 Graflok 后背以及 pa-145 撕拉片后背，但是四眼只兼容 pa-24 撕拉片后背。
+
+![alt text](./IMG_0567.jpeg)
+<div class='alt'>兼容两种后背的fp-ul接口</div>
 
 但是富士从一七年开始就没有继续生产撕拉片了，撕拉片也被自家的 instax 系列替代。当然撕拉片价格也水涨船高，两三年前还是五六百/十张，现在已经上千了。
 
@@ -52,9 +64,12 @@ categories: Geek Talks
 这里只放了四个版本，不代表只迭代了四次。很多时候一点点细节没注意就会导致前功尽弃，总的下来前后还是花了小两周时间。
 最后这个版本就可以完美安装使用了，一张当作四张拍很好玩，~~等有机会再补图~~。
 
-![](./758640182610323.jpeg)
+![alt text](./IMG_0566.jpeg)
+![alt text](./IMG_0569.jpeg)
+<div class='alt'>改好的四眼机，以及 lomograflok 后背</div>
 
-![](./758640235268067.jpeg)
+![](./758640182610323.jpeg)
+<div class='alt'>最终成片（左侧有漏光）</div>
 
 ---
 
