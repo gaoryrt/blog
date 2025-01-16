@@ -73,4 +73,4 @@ categories: Geek Talks
 
 ---
 
-附上[最终版本链接](./4.stl)。请注意，文件采用 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.zh-hans) 协议共享，可共享/修改/商用，但必须署名且以同协议共享。
+附上[最终版本的 stl 文件](./4.stl)。请注意，文件采用 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.zh-hans) 协议共享，可共享/修改/商用，但必须署名且以同协议共享。
