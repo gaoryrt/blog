@@ -33,4 +33,4 @@ date: 2024-10-30 15:44:11
 
 ---
 
-上一篇：[西域行（五）：独库南段 - 天山神秘大峡谷 - 库车](https://gaoryrt.com/2024/10-11-journeytothewest4/)
+上一篇：[西域行（五）：独库南段 - 天山神秘大峡谷 - 库车](https://gaoryrt.com/2024/10-20-journeytothewest4/)
